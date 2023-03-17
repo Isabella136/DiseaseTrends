@@ -1,99 +1,92 @@
-create table Country(
-    CountryCode char(3),
-    Year int,
-    CountryName varchar(255) unique,
-    TotalPopulation int,
-    ParentRegion varchar(255),
-    ParentRegionCode char(3),
-    primary key(CountryCode, Year));
-select * from Country;
+CREATE TABLE Country(
+    CountryCode CHAR(3),
+    Year INT,
+    CountryName VARCHAR(255),
+    TotalPopulation INT,
+    ParentRegion VARCHAR(255),
+    ParentRegionCode CHAR(3),
+    PRIMARY KEY(CountryCode, Year));
 
+CREATE TABLE DiseaseInfo(
+    CountryCode CHAR(3),
+    Year INT,
+    IndicatorCode VARCHAR(255),
+    Sex VARCHAR(6),
+    Causes VARCHAR(23),
+    Severity VARCHAR(8),
+    AgeGroup VARCHAR(14),
+    IndicatorName VARCHAR(255) NOT NULL,
+    EstimatedvsReported VARCHAR(9),
+    IsLastYear CHAR(1),
+    SpecificSpecies VARCHAR(255),
+    DiseaseName VARCHAR(255),
+    PopulationGroup VARCHAR(255),
+    PRIMARY KEY(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup),
+    FOREIGN KEY(CountryCode, Year) REFERENCES Country(CountryCode, Year));
 
-create table DiseaseInfo(
-    CountryCode char(3),
-    Year int,
-    IndicatorCode varchar (255),
-    Sex varchar(6),
-    Causes varchar(23),
-    Severity varchar(8),
-    AgeGroup varchar(14),
-    IndicatorName varchar(255) not null,
-    EstimatedvsReported varchar(9),
-    IsLastYear char(1),
-    SpecificStrain varchar(255),
-    DiseaseName varchar(255),
-    PopulationGroup varchar(255),
-    primary key(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup),
-    foreign key(CountryCode, Year) references Country(CountryCode, Year));
-select * from DiseaseInfo;
+CREATE TABLE DisabilityAdjustedLifeYears(
+    CountryCode CHAR(3),
+    Year INT,
+    IndicatorCode VARCHAR(255),
+    Sex VARCHAR(6),
+    Causes VARCHAR(23),
+    Severity VARCHAR(8),
+    AgeGroup VARCHAR(14),
+    LikelyValue INT,
+    LowerValue INT, 
+    HigherValue INT,
+    PRIMARY KEY(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup),
+    FOREIGN KEY(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup) 
+    REFERENCES DiseaseInfo(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup));
 
-create table DisabilityAdjustedLifeYears(
-    CountryCode char(3),
-    Year int,
-    IndicatorCode varchar (255),
-    Sex varchar(6),
-    Causes varchar(23),
-    Severity varchar(8),
-    AgeGroup varchar(14),
-    LikelyValue int,
-    LowerValue int, 
-    HigherValue int,
-    primary key(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup),
-    foreign key(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup) 
-    references DiseaseInfo(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup));
-select * from DisabilityAdjustedLifeYears;
-
-create table Cases(
-    CountryCode char(3),
-    Year int,
-    IndicatorCode varchar (255),
-    Sex varchar(6),
-    Causes varchar(23),
-    Severity varchar(8),
-    AgeGroup varchar(14),
-    PerExpressionValue int default 1,
-    IncidenceVsPrevalence varchar(10) default 'Unknown',
-    LikelyValue_Prefix char(1),
-    LowerValue_Prefix char(1), 
-    HigherValue_Prefix char(1),
+CREATE TABLE Cases(
+    CountryCode CHAR(3),
+    Year INT,
+    IndicatorCode VARCHAR(255),
+    Sex VARCHAR(6),
+    Causes VARCHAR(23),
+    Severity VARCHAR(8),
+    AgeGroup VARCHAR(14),
+    PerExpressionValue INT default 1,
+    IncidenceVsPrevalence VARCHAR(10) default 'Unknown',
+    LikelyValue_Prefix CHAR(1),
+    LowerValue_Prefix CHAR(1), 
+    HigherValue_Prefix CHAR(1),
     LikelyValue_Numeric real,
     LowerValue_Numeric real, 
     HigherValue_Numeric real,
-    primary key(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup),
-    foreign key(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup) 
-    references DiseaseInfo(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup));
-select * from Cases;
+    PRIMARY KEY(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup),
+    FOREIGN KEY(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup) 
+    REFERENCES DiseaseInfo(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup));
 
-create table Deaths(
-    CountryCode char(3),
-    Year int,
-    IndicatorCode varchar (255),
-    Sex varchar(6),
-    Causes varchar(23),
-    Severity varchar(8),
-    AgeGroup varchar(14),
-    PerExpressionValue int default 1,
-    LikelyValue_Prefix char(1),
-    LowerValue_Prefix char(1), 
-    HigherValue_Prefix char(1),
+CREATE TABLE Deaths(
+    CountryCode CHAR(3),
+    Year INT,
+    IndicatorCode VARCHAR(255),
+    Sex VARCHAR(6),
+    Causes VARCHAR(23),
+    Severity VARCHAR(8),
+    AgeGroup VARCHAR(14),
+    PerExpressionValue INT default 1,
+    LikelyValue_Prefix CHAR(1),
+    LowerValue_Prefix CHAR(1), 
+    HigherValue_Prefix CHAR(1),
     LikelyValue_Numeric real,
     LowerValue_Numeric real, 
     HigherValue_Numeric real,
-    primary key(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup),
-    foreign key(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup) 
-    references DiseaseInfo(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup));
-select * from Deaths;
+    PRIMARY KEY(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup),
+    FOREIGN KEY(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup) 
+    REFERENCES DiseaseInfo(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup));
 
-create table Vaccines(
-    CountryCode char(3),
-    Year int,
-    IndicatorCode varchar (255),
-    Sex varchar(6),
-    Causes varchar(23),
-    Severity varchar(8),
-    AgeGroup varchar(14),
-    Rates int,
-    primary key(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup),
-    foreign key(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup) 
-    references DiseaseInfo(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup));
-select * from Vaccines;
+CREATE TABLE Vaccines(
+    CountryCode CHAR(3),
+    Year INT,
+    IndicatorCode VARCHAR(255),
+    Sex VARCHAR(6),
+    Causes VARCHAR(23),
+    Severity VARCHAR(8),
+    AgeGroup VARCHAR(14),
+    Rates INT,
+    PRIMARY KEY(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup),
+    FOREIGN KEY(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup) 
+    REFERENCES DiseaseInfo(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup));
