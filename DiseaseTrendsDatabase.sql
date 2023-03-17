@@ -8,6 +8,7 @@ create table Country(
     primary key(CountryCode, Year));
 select * from Country;
 
+
 create table DiseaseInfo(
     CountryCode char(3),
     Year int,
@@ -17,6 +18,7 @@ create table DiseaseInfo(
     Severity varchar(8),
     AgeGroup varchar(14),
     IndicatorName varchar(255) not null,
+    EstimatedvsReported varchar(9),
     IsLastYear char(1),
     SpecificStrain varchar(255),
     DiseaseName varchar(255),
@@ -95,4 +97,3 @@ create table Vaccines(
     foreign key(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup) 
     references DiseaseInfo(CountryCode, Year, IndicatorCode, Sex, Causes, Severity, AgeGroup));
 select * from Vaccines;
-
