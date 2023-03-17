@@ -1,0 +1,98 @@
+IndicatorCode,Indicator,ValueType,ParentLocationCode,ParentLocation,Location type,SpatialDimValueCode,Location,Period type,Period,IsLatestYear,Dim1 type,Dim1,Dim1ValueCode,Dim2 type,Dim2,Dim2ValueCode,Dim3 type,Dim3,Dim3ValueCode,DataSourceDimValueCode,DataSource,FactValueNumericPrefix,FactValueNumeric,FactValueUoM,FactValueNumericLowPrefix,FactValueNumericLow,FactValueNumericHighPrefix,FactValueNumericHigh,Value,FactValueTranslationID,FactComments,Language,DateModified
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,MRT,Mauritania,Year,2014,true,,,,,,,,,,,,,1,,,,,,1,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2014,true,,,,,,,,,,,,,10109,,,,,,10 109,,Number of cases reported up to 14 December 2014.,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,SEN,Senegal,Year,2014,true,,,,,,,,,,,,,102,,,,,,102,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,SSD,South Sudan,Year,2014,true,,,,,,,,,,,,,111,,,,,,111,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,CMR,Cameroon,Year,2014,true,,,,,,,,,,,,,1156,,,,,,1156,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,NGA,Nigeria,Year,2014,true,,,,,,,,,,,,,1175,,,,,,1175,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2014,true,,,,,,,,,,,,,169,,,,,,169,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,ETH,Ethiopia,Year,2014,true,,,,,,,,,,,,,1744,,,,,,1744,,Number of cases reported up to 30 November 2014.,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2014,true,,,,,,,,,,,,,196,,,,,,196,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,EMR,Eastern Mediterranean,Country,SDN,Sudan,Year,2014,true,,,,,,,,,,,,,207,,,,,,207,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,GMB,Gambia,Year,2014,true,,,,,,,,,,,,,214,,,,,,214,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,TCD,Chad,Year,2014,true,,,,,,,,,,,,,235,,,,,,235,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,MLI,Mali,Year,2014,true,,,,,,,,,,,,,327,,,,,,327,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,NER,Niger,Year,2014,true,,,,,,,,,,,,,327,,,,,,327,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2014,true,,,,,,,,,,,,,3476,,,,,,3476,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,TGO,Togo,Year,2014,true,,,,,,,,,,,,,351,,,,,,351,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,GHA,Ghana,Year,2014,true,,,,,,,,,,,,,448,,,,,,448,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,GIN,Guinea,Year,2014,true,,,,,,,,,,,,,582,,,,,,582,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,BEN,Benin,Year,2014,true,,,,,,,,,,,,,711,,,,,,711,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,CMR,Cameroon,Year,2013,false,,,,,,,,,,,,,1010,,,,,,1010,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,EMR,Eastern Mediterranean,Country,SDN,Sudan,Year,2013,false,,,,,,,,,,,,,1110,,,,,,1110,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,MRT,Mauritania,Year,2013,false,,,,,,,,,,,,,14,,,,,,14,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2013,false,,,,,,,,,,,,,210,,,,,,210,,Number of cases reported up to 30 November 2013.,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,GMB,Gambia,Year,2013,false,,,,,,,,,,,,,248,,,,,,248,,Number of cases reported up to 7 December 2013.,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2013,false,,,,,,,,,,,,,255,,,,,,255,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,SSD,South Sudan,Year,2013,false,,,,,,,,,,,,,259,,,,,,259,,Number of cases reported up to 13 October 2013.,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,TGO,Togo,Year,2013,false,,,,,,,,,,,,,266,,,,,,266,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2013,false,,,,,,,,,,,,,2917,,,,,,2917,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,NER,Niger,Year,2013,false,,,,,,,,,,,,,311,,,,,,311,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,MLI,Mali,Year,2013,false,,,,,,,,,,,,,358,,,,,,358,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,TCD,Chad,Year,2013,false,,,,,,,,,,,,,371,,,,,,371,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,SEN,Senegal,Year,2013,false,,,,,,,,,,,,,379,,,,,,379,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,GHA,Ghana,Year,2013,false,,,,,,,,,,,,,454,,,,,,454,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,GIN,Guinea,Year,2013,false,,,,,,,,,,,,,480,,,,,,480,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,BEN,Benin,Year,2013,false,,,,,,,,,,,,,833,,,,,,833,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,NGA,Nigeria,Year,2013,false,,,,,,,,,,,,,871,,,,,,871,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2013,false,,,,,,,,,,,,,9339,,,,,,9339,,Number of cases reported up to 23 November 2013.,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2012,false,,,,,,,,,,,,,10141,,,,,,10 141,,Number of cases reported up to 23 December 2012.,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,BEN,Benin,Year,2012,false,,,,,,,,,,,,,1165,,,,,,1165,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,NGA,Nigeria,Year,2012,false,,,,,,,,,,,,,1206,,,,,,1206,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,ETH,Ethiopia,Year,2012,false,,,,,,,,,,,,,150,,,,,,150,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,GIN,Guinea,Year,2012,false,,,,,,,,,,,,,196,,,,,,196,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,GMB,Gambia,Year,2012,false,,,,,,,,,,,,,200,,,,,,200,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2012,false,,,,,,,,,,,,,266,,,,,,266,,Number of cases reported up to 10 June 2012.,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,NER,Niger,Year,2012,false,,,,,,,,,,,,,314,,,,,,314,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,TCD,Chad,Year,2012,false,,,,,,,,,,,,,3874,,,,,,3874,,Number of cases reported up to 2 December 2012.,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,TGO,Togo,Year,2012,false,,,,,,,,,,,,,408,,,,,,408,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,MRT,Mauritania,Year,2012,false,,,,,,,,,,,,,41,,,,,,41,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2012,false,,,,,,,,,,,,,500,,,,,,500,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,EMR,Eastern Mediterranean,Country,SDN,Sudan,Year,2012,false,,,,,,,,,,,,,524,,,,,,524,,Number of cases reported up to 1 July 2012.,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,CMR,Cameroon,Year,2012,false,,,,,,,,,,,,,542,,,,,,542,,Number of cases reported up to 20 May 2012.,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,MLI,Mali,Year,2012,false,,,,,,,,,,,,,688,,,,,,688,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2012,false,,,,,,,,,,,,,6957,,,,,,6957,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,GHA,Ghana,Year,2012,false,,,,,,,,,,,,,739,,,,,,739,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,SEN,Senegal,Year,2012,false,,,,,,,,,,,,,894,,,,,,894,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,NGA,Nigeria,Year,2011,false,,,,,,,,,,,,,1165,,,,,,1165,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,NER,Niger,Year,2011,false,,,,,,,,,,,,,1214,,,,,,1214,,Number of cases reported up to 11 December 2011.,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2011,false,,,,,,,,,,,,,141,,,,,,141,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,ETH,Ethiopia,Year,2011,false,,,,,,,,,,,,,229,,,,,,229,,Number of cases reported up to 5 June 2011.,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,CMR,Cameroon,Year,2011,false,,,,,,,,,,,,,2548,,,,,,2548,,Number of cases reported up to 10 July 2011.,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,BEN,Benin,Year,2011,false,,,,,,,,,,,,,269,,,,,,269,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2011,false,,,,,,,,,,,,,361,,,,,,361,,Number of cases reported up to 4 September 2011.,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2011,false,,,,,,,,,,,,,3875,,,,,,3875,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,MLI,Mali,Year,2011,false,,,,,,,,,,,,,430,,,,,,430,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,TGO,Togo,Year,2011,false,,,,,,,,,,,,,440,,,,,,440,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2011,false,,,,,,,,,,,,,5176,,,,,,5176,,Number of cases reported up to 10 July 2011.,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,TCD,Chad,Year,2011,false,,,,,,,,,,,,,5960,,,,,,5960,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,GHA,Ghana,Year,2011,false,,,,,,,,,,,,,773,,,,,,773,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,GHA,Ghana,Year,2010,false,,,,,,,,,,,,,1164,,,,,,1164,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2010,false,,,,,,,,,,,,,146,,,,,,146,,Number of cases reported up to 5 December 2010.,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,EMR,Eastern Mediterranean,Country,SDN,Sudan,Year,2010,false,,,,,,,,,,,,,2240,,,,,,2240,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,NER,Niger,Year,2010,false,,,,,,,,,,,,,2908,,,,,,2908,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,TCD,Chad,Year,2010,false,,,,,,,,,,,,,3228,,,,,,3228,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,BEN,Benin,Year,2010,false,,,,,,,,,,,,,323,,,,,,323,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,TGO,Togo,Year,2010,false,,,,,,,,,,,,,460,,,,,,460,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2010,false,,,,,,,,,,,,,477,,,,,,477,,Number of cases reported up to 5 December 2010.,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,MLI,Mali,Year,2010,false,,,,,,,,,,,,,482,,,,,,482,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,NGA,Nigeria,Year,2010,false,,,,,,,,,,,,,4983,,,,,,4983,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2010,false,,,,,,,,,,,,,6732,,,,,,6732,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2010,false,,,,,,,,,,,,,8276,,,,,,8276,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,CMR,Cameroon,Year,2010,false,,,,,,,,,,,,,835,,,,,,835,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,GIN,Guinea,Year,2010,false,,,,,,,,,,,,,84,,,,,,84,,Number of cases reported up to 27 June 2010.,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,ETH,Ethiopia,Year,2010,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,CMR,Cameroon,Year,2009,false,,,,,,,,,,,,,1001,,,,,,1001,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,ETH,Ethiopia,Year,2009,false,,,,,,,,,,,,,114,,,,,,114,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,NER,Niger,Year,2009,false,,,,,,,,,,,,,13449,,,,,,13 449,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,TCD,Chad,Year,2009,false,,,,,,,,,,,,,1460,,,,,,1460,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2009,false,,,,,,,,,,,,,284,,,,,,284,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2009,false,,,,,,,,,,,,,289,,,,,,289,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,GHA,Ghana,Year,2009,false,,,,,,,,,,,,,302,,,,,,302,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,MLI,Mali,Year,2009,false,,,,,,,,,,,,,335,,,,,,335,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,TGO,Togo,Year,2009,false,,,,,,,,,,,,,350,,,,,,350,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,BEN,Benin,Year,2009,false,,,,,,,,,,,,,416,,,,,,416,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2009,false,,,,,,,,,,,,,4723,,,,,,4723,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2009,false,,,,,,,,,,,,,4842,,,,,,4842,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,NGA,Nigeria,Year,2009,false,,,,,,,,,,,,,56128,,,,,,56 128,,,EN,2015-04-21T04:00:00.000Z
+MENING_2,Number of suspected meningitis cases reported,numeric,AFR,Africa,Country,GIN,Guinea,Year,2009,false,,,,,,,,,,,,,81,,,,,,81,,,EN,2015-04-21T04:00:00.000Z

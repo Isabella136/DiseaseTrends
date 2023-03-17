@@ -1,0 +1,438 @@
+IndicatorCode,Indicator,ValueType,ParentLocationCode,ParentLocation,Location type,SpatialDimValueCode,Location,Period type,Period,IsLatestYear,Dim1 type,Dim1,Dim1ValueCode,Dim2 type,Dim2,Dim2ValueCode,Dim3 type,Dim3,Dim3ValueCode,DataSourceDimValueCode,DataSource,FactValueNumericPrefix,FactValueNumeric,FactValueUoM,FactValueNumericLowPrefix,FactValueNumericLow,FactValueNumericHighPrefix,FactValueNumericHigh,Value,FactValueTranslationID,FactComments,Language,DateModified
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BLZ,Belize,Year,2020,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,KHM,Cambodia,Year,2020,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,COM,Comoros,Year,2020,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,PRK,Democratic People's Republic of Korea,Year,2020,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,SLV,El Salvador,Year,2020,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,GTM,Guatemala,Year,2020,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PRY,Paraguay,Year,2020,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,SEN,Senegal,Year,2020,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TJK,Tajikistan,Year,2020,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,CPV,Cabo Verde,Year,2020,true,,,,,,,,,,,,,10,,,,,,10,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,MEX,Mexico,Year,2020,true,,,,,,,,,,,,,10,,,,,,10,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,CHN,China,Year,2020,true,,,,,,,,,,,,,1050,,,,,,1050,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,MMR,Myanmar,Year,2020,true,,,,,,,,,,,,,11,,,,,,11,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,STP,Sao Tome and Principe,Year,2020,true,,,,,,,,,,,,,11,,,,,,11,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PAN,Panama,Year,2020,true,,,,,,,,,,,,,13,,,,,,13,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,NAM,Namibia,Year,2020,true,,,,,,,,,,,,,1305,,,,,,1305,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,VEN,Venezuela (Bolivarian Republic of),Year,2020,true,,,,,,,,,,,,,1356,,,,,,1356,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,VUT,Vanuatu,Year,2020,true,,,,,,,,,,,,,14,,,,,,14,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,MYS,Malaysia,Year,2020,true,,,,,,,,,,,,,177,,,,,,177,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BRA,Brazil,Year,2020,true,,,,,,,,,,,,,1807,,,,,,1807,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,BGD,Bangladesh,Year,2020,true,,,,,,,,,,,,,2,,,,,,2,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,UZB,Uzbekistan,Year,2020,true,,,,,,,,,,,,,2,,,,,,2,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,NIC,Nicaragua,Year,2020,true,,,,,,,,,,,,,25,,,,,,25,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PER,Peru,Year,2020,true,,,,,,,,,,,,,25,,,,,,25,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,PHL,Philippines,Year,2020,true,,,,,,,,,,,,,26,,,,,,26,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,DZA,Algeria,Year,2020,true,,,,,,,,,,,,,2725,,,,,,2725,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,KOR,Republic of Korea,Year,2020,true,,,,,,,,,,,,,29,,,,,,29,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,ARM,Armenia,Year,2020,true,,,,,,,,,,,,,3,,,,,,3,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,DOM,Dominican Republic,Year,2020,true,,,,,,,,,,,,,3,,,,,,3,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,LKA,Sri Lanka,Year,2020,true,,,,,,,,,,,,,30,,,,,,30,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,CRI,Costa Rica,Year,2020,true,,,,,,,,,,,,,34,,,,,,34,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EMR,Eastern Mediterranean,Country,SAU,Saudi Arabia,Year,2020,true,,,,,,,,,,,,,3453,,,,,,3453,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,NPL,Nepal,Year,2020,true,,,,,,,,,,,,,357,,,,,,357,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,ZAF,South Africa,Year,2020,true,,,,,,,,,,,,,3663,,,,,,3663,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,IDN,Indonesia,Year,2020,true,,,,,,,,,,,,,38,,,,,,38,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,GEO,Georgia,Year,2020,true,,,,,,,,,,,,,4,,,,,,4,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,LAO,Lao People's Democratic Republic,Year,2020,true,,,,,,,,,,,,,4,,,,,,4,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,TZA,United Republic of Tanzania,Year,2020,true,,,,,,,,,,,,,4314,,,,,,4314,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,COL,Colombia,Year,2020,true,,,,,,,,,,,,,457,,,,,,457,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,VNM,Viet Nam,Year,2020,true,,,,,,,,,,,,,46,,,,,,46,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,ECU,Ecuador,Year,2020,true,,,,,,,,,,,,,67,,,,,,67,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,BWA,Botswana,Year,2020,true,,,,,,,,,,,,,69,,,,,,69,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BOL,Bolivia (Plurinational State of),Year,2020,true,,,,,,,,,,,,,7,,,,,,7,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,TLS,Timor-Leste,Year,2020,true,,,,,,,,,,,,,7,,,,,,7,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,THA,Thailand,Year,2020,true,,,,,,,,,,,,,798,,,,,,798,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,SWZ,Eswatini,Year,2020,true,,,,,,,,,,,,,82,,,,,,82,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRN,Iran (Islamic Republic of),Year,2020,true,,,,,,,,,,,,,878,,,,,,878,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,SUR,Suriname,Year,2020,true,,,,,,,,,,,,,88,,,,,,88,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,BTN,Bhutan,Year,2020,true,,,,,,,,,,,,,9,,,,,,9,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,HND,Honduras,Year,2020,true,,,,,,,,,,,,,98,,,,,,98,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,AZE,Azerbaijan,Year,2019,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,KHM,Cambodia,Year,2019,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,PRK,Democratic People's Republic of Korea,Year,2019,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,LAO,Lao People's Democratic Republic,Year,2019,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PRY,Paraguay,Year,2019,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,UZB,Uzbekistan,Year,2019,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,STP,Sao Tome and Principe,Year,2019,false,,,,,,,,,,,,,10,,,,,,10,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,DZA,Algeria,Year,2019,false,,,,,,,,,,,,,1014,,,,,,1014,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,BWA,Botswana,Year,2019,false,,,,,,,,,,,,,103,,,,,,103,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,ECU,Ecuador,Year,2019,false,,,,,,,,,,,,,106,,,,,,106,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,NAM,Namibia,Year,2019,false,,,,,,,,,,,,,1064,,,,,,1064,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRN,Iran (Islamic Republic of),Year,2019,false,,,,,,,,,,,,,1107,,,,,,1107,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,SUR,Suriname,Year,2019,false,,,,,,,,,,,,,111,,,,,,111,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,THA,Thailand,Year,2019,false,,,,,,,,,,,,,1342,,,,,,1342,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,VNM,Viet Nam,Year,2019,false,,,,,,,,,,,,,1565,,,,,,1565,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PER,Peru,Year,2019,false,,,,,,,,,,,,,159,,,,,,159,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PAN,Panama,Year,2019,false,,,,,,,,,,,,,17,,,,,,17,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,VEN,Venezuela (Bolivarian Republic of),Year,2019,false,,,,,,,,,,,,,1848,,,,,,1848,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BOL,Bolivia (Plurinational State of),Year,2019,false,,,,,,,,,,,,,19,,,,,,19,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BLZ,Belize,Year,2019,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EMR,Eastern Mediterranean,Country,SAU,Saudi Arabia,Year,2019,false,,,,,,,,,,,,,2029,,,,,,2029,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,MEX,Mexico,Year,2019,false,,,,,,,,,,,,,22,,,,,,22,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,DOM,Dominican Republic,Year,2019,false,,,,,,,,,,,,,23,,,,,,23,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,COL,Colombia,Year,2019,false,,,,,,,,,,,,,2306,,,,,,2306,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,CHN,China,Year,2019,false,,,,,,,,,,,,,2486,,,,,,2486,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,NIC,Nicaragua,Year,2019,false,,,,,,,,,,,,,26,,,,,,26,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,SLV,El Salvador,Year,2019,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,GTM,Guatemala,Year,2019,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TJK,Tajikistan,Year,2019,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,BTN,Bhutan,Year,2019,false,,,,,,,,,,,,,30,,,,,,30,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,TZA,United Republic of Tanzania,Year,2019,false,,,,,,,,,,,,,3286,,,,,,3286,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,SWZ,Eswatini,Year,2019,false,,,,,,,,,,,,,338,,,,,,338,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,CPV,Cabo Verde,Year,2019,false,,,,,,,,,,,,,39,,,,,,39,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BRA,Brazil,Year,2019,false,,,,,,,,,,,,,4158,,,,,,4158,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,CRI,Costa Rica,Year,2019,false,,,,,,,,,,,,,45,,,,,,45,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,SEN,Senegal,Year,2019,false,,,,,,,,,,,,,45,,,,,,45,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,LKA,Sri Lanka,Year,2019,false,,,,,,,,,,,,,53,,,,,,53,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,NPL,Nepal,Year,2019,false,,,,,,,,,,,,,579,,,,,,579,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,BGD,Bangladesh,Year,2019,false,,,,,,,,,,,,,6,,,,,,6,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,HND,Honduras,Year,2019,false,,,,,,,,,,,,,61,,,,,,61,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,IDN,Indonesia,Year,2019,false,,,,,,,,,,,,,61,,,,,,61,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,MYS,Malaysia,Year,2019,false,,,,,,,,,,,,,630,,,,,,630,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,KOR,Republic of Korea,Year,2019,false,,,,,,,,,,,,,74,,,,,,74,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,GEO,Georgia,Year,2019,false,,,,,,,,,,,,,8,,,,,,8,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,ZAF,South Africa,Year,2019,false,,,,,,,,,,,,,8890,,,,,,8890,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,TLS,Timor-Leste,Year,2019,false,,,,,,,,,,,,,9,,,,,,9,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,VUT,Vanuatu,Year,2019,false,,,,,,,,,,,,,9,,,,,,9,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,PHL,Philippines,Year,2019,false,,,,,,,,,,,,,95,,,,,,95,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,COM,Comoros,Year,2019,false,,,,,,,,,,,,,98,,,,,,98,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,PRK,Democratic People's Republic of Korea,Year,2018,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,LAO,Lao People's Democratic Republic,Year,2018,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PRY,Paraguay,Year,2018,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TKM,Turkmenistan,Year,2018,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,UZB,Uzbekistan,Year,2018,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TJK,Tajikistan,Year,2018,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,IDN,Indonesia,Year,2018,false,,,,,,,,,,,,,11,,,,,,11,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BOL,Bolivia (Plurinational State of),Year,2018,false,,,,,,,,,,,,,12,,,,,,12,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,VUT,Vanuatu,Year,2018,false,,,,,,,,,,,,,12,,,,,,12,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,DZA,Algeria,Year,2018,false,,,,,,,,,,,,,1241,,,,,,1241,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,ECU,Ecuador,Year,2018,false,,,,,,,,,,,,,153,,,,,,153,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,THA,Thailand,Year,2018,false,,,,,,,,,,,,,1618,,,,,,1618,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,VNM,Viet Nam,Year,2018,false,,,,,,,,,,,,,1681,,,,,,1681,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,NIC,Nicaragua,Year,2018,false,,,,,,,,,,,,,17,,,,,,17,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,TZA,United Republic of Tanzania,Year,2018,false,,,,,,,,,,,,,1754,,,,,,1754,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PER,Peru,Year,2018,false,,,,,,,,,,,,,176,,,,,,176,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,CPV,Cabo Verde,Year,2018,false,,,,,,,,,,,,,18,,,,,,18,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,COL,Colombia,Year,2018,false,,,,,,,,,,,,,1948,,,,,,1948,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,SUR,Suriname,Year,2018,false,,,,,,,,,,,,,199,,,,,,199,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,AZE,Azerbaijan,Year,2018,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,SLV,El Salvador,Year,2018,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,HND,Honduras,Year,2018,false,,,,,,,,,,,,,21,,,,,,21,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,VEN,Venezuela (Bolivarian Republic of),Year,2018,false,,,,,,,,,,,,,2125,,,,,,2125,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,ARG,Argentina,Year,2018,true,,,,,,,,,,,,,23,,,,,,23,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,MEX,Mexico,Year,2018,false,,,,,,,,,,,,,23,,,,,,23,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,CHN,China,Year,2018,false,,,,,,,,,,,,,2511,,,,,,2511,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EMR,Eastern Mediterranean,Country,SAU,Saudi Arabia,Year,2018,false,,,,,,,,,,,,,2517,,,,,,2517,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,SWZ,Eswatini,Year,2018,false,,,,,,,,,,,,,271,,,,,,271,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,SEN,Senegal,Year,2018,false,,,,,,,,,,,,,292,,,,,,292,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,GTM,Guatemala,Year,2018,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,STP,Sao Tome and Principe,Year,2018,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PAN,Panama,Year,2018,false,,,,,,,,,,,,,31,,,,,,31,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,BTN,Bhutan,Year,2018,false,,,,,,,,,,,,,34,,,,,,34,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,CRI,Costa Rica,Year,2018,false,,,,,,,,,,,,,38,,,,,,38,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BLZ,Belize,Year,2018,false,,,,,,,,,,,,,4,,,,,,4,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,NAM,Namibia,Year,2018,false,,,,,,,,,,,,,4021,,,,,,4021,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,BGD,Bangladesh,Year,2018,false,,,,,,,,,,,,,41,,,,,,41,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,LKA,Sri Lanka,Year,2018,false,,,,,,,,,,,,,48,,,,,,48,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,MYS,Malaysia,Year,2018,false,,,,,,,,,,,,,485,,,,,,485,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,BWA,Botswana,Year,2018,false,,,,,,,,,,,,,51,,,,,,51,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,DOM,Dominican Republic,Year,2018,false,,,,,,,,,,,,,51,,,,,,51,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,NPL,Nepal,Year,2018,false,,,,,,,,,,,,,539,,,,,,539,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,ZAF,South Africa,Year,2018,false,,,,,,,,,,,,,5742,,,,,,5742,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,ARM,Armenia,Year,2018,false,,,,,,,,,,,,,6,,,,,,6,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRN,Iran (Islamic Republic of),Year,2018,false,,,,,,,,,,,,,602,,,,,,602,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,ZWE,Zimbabwe,Year,2018,true,,,,,,,,,,,,,672,,,,,,672,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BRA,Brazil,Year,2018,false,,,,,,,,,,,,,6816,,,,,,6816,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,TLS,Timor-Leste,Year,2018,false,,,,,,,,,,,,,7,,,,,,7,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,KOR,Republic of Korea,Year,2018,false,,,,,,,,,,,,,75,,,,,,75,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,PHL,Philippines,Year,2018,false,,,,,,,,,,,,,82,,,,,,82,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,GEO,Georgia,Year,2018,false,,,,,,,,,,,,,9,,,,,,9,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,PRK,Democratic People's Republic of Korea,Year,2017,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,SEN,Senegal,Year,2017,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TKM,Turkmenistan,Year,2017,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,UZB,Uzbekistan,Year,2017,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,AZE,Azerbaijan,Year,2017,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,VUT,Vanuatu,Year,2017,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,ECU,Ecuador,Year,2017,false,,,,,,,,,,,,,105,,,,,,105,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,NAM,Namibia,Year,2017,false,,,,,,,,,,,,,11874,,,,,,11 874,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,COL,Colombia,Year,2017,false,,,,,,,,,,,,,1297,,,,,,1297,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,CRI,Costa Rica,Year,2017,false,,,,,,,,,,,,,13,,,,,,13,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,TLS,Timor-Leste,Year,2017,false,,,,,,,,,,,,,13,,,,,,13,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BOL,Bolivia (Plurinational State of),Year,2017,false,,,,,,,,,,,,,15,,,,,,15,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,HND,Honduras,Year,2017,false,,,,,,,,,,,,,17,,,,,,17,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,ARG,Argentina,Year,2017,false,,,,,,,,,,,,,18,,,,,,18,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,BGD,Bangladesh,Year,2017,false,,,,,,,,,,,,,19,,,,,,19,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,ARM,Armenia,Year,2017,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BLZ,Belize,Year,2017,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,KGZ,Kyrgyzstan,Year,2017,true,,,,,,,,,,,,,2,,,,,,2,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,STP,Sao Tome and Principe,Year,2017,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TUR,Türkiye,Year,2017,true,,,,,,,,,,,,,214,,,,,,214,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,CPV,Cabo Verde,Year,2017,false,,,,,,,,,,,,,23,,,,,,23,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,CHN,China,Year,2017,false,,,,,,,,,,,,,2663,,,,,,2663,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,MEX,Mexico,Year,2017,false,,,,,,,,,,,,,29,,,,,,29,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,VEN,Venezuela (Bolivarian Republic of),Year,2017,false,,,,,,,,,,,,,2941,,,,,,2941,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EMR,Eastern Mediterranean,Country,SAU,Saudi Arabia,Year,2017,false,,,,,,,,,,,,,2974,,,,,,2974,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,SLV,El Salvador,Year,2017,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,GTM,Guatemala,Year,2017,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,NIC,Nicaragua,Year,2017,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TJK,Tajikistan,Year,2017,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,BTN,Bhutan,Year,2017,false,,,,,,,,,,,,,38,,,,,,38,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PAN,Panama,Year,2017,false,,,,,,,,,,,,,40,,,,,,40,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,THA,Thailand,Year,2017,false,,,,,,,,,,,,,4020,,,,,,4020,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,SUR,Suriname,Year,2017,false,,,,,,,,,,,,,414,,,,,,414,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,MYS,Malaysia,Year,2017,false,,,,,,,,,,,,,423,,,,,,423,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,DZA,Algeria,Year,2017,false,,,,,,,,,,,,,446,,,,,,446,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BRA,Brazil,Year,2017,false,,,,,,,,,,,,,4867,,,,,,4867,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PRY,Paraguay,Year,2017,false,,,,,,,,,,,,,5,,,,,,5,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,DOM,Dominican Republic,Year,2017,false,,,,,,,,,,,,,57,,,,,,57,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PER,Peru,Year,2017,false,,,,,,,,,,,,,57,,,,,,57,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,LKA,Sri Lanka,Year,2017,false,,,,,,,,,,,,,57,,,,,,57,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,BWA,Botswana,Year,2017,false,,,,,,,,,,,,,62,,,,,,62,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,ZAF,South Africa,Year,2017,false,,,,,,,,,,,,,6234,,,,,,6234,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,NPL,Nepal,Year,2017,false,,,,,,,,,,,,,670,,,,,,670,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,SWZ,Eswatini,Year,2017,false,,,,,,,,,,,,,687,,,,,,687,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,PHL,Philippines,Year,2017,false,,,,,,,,,,,,,69,,,,,,69,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,ZWE,Zimbabwe,Year,2017,false,,,,,,,,,,,,,768,,,,,,768,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,KOR,Republic of Korea,Year,2017,false,,,,,,,,,,,,,79,,,,,,79,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,GEO,Georgia,Year,2017,false,,,,,,,,,,,,,8,,,,,,8,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRN,Iran (Islamic Republic of),Year,2017,false,,,,,,,,,,,,,868,,,,,,868,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,PRK,Democratic People's Republic of Korea,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,STP,Sao Tome and Principe,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,SEN,Senegal,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,TLS,Timor-Leste,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TKM,Turkmenistan,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,UZB,Uzbekistan,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,VUT,Vanuatu,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,AZE,Azerbaijan,Year,2016,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BLZ,Belize,Year,2016,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,SLV,El Salvador,Year,2016,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,GTM,Guatemala,Year,2016,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TJK,Tajikistan,Year,2016,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PRY,Paraguay,Year,2016,false,,,,,,,,,,,,,10,,,,,,10,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,BGD,Bangladesh,Year,2016,false,,,,,,,,,,,,,109,,,,,,109,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BOL,Bolivia (Plurinational State of),Year,2016,false,,,,,,,,,,,,,11,,,,,,11,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,NIC,Nicaragua,Year,2016,false,,,,,,,,,,,,,17,,,,,,17,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,VEN,Venezuela (Bolivarian Republic of),Year,2016,false,,,,,,,,,,,,,1948,,,,,,1948,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,ARM,Armenia,Year,2016,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TUR,Türkiye,Year,2016,false,,,,,,,,,,,,,208,,,,,,208,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,ECU,Ecuador,Year,2016,false,,,,,,,,,,,,,233,,,,,,233,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,SUR,Suriname,Year,2016,false,,,,,,,,,,,,,251,,,,,,251,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,CPV,Cabo Verde,Year,2016,false,,,,,,,,,,,,,27,,,,,,27,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,HND,Honduras,Year,2016,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,ZAF,South Africa,Year,2016,false,,,,,,,,,,,,,3075,,,,,,3075,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,CHN,China,Year,2016,false,,,,,,,,,,,,,3149,,,,,,3149,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,ZWE,Zimbabwe,Year,2016,false,,,,,,,,,,,,,358,,,,,,358,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,NAM,Namibia,Year,2016,false,,,,,,,,,,,,,3980,,,,,,3980,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,LKA,Sri Lanka,Year,2016,false,,,,,,,,,,,,,41,,,,,,41,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,GUY,Guyana,Year,2016,true,,,,,,,,,,,,,411,,,,,,411,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PAN,Panama,Year,2016,false,,,,,,,,,,,,,42,,,,,,42,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,DZA,Algeria,Year,2016,false,,,,,,,,,,,,,420,,,,,,420,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,MYS,Malaysia,Year,2016,false,,,,,,,,,,,,,428,,,,,,428,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,MEX,Mexico,Year,2016,false,,,,,,,,,,,,,45,,,,,,45,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PER,Peru,Year,2016,false,,,,,,,,,,,,,48,,,,,,48,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,NPL,Nepal,Year,2016,false,,,,,,,,,,,,,502,,,,,,502,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BRA,Brazil,Year,2016,false,,,,,,,,,,,,,5067,,,,,,5067,,,EN,2022-02-28T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EMR,Eastern Mediterranean,Country,SAU,Saudi Arabia,Year,2016,false,,,,,,,,,,,,,5110,,,,,,5110,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,PHL,Philippines,Year,2016,false,,,,,,,,,,,,,53,,,,,,53,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,BTN,Bhutan,Year,2016,false,,,,,,,,,,,,,56,,,,,,56,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,THA,Thailand,Year,2016,false,,,,,,,,,,,,,5724,,,,,,5724,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,KGZ,Kyrgyzstan,Year,2016,false,,,,,,,,,,,,,6,,,,,,6,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRN,Iran (Islamic Republic of),Year,2016,false,,,,,,,,,,,,,611,,,,,,611,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,COL,Colombia,Year,2016,false,,,,,,,,,,,,,618,,,,,,618,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,BWA,Botswana,Year,2016,false,,,,,,,,,,,,,64,,,,,,64,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,DOM,Dominican Republic,Year,2016,false,,,,,,,,,,,,,65,,,,,,65,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,SWZ,Eswatini,Year,2016,false,,,,,,,,,,,,,67,,,,,,67,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,ARG,Argentina,Year,2016,false,,,,,,,,,,,,,7,,,,,,7,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,GEO,Georgia,Year,2016,false,,,,,,,,,,,,,7,,,,,,7,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,KOR,Republic of Korea,Year,2016,false,,,,,,,,,,,,,71,,,,,,71,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,CRI,Costa Rica,Year,2016,false,,,,,,,,,,,,,9,,,,,,9,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,PRK,Democratic People's Republic of Korea,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,HND,Honduras,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,SEN,Senegal,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TKM,Turkmenistan,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,UZB,Uzbekistan,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,AZE,Azerbaijan,Year,2015,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,KGZ,Kyrgyzstan,Year,2015,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,ARG,Argentina,Year,2015,false,,,,,,,,,,,,,11,,,,,,11,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,MDG,Madagascar,Year,2015,true,,,,,,,,,,,,,1167,,,,,,1167,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,BGD,Bangladesh,Year,2015,false,,,,,,,,,,,,,129,,,,,,129,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,SWZ,Eswatini,Year,2015,false,,,,,,,,,,,,,157,,,,,,157,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,VEN,Venezuela (Bolivarian Republic of),Year,2015,false,,,,,,,,,,,,,1594,,,,,,1594,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PAN,Panama,Year,2015,false,,,,,,,,,,,,,16,,,,,,16,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,ZWE,Zimbabwe,Year,2015,false,,,,,,,,,,,,,180,,,,,,180,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,ARM,Armenia,Year,2015,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,GTM,Guatemala,Year,2015,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,STP,Sao Tome and Principe,Year,2015,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,CPV,Cabo Verde,Year,2015,false,,,,,,,,,,,,,21,,,,,,21,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TUR,Türkiye,Year,2015,false,,,,,,,,,,,,,221,,,,,,221,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EMR,Eastern Mediterranean,Country,SAU,Saudi Arabia,Year,2015,false,,,,,,,,,,,,,2537,,,,,,2537,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,TZA,United Republic of Tanzania,Year,2015,false,,,,,,,,,,,,,2550,,,,,,2550,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,NAM,Namibia,Year,2015,false,,,,,,,,,,,,,2888,,,,,,2888,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,NIC,Nicaragua,Year,2015,false,,,,,,,,,,,,,29,,,,,,29,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,SUR,Suriname,Year,2015,false,,,,,,,,,,,,,295,,,,,,295,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,DOM,Dominican Republic,Year,2015,false,,,,,,,,,,,,,30,,,,,,30,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,CHN,China,Year,2015,false,,,,,,,,,,,,,3212,,,,,,3212,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BOL,Bolivia (Plurinational State of),Year,2015,false,,,,,,,,,,,,,33,,,,,,33,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,MEX,Mexico,Year,2015,false,,,,,,,,,,,,,34,,,,,,34,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,ZAF,South Africa,Year,2015,false,,,,,,,,,,,,,3568,,,,,,3568,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,LKA,Sri Lanka,Year,2015,false,,,,,,,,,,,,,36,,,,,,36,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BLZ,Belize,Year,2015,false,,,,,,,,,,,,,4,,,,,,4,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,SLV,El Salvador,Year,2015,false,,,,,,,,,,,,,4,,,,,,4,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TJK,Tajikistan,Year,2015,false,,,,,,,,,,,,,4,,,,,,4,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,MYS,Malaysia,Year,2015,false,,,,,,,,,,,,,435,,,,,,435,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,BWA,Botswana,Year,2015,false,,,,,,,,,,,,,48,,,,,,48,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BRA,Brazil,Year,2015,false,,,,,,,,,,,,,4932,,,,,,4932,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,GEO,Georgia,Year,2015,false,,,,,,,,,,,,,5,,,,,,5,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,NPL,Nepal,Year,2015,false,,,,,,,,,,,,,521,,,,,,521,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,ECU,Ecuador,Year,2015,false,,,,,,,,,,,,,59,,,,,,59,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRN,Iran (Islamic Republic of),Year,2015,false,,,,,,,,,,,,,632,,,,,,632,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,BTN,Bhutan,Year,2015,false,,,,,,,,,,,,,70,,,,,,70,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,KOR,Republic of Korea,Year,2015,false,,,,,,,,,,,,,72,,,,,,72,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,DZA,Algeria,Year,2015,false,,,,,,,,,,,,,727,,,,,,727,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,COL,Colombia,Year,2015,false,,,,,,,,,,,,,7785,,,,,,7785,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,CRI,Costa Rica,Year,2015,false,,,,,,,,,,,,,8,,,,,,8,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PRY,Paraguay,Year,2015,false,,,,,,,,,,,,,8,,,,,,8,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,PHL,Philippines,Year,2015,false,,,,,,,,,,,,,85,,,,,,85,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,THA,Thailand,Year,2015,false,,,,,,,,,,,,,9890,,,,,,9890,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BLZ,Belize,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,KGZ,Kyrgyzstan,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TKM,Turkmenistan,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,ARM,Armenia,Year,2014,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,UZB,Uzbekistan,Year,2014,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,MEX,Mexico,Year,2014,false,,,,,,,,,,,,,10,,,,,,10,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PAN,Panama,Year,2014,false,,,,,,,,,,,,,10,,,,,,10,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,VEN,Venezuela (Bolivarian Republic of),Year,2014,false,,,,,,,,,,,,,1210,,,,,,1210,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,ARG,Argentina,Year,2014,false,,,,,,,,,,,,,15,,,,,,15,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,TZA,United Republic of Tanzania,Year,2014,false,,,,,,,,,,,,,1583,,,,,,1583,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,AZE,Azerbaijan,Year,2014,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,SLV,El Salvador,Year,2014,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,GTM,Guatemala,Year,2014,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,HND,Honduras,Year,2014,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,CPV,Cabo Verde,Year,2014,false,,,,,,,,,,,,,20,,,,,,20,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,NIC,Nicaragua,Year,2014,false,,,,,,,,,,,,,21,,,,,,21,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EMR,Eastern Mediterranean,Country,SAU,Saudi Arabia,Year,2014,false,,,,,,,,,,,,,2254,,,,,,2254,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TUR,Türkiye,Year,2014,false,,,,,,,,,,,,,249,,,,,,249,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,DZA,Algeria,Year,2014,false,,,,,,,,,,,,,260,,,,,,260,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,BWA,Botswana,Year,2014,false,,,,,,,,,,,,,30,,,,,,30,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,CHN,China,Year,2014,false,,,,,,,,,,,,,3026,,,,,,3026,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,SWZ,Eswatini,Year,2014,false,,,,,,,,,,,,,322,,,,,,322,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,BTN,Bhutan,Year,2014,false,,,,,,,,,,,,,34,,,,,,34,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,DOM,Dominican Republic,Year,2014,false,,,,,,,,,,,,,37,,,,,,37,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BRA,Brazil,Year,2014,false,,,,,,,,,,,,,4856,,,,,,4856,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,LKA,Sri Lanka,Year,2014,false,,,,,,,,,,,,,49,,,,,,49,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,CRI,Costa Rica,Year,2014,false,,,,,,,,,,,,,5,,,,,,5,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,GEO,Georgia,Year,2014,false,,,,,,,,,,,,,5,,,,,,5,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TJK,Tajikistan,Year,2014,false,,,,,,,,,,,,,5,,,,,,5,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,NPL,Nepal,Year,2014,false,,,,,,,,,,,,,637,,,,,,637,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,PHL,Philippines,Year,2014,false,,,,,,,,,,,,,68,,,,,,68,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,MDG,Madagascar,Year,2014,false,,,,,,,,,,,,,712,,,,,,712,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,MYS,Malaysia,Year,2014,false,,,,,,,,,,,,,766,,,,,,766,,,EN,2022-02-28T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,KOR,Republic of Korea,Year,2014,false,,,,,,,,,,,,,78,,,,,,78,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PRY,Paraguay,Year,2014,false,,,,,,,,,,,,,8,,,,,,8,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRN,Iran (Islamic Republic of),Year,2014,false,,,,,,,,,,,,,867,,,,,,867,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,ARM,Armenia,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TKM,Turkmenistan,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,SLV,El Salvador,Year,2013,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,ECU,Ecuador,Year,2013,false,,,,,,,,,,,,,10,,,,,,10,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TJK,Tajikistan,Year,2013,false,,,,,,,,,,,,,10,,,,,,10,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,DOM,Dominican Republic,Year,2013,false,,,,,,,,,,,,,106,,,,,,106,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,ARG,Argentina,Year,2013,false,,,,,,,,,,,,,11,,,,,,11,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PRY,Paraguay,Year,2013,false,,,,,,,,,,,,,11,,,,,,11,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,VEN,Venezuela (Bolivarian Republic of),Year,2013,false,,,,,,,,,,,,,1677,,,,,,1677,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,SUR,Suriname,Year,2013,false,,,,,,,,,,,,,204,,,,,,204,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,BTN,Bhutan,Year,2013,false,,,,,,,,,,,,,23,,,,,,23,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,SWZ,Eswatini,Year,2013,false,,,,,,,,,,,,,234,,,,,,234,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,CPV,Cabo Verde,Year,2013,false,,,,,,,,,,,,,24,,,,,,24,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EMR,Eastern Mediterranean,Country,SAU,Saudi Arabia,Year,2013,false,,,,,,,,,,,,,2479,,,,,,2479,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TUR,Türkiye,Year,2013,false,,,,,,,,,,,,,251,,,,,,251,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,UZB,Uzbekistan,Year,2013,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,BWA,Botswana,Year,2013,false,,,,,,,,,,,,,30,,,,,,30,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,NIC,Nicaragua,Year,2013,false,,,,,,,,,,,,,34,,,,,,34,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,AZE,Azerbaijan,Year,2013,false,,,,,,,,,,,,,4,,,,,,4,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BLZ,Belize,Year,2013,false,,,,,,,,,,,,,4,,,,,,4,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,CRI,Costa Rica,Year,2013,false,,,,,,,,,,,,,4,,,,,,4,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,KGZ,Kyrgyzstan,Year,2013,false,,,,,,,,,,,,,4,,,,,,4,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,MEX,Mexico,Year,2013,false,,,,,,,,,,,,,4,,,,,,4,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,CHN,China,Year,2013,false,,,,,,,,,,,,,4051,,,,,,4051,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,KOR,Republic of Korea,Year,2013,false,,,,,,,,,,,,,50,,,,,,50,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,DZA,Algeria,Year,2013,false,,,,,,,,,,,,,587,,,,,,587,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,GEO,Georgia,Year,2013,false,,,,,,,,,,,,,7,,,,,,7,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,TZA,United Republic of Tanzania,Year,2013,false,,,,,,,,,,,,,719,,,,,,719,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRN,Iran (Islamic Republic of),Year,2013,false,,,,,,,,,,,,,853,,,,,,853,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,MYS,Malaysia,Year,2013,false,,,,,,,,,,,,,865,,,,,,865,,,EN,2022-02-28T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BRA,Brazil,Year,2013,false,,,,,,,,,,,,,8923,,,,,,8923,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PAN,Panama,Year,2013,false,,,,,,,,,,,,,9,,,,,,9,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,LKA,Sri Lanka,Year,2013,false,,,,,,,,,,,,,95,,,,,,95,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,BTN,Bhutan,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TKM,Turkmenistan,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,AZE,Azerbaijan,Year,2012,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,CRI,Costa Rica,Year,2012,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,UZB,Uzbekistan,Year,2012,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,NPL,Nepal,Year,2012,false,,,,,,,,,,,,,1026,,,,,,1026,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TJK,Tajikistan,Year,2012,false,,,,,,,,,,,,,11,,,,,,11,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,ECU,Ecuador,Year,2012,false,,,,,,,,,,,,,14,,,,,,14,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PRY,Paraguay,Year,2012,false,,,,,,,,,,,,,15,,,,,,15,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,SWZ,Eswatini,Year,2012,false,,,,,,,,,,,,,153,,,,,,153,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,ARG,Argentina,Year,2012,false,,,,,,,,,,,,,16,,,,,,16,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,CHN,China,Year,2012,false,,,,,,,,,,,,,2399,,,,,,2399,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,KGZ,Kyrgyzstan,Year,2012,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EMR,Eastern Mediterranean,Country,SAU,Saudi Arabia,Year,2012,false,,,,,,,,,,,,,3324,,,,,,3324,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,CPV,Cabo Verde,Year,2012,false,,,,,,,,,,,,,35,,,,,,35,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TUR,Türkiye,Year,2012,false,,,,,,,,,,,,,376,,,,,,376,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,ARM,Armenia,Year,2012,false,,,,,,,,,,,,,4,,,,,,4,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BLZ,Belize,Year,2012,false,,,,,,,,,,,,,4,,,,,,4,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,GEO,Georgia,Year,2012,false,,,,,,,,,,,,,4,,,,,,4,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,KOR,Republic of Korea,Year,2012,false,,,,,,,,,,,,,47,,,,,,47,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,SLV,El Salvador,Year,2012,false,,,,,,,,,,,,,7,,,,,,7,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,LKA,Sri Lanka,Year,2012,false,,,,,,,,,,,,,70,,,,,,70,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,DZA,Algeria,Year,2012,false,,,,,,,,,,,,,828,,,,,,828,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRN,Iran (Islamic Republic of),Year,2012,false,,,,,,,,,,,,,842,,,,,,842,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,MEX,Mexico,Year,2012,false,,,,,,,,,,,,,9,,,,,,9,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,MYS,Malaysia,Year,2012,false,,,,,,,,,,,,,924,,,,,,924,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,ARM,Armenia,Year,2011,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TKM,Turkmenistan,Year,2011,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,UZB,Uzbekistan,Year,2011,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,NPL,Nepal,Year,2011,false,,,,,,,,,,,,,1079,,,,,,1079,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,MYS,Malaysia,Year,2011,false,,,,,,,,,,,,,1142,,,,,,1142,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TUR,Türkiye,Year,2011,false,,,,,,,,,,,,,128,,,,,,128,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,ECU,Ecuador,Year,2011,false,,,,,,,,,,,,,14,,,,,,14,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRN,Iran (Islamic Republic of),Year,2011,false,,,,,,,,,,,,,1529,,,,,,1529,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,SWZ,Eswatini,Year,2011,false,,,,,,,,,,,,,170,,,,,,170,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,DZA,Algeria,Year,2011,false,,,,,,,,,,,,,187,,,,,,187,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,CHN,China,Year,2011,false,,,,,,,,,,,,,2059,,,,,,2059,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TJK,Tajikistan,Year,2011,false,,,,,,,,,,,,,22,,,,,,22,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EMR,Eastern Mediterranean,Country,SAU,Saudi Arabia,Year,2011,false,,,,,,,,,,,,,2719,,,,,,2719,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,ARG,Argentina,Year,2011,false,,,,,,,,,,,,,28,,,,,,28,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,CPV,Cabo Verde,Year,2011,false,,,,,,,,,,,,,29,,,,,,29,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,AZE,Azerbaijan,Year,2011,false,,,,,,,,,,,,,4,,,,,,4,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,GEO,Georgia,Year,2011,false,,,,,,,,,,,,,5,,,,,,5,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,KGZ,Kyrgyzstan,Year,2011,false,,,,,,,,,,,,,5,,,,,,5,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,LKA,Sri Lanka,Year,2011,false,,,,,,,,,,,,,51,,,,,,51,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,CRI,Costa Rica,Year,2011,false,,,,,,,,,,,,,6,,,,,,6,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,MEX,Mexico,Year,2011,false,,,,,,,,,,,,,6,,,,,,6,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,KOR,Republic of Korea,Year,2011,false,,,,,,,,,,,,,64,,,,,,64,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,BLZ,Belize,Year,2011,false,,,,,,,,,,,,,7,,,,,,7,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,SLV,El Salvador,Year,2011,false,,,,,,,,,,,,,8,,,,,,8,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PRY,Paraguay,Year,2011,false,,,,,,,,,,,,,9,,,,,,9,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,GEO,Georgia,Year,2010,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TKM,Turkmenistan,Year,2010,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,ARM,Armenia,Year,2010,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EMR,Eastern Mediterranean,Country,IRN,Iran (Islamic Republic of),Year,2010,false,,,,,,,,,,,,,1184,,,,,,1184,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EMR,Eastern Mediterranean,Country,SAU,Saudi Arabia,Year,2010,false,,,,,,,,,,,,,1912,,,,,,1912,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,AZE,Azerbaijan,Year,2010,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,UZB,Uzbekistan,Year,2010,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,CHN,China,Year,2010,false,,,,,,,,,,,,,2118,,,,,,2118,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,KGZ,Kyrgyzstan,Year,2010,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AFR,Africa,Country,DZA,Algeria,Year,2010,false,,,,,,,,,,,,,396,,,,,,396,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,CRI,Costa Rica,Year,2010,false,,,,,,,,,,,,,4,,,,,,4,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TJK,Tajikistan,Year,2010,false,,,,,,,,,,,,,4,,,,,,4,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,SEAR,South-East Asia,Country,LKA,Sri Lanka,Year,2010,false,,,,,,,,,,,,,52,,,,,,52,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,ARG,Argentina,Year,2010,false,,,,,,,,,,,,,55,,,,,,55,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,KOR,Republic of Korea,Year,2010,false,,,,,,,,,,,,,56,,,,,,56,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,MEX,Mexico,Year,2010,false,,,,,,,,,,,,,7,,,,,,7,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,EUR,Europe,Country,TUR,Türkiye,Year,2010,false,,,,,,,,,,,,,81,,,,,,81,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,WPR,Western Pacific,Country,MYS,Malaysia,Year,2010,false,,,,,,,,,,,,,831,,,,,,831,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,SLV,El Salvador,Year,2010,false,,,,,,,,,,,,,9,,,,,,9,,,EN,2022-02-10T05:00:00.000Z
+MALARIA_IMPORTED,Number of imported malaria cases,numeric,AMR,Americas,Country,PRY,Paraguay,Year,2010,false,,,,,,,,,,,,,9,,,,,,9,,,EN,2022-02-10T05:00:00.000Z

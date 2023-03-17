@@ -1,0 +1,769 @@
+IndicatorCode,Indicator,ValueType,ParentLocationCode,ParentLocation,Location type,SpatialDimValueCode,Location,Period type,Period,IsLatestYear,Dim1 type,Dim1,Dim1ValueCode,Dim2 type,Dim2,Dim2ValueCode,Dim3 type,Dim3,Dim3ValueCode,DataSourceDimValueCode,DataSource,FactValueNumericPrefix,FactValueNumeric,FactValueUoM,FactValueNumericLowPrefix,FactValueNumericLow,FactValueNumericHighPrefix,FactValueNumericHigh,Value,FactValueTranslationID,FactComments,Language,DateModified
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,2021,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2021,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,2021,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,2021,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,2021,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,2021,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,2021,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,2021,true,,,,,,,,,,,,,0,,,,,,0,,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2021,true,,,,,,,,,,,,,1,,,,,,1,,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,2021,true,,,,,,,,,,,,,10,,,,,,10,,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,2021,true,,,,,,,,,,,,,11,,,,,,11,,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,2021,true,,,,,,,,,,,,,15,,,,,,15,,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,2021,true,,,,,,,,,,,,,174,,,,,,174,,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,2021,true,,,,,,,,,,,,,18,,,,,,18,,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,2021,true,,,,,,,,,,,,,18,,,,,,18,,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,2021,true,,,,,,,,,,,,,28,,,,,,28,,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2021,true,,,,,,,,,,,,,3,,,,,,3,,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2021,true,,,,,,,,,,,,,425,,,,,,425,,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2021,true,,,,,,,,,,,,,44,,,,,,44,,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,2021,true,,,,,,,,,,,,,,,,,,,No data,827,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2021,true,,,,,,,,,,,,,,,,,,,No data,827,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,2021,true,,,,,,,,,,,,,,,,,,,No data,827,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,2021,true,,,,,,,,,,,,,,,,,,,No data,827,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2021,true,,,,,,,,,,,,,,,,,,,No data,827,,EN,2022-07-21T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,2020,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2020,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2020,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,2020,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,2020,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,2020,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,2020,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,2020,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2020,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,2020,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,2020,false,,,,,,,,,,,,,11,,,,,,11,,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,2020,false,,,,,,,,,,,,,15,,,,,,15,,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,2020,false,,,,,,,,,,,,,15,,,,,,15,,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,2020,false,,,,,,,,,,,,,17,,,,,,17,,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,2020,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,2020,false,,,,,,,,,,,,,33,,,,,,33,,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,2020,false,,,,,,,,,,,,,36,,,,,,36,,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2020,false,,,,,,,,,,,,,39,,,,,,39,,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2020,false,,,,,,,,,,,,,395,,,,,,395,,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,2020,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2020,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,2020,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,2020,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2020,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2021-07-22T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,2019,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2019,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,2019,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,2019,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,2019,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,2019,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2019,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,2019,false,,,,,,,,,,,,,11,,,,,,11,,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,2019,false,,,,,,,,,,,,,16,,,,,,16,,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,2019,false,,,,,,,,,,,,,17,,,,,,17,,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,2019,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,2019,false,,,,,,,,,,,,,20,,,,,,20,,,EN,2020-11-25T05:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2019,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,2019,false,,,,,,,,,,,,,30,,,,,,30,,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2019,false,,,,,,,,,,,,,613,,,,,,613,,,EN,2020-11-25T05:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,2019,false,,,,,,,,,,,,,69,,,,,,69,,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,2019,false,,,,,,,,,,,,,8,,,,,,8,,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2019,false,,,,,,,,,,,,,86,,,,,,86,,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,2019,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2019,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,2019,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,2019,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,2019,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2019,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,2018,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2018,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,2018,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,2018,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,2018,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,2018,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,2018,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,2018,false,,,,,,,,,,,,,12,,,,,,12,,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,2018,false,,,,,,,,,,,,,16,,,,,,16,,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,2018,false,,,,,,,,,,,,,17,,,,,,17,,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2018,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,2018,false,,,,,,,,,,,,,24,,,,,,24,,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2018,false,,,,,,,,,,,,,4,,,,,,4,,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2018,false,,,,,,,,,,,,,57,,,,,,57,,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2018,false,,,,,,,,,,,,,660,,,,,,660,,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,2018,false,,,,,,,,,,,,,7,,,,,,7,,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,2018,false,,,,,,,,,,,,,74,,,,,,74,,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,2018,false,,,,,,,,,,,,,79,,,,,,79,,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,2018,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2018,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,2018,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,2018,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,2018,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2018,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,2017,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2017,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,2017,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2017,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,2017,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,2017,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,2017,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,2017,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2017,false,,,,,,,,,,,,,1100,,,,,,1100,,,EN,2020-06-03T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,2017,false,,,,,,,,,,,,,12,,,,,,12,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,2017,false,,,,,,,,,,,,,139,,,,,,139,,,EN,2019-06-19T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,2017,false,,,,,,,,,,,,,15,,,,,,15,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,2017,false,,,,,,,,,,,,,18,,,,,,18,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,2017,false,,,,,,,,,,,,,28,,,,,,28,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2017,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2017,false,,,,,,,,,,,,,4,,,,,,4,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,2017,false,,,,,,,,,,,,,5,,,,,,5,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2017,false,,,,,,,,,,,,,76,,,,,,76,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,2017,false,,,,,,,,,,,,,9,,,,,,9,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,2017,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,2017,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,2017,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,2017,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2017,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2017-09-15T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2017-09-15T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2017-09-15T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2017-09-15T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2017-09-15T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,2016,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2017-09-15T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,2016,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2017-09-15T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,2016,false,,,,,,,,,,,,,10,,,,,,10,,,EN,2017-09-15T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2016,false,,,,,,,,,,,,,101,,,,,,101,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,2016,false,,,,,,,,,,,,,108,,,,,,108,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,2016,false,,,,,,,,,,,,,17,,,,,,17,,,EN,2017-09-15T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2016,false,,,,,,,,,,,,,1768,,,,,,1768,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,2016,false,,,,,,,,,,,,,18,,,,,,18,,,EN,2017-09-15T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,2016,false,,,,,,,,,,,,,20,,,,,,20,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2016,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2017-09-15T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,2016,false,,,,,,,,,,,,,4,,,,,,4,,,EN,2017-09-15T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,2016,false,,,,,,,,,,,,,54,,,,,,54,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,2016,false,,,,,,,,,,,,,6,,,,,,6,,,EN,2017-09-15T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,2016,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2017-09-15T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2016,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2017-09-15T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,2016,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2017-09-15T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,2016,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2017-09-15T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,2016,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2017-09-15T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2016,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2017-09-15T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,2015,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2015,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2015,false,,,,,,,,,,,,,147,,,,,,147,,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2015,false,,,,,,,,,,,,,2347,,,,,,2347,,,EN,2018-08-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,2015,false,,,,,,,,,,,,,29,,,,,,29,,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2015,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,2015,false,,,,,,,,,,,,,35,,,,,,35,,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,2015,false,,,,,,,,,,,,,36,,,,,,36,,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,2015,false,,,,,,,,,,,,,4,,,,,,4,,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,2015,false,,,,,,,,,,,,,45,,,,,,45,,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,2015,false,,,,,,,,,,,,,6,,,,,,6,,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,2015,false,,,,,,,,,,,,,67,,,,,,67,,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,2015,false,,,,,,,,,,,,,9,,,,,,9,,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,2015,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2015,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,2015,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,2015,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2015,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2016-09-20T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2015-05-29T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2015-05-29T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2015-05-29T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2015-05-29T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2015-05-29T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2015-05-29T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,2014,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2015-05-29T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,2014,false,,,,,,,,,,,,,10,,,,,,10,,,EN,2015-05-29T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2014,false,,,,,,,,,,,,,194,,,,,,194,,,EN,2015-05-29T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,2014,false,,,,,,,,,,,,,21,,,,,,21,,,EN,2015-05-29T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2014,false,,,,,,,,,,,,,3205,,,,,,3205,,,EN,2017-06-28T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,2014,false,,,,,,,,,,,,,33,,,,,,33,,,EN,2015-05-29T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,2014,false,,,,,,,,,,,,,36,,,,,,36,,,EN,2017-06-28T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2014,false,,,,,,,,,,,,,6,,,,,,6,,,EN,2015-05-29T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,2014,false,,,,,,,,,,,,,63,,,,,,63,,,EN,2015-05-29T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,2014,false,,,,,,,,,,,,,7,,,,,,7,,,EN,2015-05-29T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,2014,false,,,,,,,,,,,,,9,,,,,,9,,,EN,2015-05-29T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,2014,false,,,,,,,,,,,,,95,,,,,,95,,,EN,2015-05-29T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,2014,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2015-05-29T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2014,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2015-05-29T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,2014,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2015-05-29T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,2014,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2015-05-29T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,2014,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2015-05-29T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2014,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2015-05-29T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,2013,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,2013,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,2013,false,,,,,,,,,,,,,117,,,,,,117,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,2013,false,,,,,,,,,,,,,17,,,,,,17,,,EN,2017-06-28T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,2013,false,,,,,,,,,,,,,195,,,,,,195,,,EN,2017-06-28T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,2013,false,,,,,,,,,,,,,20,,,,,,20,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2013,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2013,false,,,,,,,,,,,,,5647,,,,,,5647,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2013,false,,,,,,,,,,,,,59,,,,,,59,,,EN,2017-06-28T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,2013,false,,,,,,,,,,,,,6,,,,,,6,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,2013,false,,,,,,,,,,,,,69,,,,,,69,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2013,false,,,,,,,,,,,,,7,,,,,,7,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,2013,false,,,,,,,,,,,,,78,,,,,,78,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,2013,false,,,,,,,,,,,,,9,,,,,,9,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,2013,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2013,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,2013,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,2013,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,2013,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2013,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,2012,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,2012,false,,,,,,,,,,,,,197,,,,,,197,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2012,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,2012,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,2012,false,,,,,,,,,,,,,20,,,,,,20,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,2012,false,,,,,,,,,,,,,317,,,,,,317,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2012,false,,,,,,,,,,,,,381,,,,,,381,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,2012,false,,,,,,,,,,,,,39,,,,,,39,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2012,false,,,,,,,,,,,,,5968,,,,,,5968,,,EN,2017-06-28T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,2012,false,,,,,,,,,,,,,7,,,,,,7,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,2012,false,,,,,,,,,,,,,70,,,,,,70,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,2012,false,,,,,,,,,,,,,70,,,,,,70,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2012,false,,,,,,,,,,,,,9,,,,,,9,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,2012,false,,,,,,,,,,,,,9,,,,,,9,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,2012,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2012,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,2012,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,2012,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,2012,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2012,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,2011,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2011,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,2011,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,2011,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,2011,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2011,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2011,false,,,,,,,,,,,,,10,,,,,,10,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2011,false,,,,,,,,,,,,,132,,,,,,132,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,2011,false,,,,,,,,,,,,,15,,,,,,15,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,2011,false,,,,,,,,,,,,,154,,,,,,154,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,2011,false,,,,,,,,,,,,,17,,,,,,17,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,2011,false,,,,,,,,,,,,,272,,,,,,272,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,2011,false,,,,,,,,,,,,,276,,,,,,276,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,2011,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,2011,false,,,,,,,,,,,,,44,,,,,,44,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2011,false,,,,,,,,,,,,,5590,,,,,,5590,,,EN,2017-06-28T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,2011,false,,,,,,,,,,,,,57,,,,,,57,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,2011,false,,,,,,,,,,,,,61,,,,,,61,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,2011,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2011,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,2011,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,2011,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,2011,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2011,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,2010,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2010,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,2010,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,2010,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2010,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,2010,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,2010,false,,,,,,,,,,,,,101,,,,,,101,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,2010,false,,,,,,,,,,,,,16,,,,,,16,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,2010,false,,,,,,,,,,,,,199,,,,,,199,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,2010,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,2010,false,,,,,,,,,,,,,211,,,,,,211,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,2010,false,,,,,,,,,,,,,22,,,,,,22,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,2010,false,,,,,,,,,,,,,232,,,,,,232,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2010,false,,,,,,,,,,,,,395,,,,,,395,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2010,false,,,,,,,,,,,,,5624,,,,,,5624,,,EN,2017-06-28T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,2010,false,,,,,,,,,,,,,68,,,,,,68,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2010,false,,,,,,,,,,,,,8,,,,,,8,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2010,false,,,,,,,,,,,,,8,,,,,,8,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,2010,false,,,,,,,,,,,,,87,,,,,,87,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,2010,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2010,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,2010,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,2010,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,2010,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,2009,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2009,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,2009,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,2009,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,2009,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,2009,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2009,false,,,,,,,,,,,,,1054,,,,,,1054,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,2009,false,,,,,,,,,,,,,14,,,,,,14,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,2009,false,,,,,,,,,,,,,24,,,,,,24,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,2009,false,,,,,,,,,,,,,247,,,,,,247,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,2009,false,,,,,,,,,,,,,373,,,,,,373,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,2009,false,,,,,,,,,,,,,510,,,,,,510,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2009,false,,,,,,,,,,,,,7,,,,,,7,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2009,false,,,,,,,,,,,,,7178,,,,,,7178,,,EN,2017-06-28T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,2009,false,,,,,,,,,,,,,79,,,,,,79,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2009,false,,,,,,,,,,,,,8,,,,,,8,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,2009,false,,,,,,,,,,,,,87,,,,,,87,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,2009,false,,,,,,,,,,,,,99,,,,,,99,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,2009,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2009,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,2009,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,2009,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,2009,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2009,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,2008,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2008,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,2008,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,2008,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,2008,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,2008,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2008,false,,,,,,,,,,,,,11,,,,,,11,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2008,false,,,,,,,,,,,,,1194,,,,,,1194,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,2008,false,,,,,,,,,,,,,13,,,,,,13,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2008,false,,,,,,,,,,,,,14,,,,,,14,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,2008,false,,,,,,,,,,,,,182,,,,,,182,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,2008,false,,,,,,,,,,,,,196,,,,,,196,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,2008,false,,,,,,,,,,,,,198,,,,,,198,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,2008,false,,,,,,,,,,,,,24,,,,,,24,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,2008,false,,,,,,,,,,,,,517,,,,,,517,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,2008,false,,,,,,,,,,,,,623,,,,,,623,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2008,false,,,,,,,,,,,,,7318,,,,,,7318,,,EN,2017-06-28T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,2008,false,,,,,,,,,,,,,90,,,,,,90,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,2008,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2008,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,2008,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,2008,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,2008,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2008,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,2007,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2007,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,2007,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,2007,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,2007,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,2007,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,2007,false,,,,,,,,,,,,,120,,,,,,120,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2007,false,,,,,,,,,,,,,13,,,,,,13,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2007,false,,,,,,,,,,,,,15,,,,,,15,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,2007,false,,,,,,,,,,,,,189,,,,,,189,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,2007,false,,,,,,,,,,,,,30,,,,,,30,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,2007,false,,,,,,,,,,,,,469,,,,,,469,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,2007,false,,,,,,,,,,,,,648,,,,,,648,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2007,false,,,,,,,,,,,,,654,,,,,,654,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,2007,false,,,,,,,,,,,,,69,,,,,,69,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,2007,false,,,,,,,,,,,,,7,,,,,,7,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2007,false,,,,,,,,,,,,,8155,,,,,,8155,,,EN,2017-06-28T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,2007,false,,,,,,,,,,,,,97,,,,,,97,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,2007,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2007,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,2007,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,2007,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,2007,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2007,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,2006,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2006,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,2006,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,2006,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,2006,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,2006,false,,,,,,,,,,,,,1105,,,,,,1105,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2006,false,,,,,,,,,,,,,13,,,,,,13,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,2006,false,,,,,,,,,,,,,15,,,,,,15,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,2006,false,,,,,,,,,,,,,276,,,,,,276,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2006,false,,,,,,,,,,,,,29,,,,,,29,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,2006,false,,,,,,,,,,,,,290,,,,,,290,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,2006,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,2006,false,,,,,,,,,,,,,300,,,,,,300,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,2006,false,,,,,,,,,,,,,31,,,,,,31,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2006,false,,,,,,,,,,,,,460,,,,,,460,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,2006,false,,,,,,,,,,,,,48,,,,,,48,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,2006,false,,,,,,,,,,,,,789,,,,,,789,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2006,false,,,,,,,,,,,,,8013,,,,,,8013,,,EN,2017-06-28T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,2006,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2006,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,2006,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,2006,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,2006,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2006,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,2005,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2005,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,2005,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,2005,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,2005,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2005,false,,,,,,,,,,,,,10249,,,,,,10 249,,,EN,2017-06-28T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2005,false,,,,,,,,,,,,,17,,,,,,17,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,2005,false,,,,,,,,,,,,,1727,,,,,,1727,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,2005,false,,,,,,,,,,,,,1853,,,,,,1853,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,2005,false,,,,,,,,,,,,,190,,,,,,190,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,2005,false,,,,,,,,,,,,,21,,,,,,21,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,2005,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,2005,false,,,,,,,,,,,,,311,,,,,,311,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,2005,false,,,,,,,,,,,,,398,,,,,,398,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2005,false,,,,,,,,,,,,,42,,,,,,42,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,2005,false,,,,,,,,,,,,,53,,,,,,53,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2005,false,,,,,,,,,,,,,666,,,,,,666,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,2005,false,,,,,,,,,,,,,94,,,,,,94,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,2005,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2005,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,2005,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,2005,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,2005,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2005,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,2004,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2004,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,2004,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,2004,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,2004,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,2004,false,,,,,,,,,,,,,10,,,,,,10,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2004,false,,,,,,,,,,,,,10339,,,,,,10 339,,,EN,2017-06-28T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,2004,false,,,,,,,,,,,,,17,,,,,,17,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,2004,false,,,,,,,,,,,,,1742,,,,,,1742,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2004,false,,,,,,,,,,,,,22,,,,,,22,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,2004,false,,,,,,,,,,,,,2280,,,,,,2280,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,2004,false,,,,,,,,,,,,,378,,,,,,378,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,2004,false,,,,,,,,,,,,,483,,,,,,483,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,2004,false,,,,,,,,,,,,,49,,,,,,49,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2004,false,,,,,,,,,,,,,738,,,,,,738,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2004,false,,,,,,,,,,,,,74,,,,,,74,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,2004,false,,,,,,,,,,,,,873,,,,,,873,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,2004,false,,,,,,,,,,,,,95,,,,,,95,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,2004,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2004,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,2004,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,2004,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,2004,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2004,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,2003,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2003,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,2003,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,2003,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,2003,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2003,false,,,,,,,,,,,,,11459,,,,,,11 459,,,EN,2017-06-28T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,2003,false,,,,,,,,,,,,,130,,,,,,130,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,2003,false,,,,,,,,,,,,,222,,,,,,222,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2003,false,,,,,,,,,,,,,23,,,,,,23,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,2003,false,,,,,,,,,,,,,26,,,,,,26,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,2003,false,,,,,,,,,,,,,3061,,,,,,3061,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,2003,false,,,,,,,,,,,,,31,,,,,,31,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,2003,false,,,,,,,,,,,,,3115,,,,,,3115,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,2003,false,,,,,,,,,,,,,33,,,,,,33,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,2003,false,,,,,,,,,,,,,517,,,,,,517,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2003,false,,,,,,,,,,,,,539,,,,,,539,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2003,false,,,,,,,,,,,,,68,,,,,,68,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,2003,false,,,,,,,,,,,,,717,,,,,,717,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,2003,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2003,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,2003,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,2003,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,2003,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2003,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,2002,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2002,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,2002,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,2002,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,2002,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,2002,false,,,,,,,,,,,,,1005,,,,,,1005,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2002,false,,,,,,,,,,,,,13816,,,,,,13 816,,,EN,2017-06-28T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,2002,false,,,,,,,,,,,,,132,,,,,,132,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,2002,false,,,,,,,,,,,,,26,,,,,,26,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,2002,false,,,,,,,,,,,,,26,,,,,,26,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,2002,false,,,,,,,,,,,,,3121,,,,,,3121,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,2002,false,,,,,,,,,,,,,32,,,,,,32,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2002,false,,,,,,,,,,,,,32,,,,,,32,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,2002,false,,,,,,,,,,,,,3621,,,,,,3621,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2002,false,,,,,,,,,,,,,572,,,,,,572,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,2002,false,,,,,,,,,,,,,604,,,,,,604,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,2002,false,,,,,,,,,,,,,715,,,,,,715,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2002,false,,,,,,,,,,,,,97,,,,,,97,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,2002,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2002,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,2002,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,2002,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,2002,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2002,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,2001,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2001,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,2001,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,2001,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,2001,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,2001,false,,,,,,,,,,,,,138,,,,,,138,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,2001,false,,,,,,,,,,,,,14,,,,,,14,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,2001,false,,,,,,,,,,,,,14,,,,,,14,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2001,false,,,,,,,,,,,,,17,,,,,,17,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2001,false,,,,,,,,,,,,,17300,,,,,,17 300,,,EN,2017-06-28T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,2001,false,,,,,,,,,,,,,1919,,,,,,1919,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,2001,false,,,,,,,,,,,,,30,,,,,,30,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,2001,false,,,,,,,,,,,,,310,,,,,,310,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,2001,false,,,,,,,,,,,,,4577,,,,,,4577,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2001,false,,,,,,,,,,,,,718,,,,,,718,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,2001,false,,,,,,,,,,,,,72,,,,,,72,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,2001,false,,,,,,,,,,,,,894,,,,,,894,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2001,false,,,,,,,,,,,,,92,,,,,,92,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,2001,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2001,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,2001,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,2001,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,2001,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2001,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,2000,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,2000,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,2000,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,2000,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,2000,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,2000,false,,,,,,,,,,,,,111,,,,,,111,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,2000,false,,,,,,,,,,,,,14,,,,,,14,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,2000,false,,,,,,,,,,,,,153,,,,,,153,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,2000,false,,,,,,,,,,,,,16,,,,,,16,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,2000,false,,,,,,,,,,,,,16951,,,,,,16 951,,,EN,2017-06-28T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,2000,false,,,,,,,,,,,,,1801,,,,,,1801,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,2000,false,,,,,,,,,,,,,188,,,,,,188,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,2000,false,,,,,,,,,,,,,27,,,,,,27,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,2000,false,,,,,,,,,,,,,45,,,,,,45,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,2000,false,,,,,,,,,,,,,4546,,,,,,4546,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,2000,false,,,,,,,,,,,,,52,,,,,,52,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,2000,false,,,,,,,,,,,,,948,,,,,,948,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,2000,false,,,,,,,,,,,,,988,,,,,,988,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,2000,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,2000,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,2000,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,2000,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,2000,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,2000,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,1999,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,1999,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,1999,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,1999,false,,,,,,,,,,,,,1036,,,,,,1036,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,1999,false,,,,,,,,,,,,,104,,,,,,104,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,1999,false,,,,,,,,,,,,,1312,,,,,,1312,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,1999,false,,,,,,,,,,,,,15,,,,,,15,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,1999,false,,,,,,,,,,,,,18684,,,,,,18 684,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,1999,false,,,,,,,,,,,,,187,,,,,,187,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,1999,false,,,,,,,,,,,,,20,,,,,,20,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,1999,false,,,,,,,,,,,,,27,,,,,,27,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,1999,false,,,,,,,,,,,,,28,,,,,,28,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,1999,false,,,,,,,,,,,,,32,,,,,,32,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,1999,false,,,,,,,,,,,,,38,,,,,,38,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,1999,false,,,,,,,,,,,,,5351,,,,,,5351,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,1999,false,,,,,,,,,,,,,68,,,,,,68,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,1999,false,,,,,,,,,,,,,869,,,,,,869,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,1999,false,,,,,,,,,,,,,91,,,,,,91,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,1999,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,1999,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,1999,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,1999,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,1999,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,1999,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,1998,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,1998,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,1998,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,1998,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,1998,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,1998,false,,,,,,,,,,,,,1068,,,,,,1068,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,1998,false,,,,,,,,,,,,,121,,,,,,121,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,1998,false,,,,,,,,,,,,,134,,,,,,134,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,1998,false,,,,,,,,,,,,,15,,,,,,15,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,1998,false,,,,,,,,,,,,,1726,,,,,,1726,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,1998,false,,,,,,,,,,,,,201,,,,,,201,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,1998,false,,,,,,,,,,,,,26318,,,,,,26 318,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,1998,false,,,,,,,,,,,,,54,,,,,,54,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,1998,false,,,,,,,,,,,,,6,,,,,,6,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,1998,false,,,,,,,,,,,,,62,,,,,,62,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,1998,false,,,,,,,,,,,,,6610,,,,,,6610,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,1998,false,,,,,,,,,,,,,971,,,,,,971,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,1998,false,,,,,,,,,,,,,99,,,,,,99,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,1998,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,1998,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,1998,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,1998,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,1998,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,1998,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,1997,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,1997,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,1997,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,1997,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,1997,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,1997,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,1997,false,,,,,,,,,,,,,10,,,,,,10,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,1997,false,,,,,,,,,,,,,11,,,,,,11,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,1997,false,,,,,,,,,,,,,1123,,,,,,1123,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,1997,false,,,,,,,,,,,,,122,,,,,,122,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,1997,false,,,,,,,,,,,,,142,,,,,,142,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,1997,false,,,,,,,,,,,,,185,,,,,,185,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,1997,false,,,,,,,,,,,,,25094,,,,,,25 094,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,1997,false,,,,,,,,,,,,,67,,,,,,67,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,1997,false,,,,,,,,,,,,,730,,,,,,730,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,1997,false,,,,,,,,,,,,,737,,,,,,737,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,1997,false,,,,,,,,,,,,,8275,,,,,,8275,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,1997,false,,,,,,,,,,,,,88,,,,,,88,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,1997,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,1997,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,1997,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,1997,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,1997,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,1997,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,1996,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,1996,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,1996,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,1996,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,1996,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,1996,false,,,,,,,,,,,,,12,,,,,,12,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,1996,false,,,,,,,,,,,,,157,,,,,,157,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,1996,false,,,,,,,,,,,,,17,,,,,,17,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,1996,false,,,,,,,,,,,,,178,,,,,,178,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,1996,false,,,,,,,,,,,,,19342,,,,,,19 342,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,1996,false,,,,,,,,,,,,,240,,,,,,240,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,1996,false,,,,,,,,,,,,,32,,,,,,32,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,1996,false,,,,,,,,,,,,,38,,,,,,38,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,1996,false,,,,,,,,,,,,,46,,,,,,46,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,1996,false,,,,,,,,,,,,,474,,,,,,474,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,1996,false,,,,,,,,,,,,,492,,,,,,492,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,1996,false,,,,,,,,,,,,,6726,,,,,,6726,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,1996,false,,,,,,,,,,,,,981,,,,,,981,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,1996,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,1996,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,1996,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,1996,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,1996,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,1996,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,1995,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,1995,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,1995,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,1995,false,,,,,,,,,,,,,1062,,,,,,1062,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,1995,false,,,,,,,,,,,,,11,,,,,,11,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,1995,false,,,,,,,,,,,,,13,,,,,,13,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,1995,false,,,,,,,,,,,,,18182,,,,,,18 182,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,1995,false,,,,,,,,,,,,,20,,,,,,20,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,1995,false,,,,,,,,,,,,,21,,,,,,21,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,1995,false,,,,,,,,,,,,,2441,,,,,,2441,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,1995,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,1995,false,,,,,,,,,,,,,315,,,,,,315,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,1995,false,,,,,,,,,,,,,326,,,,,,326,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,1995,false,,,,,,,,,,,,,33,,,,,,33,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,1995,false,,,,,,,,,,,,,37,,,,,,37,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,1995,false,,,,,,,,,,,,,475,,,,,,475,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,1995,false,,,,,,,,,,,,,56,,,,,,56,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,1995,false,,,,,,,,,,,,,676,,,,,,676,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,1995,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,1995,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,1995,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,1995,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,1995,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,1995,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,1994,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,1994,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,1994,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,1994,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,1994,false,,,,,,,,,,,,,1274,,,,,,1274,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,1994,false,,,,,,,,,,,,,1469,,,,,,1469,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,1994,false,,,,,,,,,,,,,17,,,,,,17,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,1994,false,,,,,,,,,,,,,18,,,,,,18,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,1994,false,,,,,,,,,,,,,19021,,,,,,19 021,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,1994,false,,,,,,,,,,,,,20,,,,,,20,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,1994,false,,,,,,,,,,,,,206,,,,,,206,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,1994,false,,,,,,,,,,,,,214,,,,,,214,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,1994,false,,,,,,,,,,,,,26,,,,,,26,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,1994,false,,,,,,,,,,,,,368,,,,,,368,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,1994,false,,,,,,,,,,,,,418,,,,,,418,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,1994,false,,,,,,,,,,,,,61,,,,,,61,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,1994,false,,,,,,,,,,,,,69,,,,,,69,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,1994,false,,,,,,,,,,,,,85,,,,,,85,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,1994,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,1994,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,1994,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,1994,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,1994,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,1994,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,1993,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,1993,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,1993,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,1993,false,,,,,,,,,,,,,1,,,,,,1,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,1993,false,,,,,,,,,,,,,11384,,,,,,11 384,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,1993,false,,,,,,,,,,,,,17,,,,,,17,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,1993,false,,,,,,,,,,,,,1764,,,,,,1764,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,1993,false,,,,,,,,,,,,,1796,,,,,,1796,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,1993,false,,,,,,,,,,,,,260,,,,,,260,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,1993,false,,,,,,,,,,,,,262,,,,,,262,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,1993,false,,,,,,,,,,,,,27,,,,,,27,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,1993,false,,,,,,,,,,,,,27,,,,,,27,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,1993,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,1993,false,,,,,,,,,,,,,30,,,,,,30,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,1993,false,,,,,,,,,,,,,62,,,,,,62,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,1993,false,,,,,,,,,,,,,65,,,,,,65,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,1993,false,,,,,,,,,,,,,80,,,,,,80,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,1993,false,,,,,,,,,,,,,829,,,,,,829,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,1993,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,1993,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,1993,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,1993,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,1993,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,1993,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,1992,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,1992,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,1992,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,1992,false,,,,,,,,,,,,,149,,,,,,149,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,1992,false,,,,,,,,,,,,,16,,,,,,16,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,1992,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,1992,false,,,,,,,,,,,,,20,,,,,,20,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,1992,false,,,,,,,,,,,,,2042,,,,,,2042,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,1992,false,,,,,,,,,,,,,21,,,,,,21,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,1992,false,,,,,,,,,,,,,24,,,,,,24,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,1992,false,,,,,,,,,,,,,2406,,,,,,2406,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,1992,false,,,,,,,,,,,,,28,,,,,,28,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,1992,false,,,,,,,,,,,,,33,,,,,,33,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,1992,false,,,,,,,,,,,,,362,,,,,,362,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,1992,false,,,,,,,,,,,,,45,,,,,,45,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,1992,false,,,,,,,,,,,,,456,,,,,,456,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,1992,false,,,,,,,,,,,,,727,,,,,,727,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,1992,false,,,,,,,,,,,,,7757,,,,,,7757,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,1992,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,1992,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,1992,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,1992,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,1992,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,1992,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,1991,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,1991,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,1991,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,1991,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,1991,false,,,,,,,,,,,,,1328,,,,,,1328,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,1991,false,,,,,,,,,,,,,197,,,,,,197,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,1991,false,,,,,,,,,,,,,2094,,,,,,2094,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,1991,false,,,,,,,,,,,,,221,,,,,,221,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,1991,false,,,,,,,,,,,,,27,,,,,,27,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,1991,false,,,,,,,,,,,,,29,,,,,,29,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,1991,false,,,,,,,,,,,,,349,,,,,,349,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,1991,false,,,,,,,,,,,,,36,,,,,,36,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,1991,false,,,,,,,,,,,,,45,,,,,,45,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,1991,false,,,,,,,,,,,,,58,,,,,,58,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,1991,false,,,,,,,,,,,,,5825,,,,,,5825,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,1991,false,,,,,,,,,,,,,6,,,,,,6,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,1991,false,,,,,,,,,,,,,69,,,,,,69,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,1991,false,,,,,,,,,,,,,703,,,,,,703,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,1991,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,1991,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,1991,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,1991,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,1991,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,1991,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BEN,Benin,Year,1990,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,MLI,Mali,Year,1990,false,,,,,,,,,,,,,0,,,,,,0,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,AGO,Angola,Year,1990,false,,,,,,,,,,,,,1498,,,,,,1498,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TGO,Togo,Year,1990,false,,,,,,,,,,,,,2,,,,,,2,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,TCD,Chad,Year,1990,false,,,,,,,,,,,,,20,,,,,,20,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,UGA,Uganda,Year,1990,false,,,,,,,,,,,,,2066,,,,,,2066,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NGA,Nigeria,Year,1990,false,,,,,,,,,,,,,24,,,,,,24,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,BFA,Burkina Faso,Year,1990,false,,,,,,,,,,,,,27,,,,,,27,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GHA,Ghana,Year,1990,false,,,,,,,,,,,,,3,,,,,,3,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CAF,Central African Republic,Year,1990,false,,,,,,,,,,,,,308,,,,,,308,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CIV,Côte d’Ivoire,Year,1990,false,,,,,,,,,,,,,365,,,,,,365,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GIN,Guinea,Year,1990,false,,,,,,,,,,,,,52,,,,,,52,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COG,Congo,Year,1990,false,,,,,,,,,,,,,580,,,,,,580,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNQ,Equatorial Guinea,Year,1990,false,,,,,,,,,,,,,63,,,,,,63,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SSD,South Sudan,Year,1990,false,,,,,,,,,,,,,67,,,,,,67,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,COD,Democratic Republic of the Congo,Year,1990,false,,,,,,,,,,,,,7515,,,,,,7515,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GAB,Gabon,Year,1990,false,,,,,,,,,,,,,80,,,,,,80,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,CMR,Cameroon,Year,1990,false,,,,,,,,,,,,,86,,,,,,86,,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GMB,Gambia,Year,1990,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,GNB,Guinea-Bissau,Year,1990,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,LBR,Liberia,Year,1990,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,NER,Niger,Year,1990,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SEN,Senegal,Year,1990,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
+NTD_4,Number of new reported cases of human African trypanosomiasis (T.b. gambiense),numeric,AFR,Africa,Country,SLE,Sierra Leone,Year,1990,false,,,,,,,,,,,,,,,,,,,No data,827,,EN,2014-10-31T04:00:00.000Z
