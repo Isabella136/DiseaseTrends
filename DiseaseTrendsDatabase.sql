@@ -1,10 +1,17 @@
+DROP TABLE Cases;
+DROP TABLE Vaccines;
+DROP TABLE Deaths;
+DROP TABLE DisabilityAdjustedLifeYears;
+DROP TABLE DiseaseInfo;
+DROP TABLE Country;
+
 CREATE TABLE Country(
     CountryCode CHAR(3),
     Year INT,
     CountryName VARCHAR(255),
     TotalPopulation INT,
     ParentRegion VARCHAR(255),
-    ParentRegionCode CHAR(3),
+    ParentRegionCode CHAR(4),
     PRIMARY KEY(CountryCode, Year));
 
 CREATE TABLE DiseaseInfo(
