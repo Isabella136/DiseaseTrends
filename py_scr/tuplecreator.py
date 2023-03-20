@@ -141,10 +141,9 @@ for dataset in WHO_datasets:
             disease_info_tuples.update({("'" + row[6] + "'", row[9], "'" + row[0] + "'", sex, causes, severity, agegroup) :
                                         ["'" + row[1] + "'", estimated_vs_reported, true_or_false, species, 
                                          disease, population_group]})
-
+year_list = list()
 with open("datasets/Country_Population.csv",'r') as country_pop_file:
     country_pop_reader = csv.reader(country_pop_file)
-    year_list = list()
     for row_num, row in enumerate(country_pop_reader):
         if row_num < 4:
             continue
@@ -164,17 +163,17 @@ with open("DiseaseTrendsInputData.sql", 'w') as SQL_file:
         SQL_file.write(country(key,value))
     SQL_file.write("COMMIT;\n\n")
     for key, value in disease_info_tuples.items():
-        if country_to_region_dict[key[0][1:-1]][2]: SQL_file.write(disease_info(key,value))
+        if country_to_region_dict[key[0][1:-1]][2] and (key[1] in year_list): SQL_file.write(disease_info(key,value))
     SQL_file.write("COMMIT;\n\n")
     for key, value in disability_adjusted_life_years_tuples.items():
-        if country_to_region_dict[key[0][1:-1]][2]: SQL_file.write(disability_adjusted_life_years(key,value))
+        if country_to_region_dict[key[0][1:-1]][2] and (key[1] in year_list): SQL_file.write(disability_adjusted_life_years(key,value))
     SQL_file.write("COMMIT;\n\n")
     for key, value in deaths_tuples.items():
-        if country_to_region_dict[key[0][1:-1]][2]: SQL_file.write(deaths(key,value))
+        if country_to_region_dict[key[0][1:-1]][2] and (key[1] in year_list): SQL_file.write(deaths(key,value))
     SQL_file.write("COMMIT;\n\n")
     for key, value in cases_tuples.items():
-        if country_to_region_dict[key[0][1:-1]][2]: SQL_file.write(cases(key,value))
+        if country_to_region_dict[key[0][1:-1]][2] and (key[1] in year_list): SQL_file.write(cases(key,value))
     SQL_file.write("COMMIT;\n\n")
     for key, value in vaccines_tuples.items():
-        if country_to_region_dict[key[0][1:-1]][2]: SQL_file.write(vaccines(key,value))
+        if country_to_region_dict[key[0][1:-1]][2] and (key[1] in year_list): SQL_file.write(vaccines(key,value))
     SQL_file.write("COMMIT;\n\n")
