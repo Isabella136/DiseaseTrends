@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Disease Trends Search</title>
+  <style>
+    /* Global styles */
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Header styles */
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 10px;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    /* Search Bar styles */
+    #search-bar {
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    
+    #search-bar input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      margin-right: 10px;
+    }
+    
+    .search-options {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    
+    .search-options label {
+      margin-right: 10px;
+      font-weight: bold;
+    }
+    
+    .search-options select {
+      padding: 5px;
+      border-radius: 5px;
+      border: none;
+      margin-right: 10px;
+    }
+    
+    #search-btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    /* Data Display styles */
+    #data-display {
+      margin: 20px;
+      padding: 10px;
+      background-color: #f1f1f1;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    #data-display button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+    
+    /* Feedback styles */
+    #feedback {
+      margin: 20px;
+      padding: 10px;
+      background-color: #f1f1f1;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    #feedback label {
+      margin-right: 10px;
+      font-weight: bold;
+    }
+    
+    #feedback textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      resize: vertical;
+      min-height: 100px;
+    }
+    
+    #send-feedback-btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Disease Trends Search</h1>
+  </header>
+  
+  <!-- Search Bar Section -->
+  <h2>Search Bar</h2>
+  <div id="search-bar">
+    <input type="text" placeholder="Enter query here...">
+    <div class="search-options">
+      <div class="function-boxes">
+        <label for="functions">Functions:</label>
+        <select id="functions">
+          <option value="count">Count</option>
+          <option value="sum">Sum</option>
+          <option value="avg">Average</option>
+          <option value="max">Maximum</option>
+          <option value="min">Minimum</option>
+        </select>
+      </div>
+      <div class="attribute-boxes">
+        <label for="attributes">Attributes:</label>
+        <select id="attributes">
+          <option value="country">Country</option>
+          <option value="date">Date</option>
+          <option value="disease">Disease</option>
+          <option value="age">Age</option>
+          <!-- Add more attributes here -->
+        </select>
+      </div>
+      <div class="filter-boxes">
+        <label for="filters">Filters:</label>
+        <select id="filters">
+          <option value="include">Include</option>
+          <option value="exclude">Exclude</option>
+        </select>
+      </div>
+    </div>
+    <button id="search-btn">Search</button>
+  </div>
+  
+  <!-- Data Display Section -->
+  <h2>Data Display</h2>
+  <div id="data-display">
+    <!-- Display tables, graphs, charts here -->
+    <button id="back-btn">Back to Search</button>
+    <button id="export-btn">Export Data</button>
+  </div>
+  
+  <!-- Feedback Section -->
+  <h2>Feedback</h2>
+  <div id="feedback">
+    <label for="feedback-box">Leave your feedback here:</label>
+    <textarea id="feedback-box"></textarea>
+    <button id="send-feedback-btn">Send Feedback</button>
+  </div>
+  
+  <script>
+    // Add JavaScript code here
+  </script>
+</body>
+</html>
