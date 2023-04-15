@@ -1,0 +1,25 @@
+{
+  "name": "DiseaseTrends",
+  "version": "1.0.0",
+  "description": "In order to successfully clone this repository, you will need to have Git Large File System installed <https://git-lfs.com/>\r You will also need to have Visual Studio 2019 Redistributable or later included in the PATH variable of your computer",
+  "main": "test.js",
+  "type" : "module",
+  "dependencies": {
+    "oracledb": "^5.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Isabella136/DiseaseTrends.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Isabella136/DiseaseTrends/issues"
+  },
+  "homepage": "https://github.com/Isabella136/DiseaseTrends#readme"
+}
