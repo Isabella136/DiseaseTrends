@@ -1,6 +1,6 @@
 import {username, pw} from "./javascr/logininfo.js";
-
-const oracledb = require('oracledb');
+import oracledb from 'oracledb';
+//const oracledb = require('oracledb');
 oracledb.outFormat = oracledb.OUT_FORMAT_OBJECT;
 
 let con;
@@ -13,6 +13,12 @@ catch (err) {
     process.exit(1);
 }
 
+const key_select = 'SELECT ';
+const key_from = 'FROM ';
+const key_where = 'WHERE ';
+const key_countAll = 'COUNT(*) ';
+const key_NBONIN = 'NBONIN.';
+const table_Cases = 'Cases ';
 async function fun()
 {
     try {
@@ -22,9 +28,6 @@ async function fun()
             connectString : "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=oracle.cise.ufl.edu)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl)))"
         });
 
-        const key_select = 'SELECT ';
-        const key_from = 'FROM ';
-        const key_where = 'WHERE ';
 
         const result = await con.execute(
             key_select + 'cases.year ' + key_from + 'NBONIN.Cases ' + key_where + 'cases.year > 1999'
