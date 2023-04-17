@@ -1,0 +1,45 @@
+header {
+	background-color: #202020;
+	color: #FFF;
+	padding: 20px;
+    text-align: center;
+
+}
+
+section {
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+}
+
+th {
+	background-color: #202020;
+	color: #FFF;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+form {
+	margin-bottom: 20px;
+}
+
+label, select {
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+input[type="submit"]

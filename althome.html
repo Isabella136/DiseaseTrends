@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Disease Trends
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+    </head>
+
+    <body>
+        <h1 style="font-family: 'Times New Roman', Times, serif" style="font-size: 150px">
+            <canvas id="title" width="1000" height="100"></canvas>
+            <script> 
+                var c = document.getElementById("title")
+                var ctx = c.getContext("2d");
+                ctx.font = "60px HelveticaNeue";
+                //ctx.font = "60px Comic Sans MS";
+                ctx.fillStyle = "#12446E";
+                ctx.textAlign = 'center';
+                ctx.fillText('Disease Trends', (c.width / 2), (c.height / 2));
+            </script>
+        </h1>
+        <div>
+            <canvas id="Box" width="1200" height="300" style="border: 1px solid black "></canvas>
+        </div>
+        <script src="script.js"> </script>
+    </body>
+</html>
+
