@@ -1,5 +1,5 @@
 //Commands
-var key_select = 'SELECT ';
+export const key_select = 'SELECT ';
 var key_from = 'FROM ';
 var key_distinct = 'DISTINCT ';
 var key_where = 'WHERE ';
@@ -19,20 +19,5 @@ var table_Vaccines = 'Vaccines ';
 var atr_Cases_Year = 'Cases.Year ';
 var atr_DiseaseInfo_DiseaseName = 'DiseaseInfo.DiseaseName ';
 
-/*
-export { key_select,
-    key_from,
-    key_distinct,
-    key_where,
-    key_countAll,
-    key_All,
-    key_NBONIN,
-    table_Cases,
-    table_Country,
-    table_DiseaseInfo,
-    table_DisabilityAdjustedLifeYears,
-    table_Deaths,
-    table_Vaccines,
-    atr_Cases_Year,
-    atr_DiseaseInfo_DiseaseName
-}; */
+
+export * from "./variables.js";
