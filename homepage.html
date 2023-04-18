@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-   
-        <title>Disease Trends</title>
-    	
+    <title>Disease Trends</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="D3.js"></script>
-</style>
+	<script id= "db" src="script.js"></script>
 </head>
 <body>
 	<header>
 		<h1 style="font-family:Helvetica">Disease Trends</h1>
 	</header>
+	<p id="graphtitle">Graph</p>
+	<script>
+		var temp = document.getElementById("graphtitle");
+		console.log(key_select);
+		fun();
+	</script>
 	<section>
 		<h2>Filter Query by:</h2>
 		<form>
@@ -101,8 +105,5 @@
 			</tbody>
 		</table>
 	</section>
-    <div onload="main()">
-        <p id="graphtitle">Graph</p>
-    </div>
 </body>
 </html>

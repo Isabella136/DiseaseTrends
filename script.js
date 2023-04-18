@@ -1,6 +1,21 @@
-import {username, pw} from "./javascr/logininfo.js";
-import oracledb from 'oracledb';
-//const oracledb = require('oracledb');
+import {username, pw} from ("./javascr/logininfo.js");
+import oracledb from ('oracledb');
+import { key_select,
+    key_from,
+    key_distinct,
+    key_where,
+    key_countAll,
+    key_All,
+    key_NBONIN,
+    table_Cases,
+    table_Country,
+    table_DiseaseInfo,
+    table_DisabilityAdjustedLifeYears,
+    table_Deaths,
+    table_Vaccines,
+    atr_Cases_Year,
+    atr_DiseaseInfo_DiseaseName
+} from ('variables.js');
 oracledb.outFormat = oracledb.OUT_FORMAT_OBJECT;
 
 let con;
@@ -13,12 +28,6 @@ catch (err) {
     process.exit(1);
 }
 
-const key_select = 'SELECT ';
-const key_from = 'FROM ';
-const key_where = 'WHERE ';
-const key_countAll = 'COUNT(*) ';
-const key_NBONIN = 'NBONIN.';
-const table_Cases = 'Cases ';
 async function fun()
 {
     try {
@@ -30,7 +39,7 @@ async function fun()
 
 
         const result = await con.execute(
-            key_select + 'cases.year ' + key_from + 'NBONIN.Cases ' + key_where + 'cases.year > 1999'
+            key_select + key_distinct + atr_DiseaseInfo_DiseaseName + key_from + key_NBONIN + table_DiseaseInfo
         );
         console.log(result.rows)
     }
