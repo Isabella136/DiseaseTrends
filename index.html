@@ -12,113 +12,189 @@
 		<h1>Disease Trends</h1>
 	</header>
 	<section>
-		<h2>Filter Query by:</h2>
-
-		  
+		<h2>Filter Query by:</h2>		  
 		<form>
-			<label for="disease">Disease:</label>
-			<select id="disease" name="disease">
-                <option value="none">none</option>
-				<option value="HIV">HIV</option>
-				<option value="Malaria">Malaria</option>
-				<option value="Tuberculosis">Tuberculosis</option>
-			</select>
-
-            <label for="type">Type:</label>
-			<select id="type" name="type">
-				<option value="none">none</option>
-				<option value="Cases">Cases</option>
-				<option value="Deaths">Deaths</option>
-			</select>
-
-
-
-			<div id="countryDropdown" style="display: inline-block;">
-				<label for="country">Country:</label>
-				<select id="country" name="country">
+			<div class="row">
+			  <div class="column" >
+					  <div>
+						<label for="disease">Disease:</label>
+						<select id="disease" name="disease">
+							<option value="none">none</option>
+							<option value="HIV">HIV</option>
+							<option value="Malaria">Malaria</option>
+							<option value="Tuberculosis">Tuberculosis</option>
+						</select>
+					</div>
+					<div>
+						<label for="type">Type:</label>
+						<select id="type" name="type">
+						<option value="none">none</option>
+						<option value="Cases">Cases</option>
+						<option value="Deaths">Deaths</option>
+					</select>
+					</div>
+							<div>
+						<label for="country">Country:</label>
+						<select id="country" name="country">
+							<option value="none">none</option>
+							<option value="Cuba">Cuba</option>
+							<option value="USA">USA</option>
+							<option value="Canada">Canada</option>
+						</select>
+					</div>	
+								<div id="regionDropdown" style="display: inline-block;">
+							<label for="region">Region:</label>
+							<select id="region" name="region">
+								<option value="none">none</option>
+								<option value="Americas">Americas</option>
+								<option value="Africa">Africa</option>
+								<option value="East Mediterranean">East Mediterranean</option>
+							</select>
+						</div>
+				<div>
+				  <label for="startYear">Start Year:</label>
+				  <select id="startYear" name="startYear">
 					<option value="none">none</option>
-					<option value="Cuba">Cuba</option>
-					<option value="USA">USA</option>
-					<option value="Canada">Canada</option>
-				</select>
-			</div>
-
-			<div id="regionDropdown" style="display: inline-block;">
-				<label for="region">Region:</label>
-				<select id="region" name="region">
+					<option value="2013">2013</option>
+					<option value="2014">2014</option>
+					<option value="2015">2015</option>
+				  </select>
+				</div>
+				<div>
+				  <label for="endYear">End Year:</label>
+				  <select id="endYear" name="endYear">
 					<option value="none">none</option>
-					<option value="Americas">Americas</option>
-					<option value="Africa">Africa</option>
-					<option value="East Mediterranean">East Mediterranean</option>
-				</select>
+					<option value="2013">2013</option>
+					<option value="2014">2014</option>
+					<option value="2015">2015</option>
+				  </select>
+				</div>
+									<div>
+									<label for="populationGroup">Pop Group:</label>
+									<select id="populationGroup" name="populationGroup">
+									  <option value="none">none</option>
+									  <option value="Nationally recommended age (second dose)">Nationally recommended age (2nd dose)</option>
+									</select>
+								</div>
+								<div>
+									<label for="dataset">Dataset:</label>
+									<select id="dataset" name="dataset">
+									<option value="none">None</option>
+									</select>
+								</div>
+										<div>
+									<label for="per">Per:</label>
+									<select id="per" name="per">
+									  <option value="none">none</option>
+									  <option value="rawPop">Raw Population</option>
+									  <option value="by1000inhabitants">By 1000 inhabitants</option>
+									</select>
+								</div>
+				
+			  </div>
+			  <div class="column" >
+					   <div>
+								<div>
+						<label for="interaction">Interaction:</label>
+						<select id="interaction" name="interaction">
+						<option value="none">None</option>
+						<option value="divideBy">Divide By</option>
+						<option value="side-by-side">side-by-side comparison</option>
+						<option value="percentageOf">Percentage of</option>
+						<option value="difference">Difference</option>
+						<option value="yearlyIncrease">Yearly Increase</option>
+						</select>
+						
+					</div>
+								<div>
+						<label for="disease2">Disease:</label>
+						<select id="disease2" name="disease2">
+							<option value="none">none</option>
+							<option value="HIV">HIV</option>
+							<option value="Malaria">Malaria</option>
+							<option value="Tuberculosis">Tuberculosis</option>
+						</select>
+					</div>
+							<div>
+						<label for="type2">Type:</label>
+						<select id="type2" name="type2">
+							<option value="none">none</option>
+							<option value="Cases">Cases</option>
+							<option value="Deaths">Deaths</option>
+						</select>
+					</div>
+								<div>
+						<div id="countryDropdown" style="display: inline-block;">
+							<label for="countryDropdown">Country:</label>
+							<select id="countryDropdown" name="countryDropdown">
+								<option value="none">none</option>
+								<option value="Cuba">Cuba</option>
+								<option value="USA">USA</option>
+								<option value="Canada">Canada</option>
+							</select>
+						</div>
+									<div>
+						<div id="regionDropdown2" style="display: inline-block;">
+							<label for="regionDropdown2">Region:</label>
+							<select id="regionDropdown2" name="regionDropdown2">
+								<option value="none">none</option>
+								<option value="Americas">Americas</option>
+								<option value="Africa">Africa</option>
+								<option value="East Mediterranean">East Mediterranean</option>
+							</select>
+						</div>
+									<div>
+						<label for="startYear2">Start Year:</label>
+						<select id="startYear2" name="startYear2">
+							<option value="none">none</option>
+							<option value="2013">2013</option>
+							<option value="2014">2014</option>
+							<option value="2015">2015</option>
+						</select>
+					</div>
+								<div>
+						<label for="endYear2">End Year:</label>
+						<select id="endYear2" name="endYear2">
+							<option value="none">none</option>
+							<option value="2013">2013</option>
+							<option value="2014">2014</option>
+							<option value="2015">2015</option>
+						</select>
+					</div>
+							<div>
+						<label for="populationGroup2">Pop Group:</label>
+						<select id="populationGroup2" name="populationGroup2">
+						  <option value="none">none</option>
+						  <option value="Nationally recommended age (second dose)">Nationally recommended age (2nd dose)</option>
+						</select>
+					</div>
+							<div>
+						<label for="dataset2">Dataset:</label>
+						<select id="dataset2" name="dataset2">
+						<option value="none">None</option>
+						</select>
+					</div>
+						<label for="per2">Per:</label>
+						<select id="per2" name="per2">
+						  <option value="none">none</option>
+						  <option value="rawPop">Raw Population</option>
+						  <option value="by1000inhabitants">By 1000 inhabitants</option>
+						</select>
+					</div>
+					
+					
+			  </div>
 			</div>
-
-			<label for="startYear">Start Year:</label>
-			<select id="startYear" name="startYear">
-				<option value="none">none</option>
-				<option value="2013">2013</option>
-				<option value="2014">2014</option>
-				<option value="2015">2015</option>
-				<option value="2016">2016</option>
-				<option value="2017">2017</option>
-				<option value="2018">2018</option>
-				<option value="2019">2019</option>
-				<option value="2020">2020</option>
-				<option value="2021">2021</option>
-			</select>
-
-			<label for="endYear">End Year:</label>
-			<select id="endYear" name="endYear">
-				<option value="none">none</option>
-				<option value="2013">2013</option>
-				<option value="2014">2014</option>
-				<option value="2015">2015</option>
-				<option value="2016">2016</option>
-				<option value="2017">2017</option>
-				<option value="2018">2018</option>
-				<option value="2019">2019</option>
-				<option value="2020">2020</option>
-				<option value="2021">2021</option>
-			</select>
+			
+			<div class = "Submit-Buttons">
+				<input type="submit" value="Total Number of Tuples">
+				<input type="submit" value="Search">
+				</div>
+			</form>
 
 
-			<label for="populationGroup">Population Group:</label>
-			<select id="populationGroup" name="populationGroup">
-			  <option value="none">none</option>
-			  <option value="Nationally recommended age (second dose)">Nationally recommended age (second dose)</option>
-			</select>
-
-			<label for="interaction">Interaction:</label>
-			<select id="interaction" name="interaction">
-    		<option value="none">None</option>
-    		<option value="divideBy">Divide By</option>
-			<option value="side-by-side">side-by-side comparison</option>
-    		<option value="percentageOf">Percentage of</option>
-			<option value="difference">Difference</option>
-			<option value="yearlyIncrease">Yearly Increase</option>
-			</select>
-
-			<label for="population">Population:</label>
-			<select id="category" name="category">
-			  <option value="none">none</option>
-			  <option value="rawPop">Raw Population</option>
-			  <option value="by1000inhabitants">By 1000 inhabitants</option>
-			</select>
-
-			<div id="countryDropdown" style="display: inline-block;">
-				<label for="country">Country:</label>
-				<select id="country" name="country">
-					<option value="none">none</option>
-					<option value="Cuba">Cuba</option>
-					<option value="USA">USA</option>
-					<option value="Canada">Canada</option>
-				</select>
-			</div>
-
-             <input type="submit" value="Total Number of Tuples">
-			<input type="submit" value="Search">
-		</form>
 	</section>
+	
 	<section>
 		<table>
 			<thead>
@@ -157,5 +233,6 @@
 			</tbody>
 		</table>
 	</section>
+	<script>src= "behavior.js"</script>
 </body>
 </html>

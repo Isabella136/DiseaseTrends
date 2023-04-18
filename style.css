@@ -2,45 +2,67 @@ header {
 	background-color: #202020;
 	color: #FFF;
 	padding: 20px;
-    text-align: center;
-
-}
-
-section {
+	text-align: center;
+  }
+  
+  section {
 	padding: 20px;
-}
-
-h1 {
+  }
+  
+  h1 {
 	margin: 0;
-}
-
-table {
+  }
+  
+  table {
 	border-collapse: collapse;
 	width: 100%;
-}
-
-th, td {
+  }
+  
+  th, td {
 	text-align: left;
 	padding: 8px;
-}
-
-th {
+  }
+  
+  th {
 	background-color: #202020;
 	color: #FFF;
-}
-
-tr:nth-child(even) {
+  }
+  
+  tr:nth-child(even) {
 	background-color: #f2f2f2;
-}
-
-form {
+  }
+  
+  form {
 	margin-bottom: 20px;
-}
-
-label, select {
-	font-size: 18px;	
+  }
+  
+  label {
+	font-size: 24px; /* Increase label font size */
 	margin-right: 1px;
+  }
+  
+  select {
+	font-size: 16px; /* Decrease option font size */
+	margin-right: 1px;
+  }
+  
+  input[type="submit"] {
+	font-size: 18px; /* Adjust font size for submit buttons, if needed */
+  }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-input[type="submit"]
+.column {
+    flex: 1;
+    min-width: calc(50% - 10px);
+    max-width: calc(50% - 10px);
+}
+
+.Submit-Buttons{
+	justify-content: center;
+	align-items: center
+}
