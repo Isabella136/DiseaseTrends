@@ -38,8 +38,9 @@ form {
 }
 
 label, select {
-	font-size: 16px;
-	margin-right: 10px;
+	font-size: 18px;	
+	margin-right: 1px;
+
 }
 
 input[type="submit"]
