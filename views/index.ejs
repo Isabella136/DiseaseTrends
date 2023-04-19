@@ -989,10 +989,10 @@
                 <div class="Submit-Buttons">
                     <div>
                         <label for="interaction">Interaction:</label>
-                        <select id="interaction" name="interaction">
+                        <select id="interaction" name="interaction" onchange="queryOptions()">
                             <option value="none">None</option>
                             <option value="divideBy">Divide By</option>
-                            <option value="side-by-side">side-by-side comparison</option>
+                            <option value="side-by-side">Side-by-Side comparison</option>
                             <option value="percentageOf">Percentage of</option>
                             <option value="difference">Difference</option>
                             <option value="yearlyIncrease">Yearly Increase</option>
@@ -1086,269 +1086,916 @@
                     query1 = 'SELECT DISTINCT';
                     var groupBy = '';
                     
-                    //Query 1
-
-                    if (regionVal == 'none')
-                    {
-                        query1 += ' CountryName';
-                        groupBy += ' CountryName';
-                    }
-                    else
-                    {
-                        query1 += ' ParentRegion';
-                        groupBy += ' ParentRegion';
-                        isRegion = true;
-                    }
-
-                    var numericVal = '';
-                    if (typeVal == 'NBONIN.DisabilityAdjustedLifeYears')
-                    {
-                        numericVal = 'LikelyValue';
-                    } else if (typeVal == 'NBONIN.Vaccines')
-                    {
-                        numericVal = 'Rates';
-                    } else
-                    {
-                        numericVal = 'LikelyValue_Numeric';
-                    }
-
-                    var includeYear_ = document.getElementById("yearCheckbox");
-                    if (!Average_.checked)
-                    {
-                        if (includeYear_.checked)
-                        {
-                            query1 += ', ' + typeVal + '.Year';
-                            groupBy += ', ' + typeVal + '.Year';
-                        }
-                        if (perVal == 'rawPop')
-                        {
-                            query1 += ', SUM(' + typeVal + '.' + numericVal + ')';
-                        } else
-                        {
-                            query1 += ', SUM(' + typeVal + '.' + numericVal + '/ 1000)';
-                        }
-                    }
-                    else
-                    {
-                        if (perVal == 'rawPop')
-                        {
-                            query1 += ', AVG(' + typeVal + '.' + numericVal + ')';
-                        } else
-                        {
-                            query1 += ', AVG(' + typeVal + '.' + numericVal + '/ 1000)';
-                        }
-                    }
-
-                    query1 += ' FROM (' + typeVal + ' INNER JOIN ' + table_country + ' ON ' + typeVal + '.CountryCode = ' + table_country + '.CountryCode)';
-                    query1 += ' INNER JOIN ' + table_disease + ' ON ' + table_disease + '.IndicatorCode = ' + typeVal + '.IndicatorCode';
-
-                    var hasWhere = false;
-
-                    if (diseaseVal == 'all' && startYearVal == "" && endYearVal == "" && dataSetVal == 'none' && populationGroupVal == 'none')
-                    {
-                        hasWhere = true;
-                    }
-
-                    if (!isRegion)
-                    {
-                        if (countryVal != 'all')
-                        {
-                            query1 += ' WHERE ' + table_country + '.CountryName = \'' + countryVal + '\'';
-                            hasWhere = true;
-                        } 
-                        if (diseaseVal != 'all')
-                        {
-                            query1 += ' AND ';
-                        }
-                    } 
-                    else
-                    {
-                        query1 += ' WHERE ' + table_country + '.ParentRegion = \'' + regionVal + '\'';
-                        hasWhere = true;
-                        if (diseaseVal != 'all')
-                        {
-                            query1 += ' AND ';
-                        }
-                    }
-
-                    if (!hasWhere)
-                    {
-                        query1 += ' WHERE ';
-                        hasWhere = true;
-                    }
-
-                    if (diseaseVal != 'all')
-                    {
-                        query1 += table_disease + '.DiseaseName = \'' + diseaseVal + '\'';
-                    }
-            
-                    if (!hasWhere)
-                    {
-                        query1 += ' WHERE ';
-                        hasWhere = true;
-                    }
-
-                    if (startYearVal != "")
-                    {
-                        query1 += typeVal + '.Year >= ' + startYearVal;
-                        if (endYearVal != "")
-                        {
-                            query1 += ' AND ';
-                        }
-                    }
-
-                    if (endYearVal != "")
-                    {
-                        query1 += typeVal + '.Year <= ' + endYearVal;
-                        if (dataSetVal != 'none')
-                        {
-                            query1 += ' AND ';
-                        }
-                    }
-
-                    if (!hasWhere)
-                    {
-                        query1 += ' WHERE ';
-                        hasWhere = true;
-                    }
-
-                    if (dataSetVal != 'none')
-                    {
-                        query1 += typeVal + '.IndicatorName = ' + dataSetVal;
-                        if (populationGroupVal != 'none')
-                        {
-                            query1 += ' AND ';
-                        }
-                    }
-
-                    
-
-                    if (!hasWhere)
-                    {
-                        query1 += ' WHERE ';
-                        hasWhere = true;
-                    }
-
-                    if (populationGroupVal != 'none')
-                    {
-                        query1 += ' ' + table_disease + '.PopulationGroup = ' + populationGroupVal;
-                    }
-
-                    if (AverageVal != false)
-                    {
-                        query1 += ' GROUP BY' + groupBy;
-                    }
-                    query1 += '';
-                    
-
                     //Query 2
-
-                    validExpression = true;
-                    isRegion = false;
+                    validExpression2 = true;
+                    isRegion2 = false;
                     query2 = 'SELECT DISTINCT';
-
                     if (interactionVal != 'none')
                     {
-                        if (regionVal2 == 'none')
+                        // Complex Query 3
+                        if (interactionVal == 'difference')
                         {
-                            query2 += ' CountryName';
-                        }
-                        else
-                        {
-                            query2 += ' ParentRegion';
-                            isRegion = true;
-                        }
 
-                        if (AverageVal2 == false)
+                        }
+                        // Complex Query 2
+                        else if (interactionVal == 'yearlyIncrease')
                         {
-                            query2 += ', ' + typeVal2 + '.Year';
-                            if (perVal2 == 'rawPop')
+                        }
+                        //Complex query 5
+                        else if (interactionVal == 'side-by-side')
+                        {
+                            if (region2Val == 'none')
                             {
-                                query2 += ', SUM(' + typeVal2 + '.LikelyValue_Numeric)';
+                                query2 += ' CountryName';
+                                groupBy += ' CountryName';
+                            }
+                            else
+                            {
+                                query2 += ' ParentRegion';
+                                groupBy += ' ParentRegion';
+                                isRegion2 = true;
+                            }
+                            var numericVal = '';
+                            if (typeVal2 == 'NBONIN.DisabilityAdjustedLifeYears')
+                            {
+                                numericVal = 'LikelyValue';
+                            } else if (typeVal2 == 'NBONIN.Vaccines')
+                            {
+                                numericVal = 'Rates';
                             } else
                             {
-                                query2 += ', SUM(' + typeVal2 + '.LikelyValue_Numeric / 1000)';
+                                numericVal = 'LikelyValue_Numeric';
                             }
-                        }
-                        else
-                        {
-                            if (perVal2 == 'rawPop')
+                            var includeYear_ = document.getElementById("yearCheckbox");
+                            if (!Average_.checked)
                             {
-                                query2 += ', AVG(' + typeVal2 + '.LikelyValue_Numeric)';
-                            } else
-                            {
-                                query2 += ', AVG(' + typeVal2 + '.LikelyValue_Numeric / 1000)';
+                                if (includeYear_.checked)
+                                {
+                                    query2 += ', ' + typeVal2 + '.Year';
+                                    groupBy += ', ' + typeVal2 + '.Year';
+                                }
+                                if (per2Val == 'none')
+                                {
+                                    query2 += ', ' + typeVal2 + '.' + numericVal ;
+                                }
+                                else if (per2Val == 'rawPop')
+                                {
+                                    query2 += ', ' + typeVal2 + '.' + numericVal + '/ Country.TotalPopulation' ;
+                                } else
+                                {
+                                    query2 += ', ' + typeVal2 + '.' + numericVal + '/ (Country.TotalPopulation/1000)';
+                                }
                             }
-                        }
-
-                        query2 += ' FROM ' + typeVal2 + ' INNER JOIN ' + table_country + ' ON ' + typeVal2 + '.CountryCode = ' + table_country + '.CountryCode';
-                        
-                        hasWhere = false;
-                        if (!isRegion)
-                        {
-                            if (countryVal2 != 'all')
+                            else
                             {
-                                query2 += ' WHERE ' + typeVal2 + '.CountryName = \'' + countryVal + '\'';
+                                if (per2Val == 'none')
+                                {
+                                    query2 += ', AVG(' + typeVal2 + '.' + numericVal ;
+                                }
+                                else if (per2Val == 'rawPop')
+                                {
+                                    query2 += ', AVG(' + typeVal2 + '.' + numericVal + '/ Country.TotalPopulation)' ;
+                                } else
+                                {
+                                    query2 += ', AVG(' + typeVal2 + '.' + numericVal + '/ (Country.TotalPopulation/1000))';
+                                }
+                            }
+                            query2 += ' FROM (' + typeVal2 + ' INNER JOIN ' + table_country + ' ON ' + typeVal2 + '.CountryCode = ' + table_country + '.CountryCode';
+                            query2 += ' AND ' + table_country + '.Year = ' + typeVal2 + '.Year)';
+                            query2 += ' INNER JOIN ' + table_disease + ' ON ' + table_disease + '.IndicatorCode = ' + typeVal2 + '.IndicatorCode';
+                            query2 += ' AND ' + table_disease + '.CountryCode = ' + typeVal2 + '.CountryCode';
+                            query2 += ' AND ' + table_disease + '.Year = ' + typeVal2 + '.Year';
+                            query2 += ' AND ' + table_disease + '.Sex = ' + typeVal2 + '.Sex';
+                            query2 += ' AND ' + table_disease + '.Causes = ' + typeVal2 + '.Causes';
+                            query2 += ' AND ' + table_disease + '.Severity = ' + typeVal2 + '.Severity';
+                            query2 += ' AND ' + table_disease + '.AgeGroup = ' + typeVal2 + '.AgeGroup';
+                            var hasWhere = false;
+                            var whereCount = 0;
+                            if (disease2Val == 'all' && startYear2Val == "" && endYear2Val == "" && dataSet2Val == 'none' && populationGroup2Val == 'none')
+                            {
                                 hasWhere = true;
                             }
-                        } 
+
+                            if (!isRegion2)
+                            {
+                                if (country2Val != 'all')
+                                {
+                                    query2 += ' WHERE ' + typeVal2 + '.' + numericVal + ' IS NOT NULL AND ' + table_country + '.CountryName = \'' + country2Val + '\'';
+                                    hasWhere = true;
+                                    whereCount++;
+                                } 
+                            } 
+                            else if (region2Val != 'all')
+                            {
+                                query2 += ' WHERE ' + typeVal2 + '.' + numericVal + ' IS NOT NULL AND ' + table_country + '.ParentRegion = \'' + region2Val + '\'';
+                                hasWhere = true;
+                                whereCount++;
+                            }
+
+                            if (disease2Val != 'all')
+                            {
+                                if (whereCount > 0)
+                                {
+                                    query2 += ' AND ';
+                                } else
+                                {
+                                    query2 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                    whereCount++;
+                                }
+                                query2 += table_disease + '.DiseaseName = \'' + disease2Val + '\'';
+                            }
+
+
+                            if (startYear2Val != "")
+                            {
+                                if (whereCount > 0)
+                                {
+                                    query2 += ' AND ';
+                                } else
+                                {
+                                    query2 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                    whereCount++;
+                                }
+                                query2 += typeVal2 + '.Year >= ' + startYear2Val;
+                            }
+
+                            if (endYear2Val != "")
+                            {
+                                if (whereCount > 0)
+                                {
+                                    query2 += ' AND ';
+                                } else
+                                {
+                                    query2 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                    whereCount++;
+                                }
+                                query2 += typeVal2 + '.Year <= ' + endYear2Val;
+                            }
+
+                            if (dataSet2Val != 'none')
+                            {
+                                if (whereCount > 0)
+                                {
+                                    query2 += ' AND ';
+                                } else
+                                {
+                                    query2 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                    whereCount++;
+                                }
+                                query2 += table_disease + '.IndicatorName = ' + '\'' + dataSet2Val + '\'';
+                            }
+                            
+                            if (populationGroup2Val != 'none')
+                            {
+                                if (whereCount > 0)
+                                {
+                                    query2 += ' AND ';
+                                } else
+                                {
+                                    query2 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                    whereCount++;
+                                }
+                                query2 += ' ' + table_disease + '.PopulationGroup = ' + populationGroup2Val;
+                            }
+
+                            if (Average_.checked)
+                            {
+                                query2 += ' GROUP BY ' + groupBy;
+                            }
+                            if (Average_.checked) {
+                                if (!isRegion2) {
+                                    query2 += ' ORDER BY Country.CountryName';
+                                }
+                                else {
+                                    query2 += ' ORDER BY Country.RegionName';
+                                }
+                            }
+                            else 
+                            {
+                                query2 += ' ORDER BY ' + typeVal2 + '.Year';
+                                if (!isRegion2) {
+                                    query2 += ', Country.CountryName';
+                                }
+                                else {
+                                    query2 += ', Country.RegionName';
+                                }
+                            }
+                            query1 = 'WITH Second(place, year, value) AS (' + query2 + ') SELECT DISTINCT' ;
+                            if (regionVal == 'none')
+                            {
+                                query1 += ' CountryName';
+                                groupBy += ' CountryName';
+                            }
+                            else
+                            {
+                                query1 += ' ParentRegion';
+                                groupBy += ' ParentRegion';
+                                isRegion = true;
+                            }
+                            var numericVal = '';
+                            if (typeVal == 'NBONIN.DisabilityAdjustedLifeYears')
+                            {
+                                numericVal = 'LikelyValue';
+                            } else if (typeVal == 'NBONIN.Vaccines')
+                            {
+                                numericVal = 'Rates';
+                            } else
+                            {
+                                numericVal = 'LikelyValue_Numeric';
+                            }
+                            var includeYear_ = document.getElementById("yearCheckbox");
+                            if (!Average_.checked)
+                            {
+                                if (includeYear_.checked)
+                                {
+                                    query1 += ', ' + typeVal + '.Year';
+                                    groupBy += ', ' + typeVal + '.Year';
+                                }
+                                if (perVal == 'none')
+                                {
+                                    query1 += ', ' + typeVal + '.' + numericVal + ', Second.value' ;
+                                }
+                                else if (perVal == 'rawPop')
+                                {
+                                    query1 += ', (' + typeVal + '.' + numericVal + '/ Country.TotalPopulation),  Second.value' ;
+                                } else
+                                {
+                                    query1 += ', (' + typeVal + '.' + numericVal + '/ (Country.TotalPopulation/1000)), Second.value';
+                                }
+                            }
+                            else
+                            {
+                                if (perVal == 'none')
+                                {
+                                    query1 += ', AVG(' + typeVal + '.' + numericVal + '), Second.value';
+                                }
+                                else if (perVal == 'rawPop')
+                                {
+                                    query1 += ', AVG(' + typeVal + '.' + numericVal + '/ Country.TotalPopulation), Second.value'  ;
+                                } else
+                                {
+                                    query1 += ', AVG(' + typeVal + '.' + numericVal + '/ (Country.TotalPopulation/1000)), Second.value';
+                                }
+                            }
+                            query1 += ' FROM (' + typeVal + ' INNER JOIN ' + table_country + ' ON ' + typeVal + '.CountryCode = ' + table_country + '.CountryCode';
+                            query1 += ' AND ' + table_country + '.Year = ' + typeVal + '.Year)';
+                            query1 += ' INNER JOIN ' + table_disease + ' ON ' + table_disease + '.IndicatorCode = ' + typeVal + '.IndicatorCode';
+                            query1 += ' AND ' + table_disease + '.CountryCode = ' + typeVal + '.CountryCode';
+                            query1 += ' AND ' + table_disease + '.Year = ' + typeVal + '.Year';
+                            query1 += ' AND ' + table_disease + '.Sex = ' + typeVal + '.Sex';
+                            query1 += ' AND ' + table_disease + '.Causes = ' + typeVal + '.Causes';
+                            query1 += ' AND ' + table_disease + '.Severity = ' + typeVal + '.Severity';
+                            query1 += ' AND ' + table_disease + '.AgeGroup = ' + typeVal + '.AgeGroup';
+                            query1 += ' INNER JOIN Second ON Second.place = ' + table_country + '.countryName AND Second.Year = ' + typeVal + '.Year'
+                            var hasWhere = false;
+
+                            var whereCount = 0;
+
+                            if (diseaseVal == 'all' && startYearVal == "" && endYearVal == "" && dataSetVal == 'none' && populationGroupVal == 'none')
+                            {
+                                hasWhere = true;
+                            }
+                            if (!isRegion)
+                            {
+                                if (countryVal != 'all')
+                                {
+                                    query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ' + table_country + '.CountryName = \'' + countryVal + '\'';
+                                    hasWhere = true;
+                                    whereCount++;
+                                } 
+                            } 
+                            else if (regionVal != 'all')
+                            {
+                                query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ' + table_country + '.ParentRegion = \'' + regionVal + '\'';
+                                hasWhere = true;
+                                whereCount++;
+                            }
+                            
+                            
+                            if (diseaseVal != 'all')
+                            {
+                                if (whereCount > 0)
+                                {
+                                    query1 += ' AND ';
+                                } else
+                                {
+                                    query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                    whereCount++;
+                                }
+                                query1 += table_disease + '.DiseaseName = \'' + diseaseVal + '\'';
+                            }
+                    
+                            if (startYearVal != "")
+                            {
+                                if (whereCount > 0)
+                                {
+                                    query1 += ' AND ';
+                                } else
+                                {
+                                    query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                    whereCount++;
+                                }
+                                query1 += typeVal + '.Year >= ' + startYearVal;
+                            }
+
+                            if (endYearVal != "")
+                            {
+                                if (whereCount > 0)
+                                {
+                                    query1 += ' AND ';
+                                } else
+                                {
+                                    query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                    whereCount++;
+                                }
+                                query1 += typeVal + '.Year <= ' + endYearVal;
+                            }
+
+                            if (dataSetVal != 'none')
+                            {
+                                if (whereCount > 0)
+                                {
+                                    query1 += ' AND ';
+                                } else
+                                {
+                                    query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                    whereCount++;
+                                }
+
+                                query1 += table_disease + '.IndicatorName = ' +  '\'' + dataSetVal + '\'';
+                            }
+                            
+                            if (populationGroupVal != 'none')
+                            {
+                                if (whereCount > 0)
+                                {
+                                    query1 += ' AND ';
+                                } else
+                                {
+                                    query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                    whereCount++;
+                                }
+                                query1 += ' ' + table_disease + '.PopulationGroup = ' + populationGroupVal;
+                            }
+
+                            if (Average_.checked)
+                            {
+                                query1 += ' GROUP BY ' + groupBy;
+                            }
+                            if (Average_.checked) {
+                                if (!isRegion) {
+                                    query1 += ' ORDER BY Country.CountryName';
+                                }
+                                else {
+                                    query1 += ' ORDER BY Country.RegionName';
+                                }
+                            }
+                            else 
+                            {
+                                query1 += ' ORDER BY ' + typeVal + '.Year';
+                                if (!isRegion) {
+                                    query1 += ', Country.CountryName';
+                                }
+                                else {
+                                    query1 += ', Country.RegionName';
+                                }
+                            }
+                            query1 += '';
+                        }
+                        //Complex query 4
+                        else if (interactionVal == 'percentageOf')
+                        {
+                            if (region2Val == 'none')
+                            {
+                                query2 += ' CountryName';
+                                groupBy += ' CountryName';
+                            }
+                            else
+                            {
+                                query2 += ' ParentRegion';
+                                groupBy += ' ParentRegion';
+                                isRegion2 = true;
+                            }
+                            var numericVal = '';
+                            if (typeVal2 == 'NBONIN.DisabilityAdjustedLifeYears')
+                            {
+                                numericVal = 'LikelyValue';
+                            } else if (typeVal2 == 'NBONIN.Vaccines')
+                            {
+                                numericVal = 'Rates';
+                            } else
+                            {
+                                numericVal = 'LikelyValue_Numeric';
+                            }
+                            var includeYear_ = document.getElementById("yearCheckbox");
+                            if (!Average_.checked)
+                            {
+                                if (includeYear_.checked)
+                                {
+                                    query2 += ', ' + typeVal2 + '.Year';
+                                    groupBy += ', ' + typeVal2 + '.Year';
+                                }
+                                if (per2Val == 'none')
+                                {
+                                    query2 += ', ' + typeVal2 + '.' + numericVal ;
+                                }
+                                else if (per2Val == 'rawPop')
+                                {
+                                    query2 += ', ' + typeVal2 + '.' + numericVal + '/ Country.TotalPopulation' ;
+                                } else
+                                {
+                                    query2 += ', ' + typeVal2 + '.' + numericVal + '/ (Country.TotalPopulation/1000)';
+                                }
+                            }
+                            else
+                            {
+                                if (per2Val == 'none')
+                                {
+                                    query2 += ', AVG(' + typeVal2 + '.' + numericVal ;
+                                }
+                                else if (per2Val == 'rawPop')
+                                {
+                                    query2 += ', AVG(' + typeVal2 + '.' + numericVal + '/ Country.TotalPopulation)' ;
+                                } else
+                                {
+                                    query2 += ', AVG(' + typeVal2 + '.' + numericVal + '/ (Country.TotalPopulation/1000))';
+                                }
+                            }
+                            query2 += ' FROM (' + typeVal2 + ' INNER JOIN ' + table_country + ' ON ' + typeVal2 + '.CountryCode = ' + table_country + '.CountryCode';
+                            query2 += ' AND ' + table_country + '.Year = ' + typeVal2 + '.Year)';
+                            query2 += ' INNER JOIN ' + table_disease + ' ON ' + table_disease + '.IndicatorCode = ' + typeVal2 + '.IndicatorCode';
+                            query2 += ' AND ' + table_disease + '.CountryCode = ' + typeVal2 + '.CountryCode';
+                            query2 += ' AND ' + table_disease + '.Year = ' + typeVal2 + '.Year';
+                            query2 += ' AND ' + table_disease + '.Sex = ' + typeVal2 + '.Sex';
+                            query2 += ' AND ' + table_disease + '.Causes = ' + typeVal2 + '.Causes';
+                            query2 += ' AND ' + table_disease + '.Severity = ' + typeVal2 + '.Severity';
+                            query2 += ' AND ' + table_disease + '.AgeGroup = ' + typeVal2 + '.AgeGroup';
+                            var hasWhere = false;
+                            var whereCount = 0;
+
+                            if (!isRegion2)
+                            {
+                                if (country2Val != 'all')
+                                {
+                                    query2 += ' WHERE ' + typeVal2 + '.' + numericVal + ' IS NOT NULL AND '+ typeVal2 + '.' + numericVal + ' != 0 AND ' + table_country + '.CountryName = \'' + country2Val + '\'';
+                                    whereCount++;
+                                } 
+                            } 
+                            else if (region2Val != 'all')
+                            {
+                                query2 += ' WHERE ' + typeVal2 + '.' + numericVal + ' IS NOT NULL AND '+ typeVal2 + '.' + numericVal + ' != 0 AND ' + table_country + '.ParentRegion = \'' + region2Val + '\'';
+                                whereCount++;
+                            }
+
+                            if (disease2Val != 'all')
+                            {
+                                if (whereCount > 0)
+                                {
+                                    query2 += ' AND ';
+                                } else
+                                {
+                                    query2 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                    whereCount++;
+                                }
+                                query2 += table_disease + '.DiseaseName = \'' + disease2Val + '\'';      
+                            }
+                    
+                            if (startYear2Val != "")
+                            {
+                                if (whereCount > 0)
+                                {
+                                    query2 += ' AND ';
+                                } else
+                                {
+                                    query2 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                    whereCount++;
+                                }
+                                query2 += typeVal2 + '.Year >= ' + startYear2Val;
+                            }
+
+                            if (endYear2Val != "")
+                            {
+                                if (whereCount > 0)
+                                {
+                                    query2 += ' AND ';
+                                } else
+                                {
+                                    query2 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                    whereCount++;
+                                }
+                                query2 += typeVal2 + '.Year <= ' + endYear2Val;
+                            }
+
+                            if (dataSet2Val != 'none')
+                            {
+                                if (whereCount > 0)
+                                {
+                                    query2 += ' AND ';
+                                } else
+                                {
+                                    query2 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                    whereCount++;
+                                }
+                                query2 += table_disease + '.IndicatorName = ' + '\'' + dataSet2Val + '\'';
+                            }
+                            
+                            if (populationGroup2Val != 'none')
+                            {
+                                if (whereCount > 0)
+                                {
+                                    query2 += ' AND ';
+                                } else
+                                {
+                                    query2 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                    whereCount++;
+                                }
+                                query2 += ' ' + table_disease + '.PopulationGroup = ' + populationGroup2Val;
+                            }
+
+                            if (Average_.checked)
+                            {
+                                query2 += ' GROUP BY ' + groupBy;
+                            }
+
+                            if (Average_.checked) {
+                                if (!isRegion2) {
+                                    query2 += ' ORDER BY Country.CountryName';
+                                }
+                                else {
+                                    query2 += ' ORDER BY Country.RegionName';
+                                }
+                            }
+                            else 
+                            {
+                                query2 += ' ORDER BY ' + typeVal2 + '.Year';
+                                if (!isRegion2) {
+                                    query2 += ', Country.CountryName';
+                                }
+                                else {
+                                    query2 += ', Country.RegionName';
+                                }
+                            }
+                            query1 = 'WITH Second(place, year, value) AS (' + query2 + ') SELECT DISTINCT' ;
+                            if (regionVal == 'none')
+                            {
+                                query1 += ' CountryName';
+                                groupBy += ' CountryName';
+                            }
+                            else
+                            {
+                                query1 += ' ParentRegion';
+                                groupBy += ' ParentRegion';
+                                isRegion = true;
+                            }
+                            var numericVal = '';
+                            if (typeVal == 'NBONIN.DisabilityAdjustedLifeYears')
+                            {
+                                numericVal = 'LikelyValue';
+                            } else if (typeVal == 'NBONIN.Vaccines')
+                            {
+                                numericVal = 'Rates';
+                            } else
+                            {
+                                numericVal = 'LikelyValue_Numeric';
+                            }
+                            var includeYear_ = document.getElementById("yearCheckbox");
+                            if (!Average_.checked)
+                            {
+                                if (includeYear_.checked)
+                                {
+                                    query1 += ', ' + typeVal + '.Year';
+                                    groupBy += ', ' + typeVal + '.Year';
+                                }
+                                if (perVal == 'none')
+                                {
+                                    query1 += ', (' + typeVal + '.' + numericVal + '/ Second.value) * 100' ;
+                                }
+                                else if (perVal == 'rawPop')
+                                {
+                                    query1 += ', ((' + typeVal + '.' + numericVal + '/ Country.TotalPopulation)/ Second.value) * 100' ;
+                                } else
+                                {
+                                    query1 += ', ((' + typeVal + '.' + numericVal + '/ (Country.TotalPopulation/1000))/ Second.value) * 100';
+                                }
+                            }
+                            else
+                            {
+                                if (perVal == 'none')
+                                {
+                                    query1 += ', (AVG(' + typeVal + '.' + numericVal + ')/ Second.value) * 100';
+                                }
+                                else if (perVal == 'rawPop')
+                                {
+                                    query1 += ', (AVG(' + typeVal + '.' + numericVal + '/ Country.TotalPopulation)/ Second.value) * 100'  ;
+                                } else
+                                {
+                                    query1 += ', (AVG(' + typeVal + '.' + numericVal + '/ (Country.TotalPopulation/1000))/ Second.value) * 100';
+                                }
+                            }
+                            query1 += ' FROM (' + typeVal + ' INNER JOIN ' + table_country + ' ON ' + typeVal + '.CountryCode = ' + table_country + '.CountryCode';
+                            query1 += ' AND ' + table_country + '.Year = ' + typeVal + '.Year)';
+                            query1 += ' INNER JOIN ' + table_disease + ' ON ' + table_disease + '.IndicatorCode = ' + typeVal + '.IndicatorCode';
+                            query1 += ' AND ' + table_disease + '.CountryCode = ' + typeVal + '.CountryCode';
+                            query1 += ' AND ' + table_disease + '.Year = ' + typeVal + '.Year';
+                            query1 += ' AND ' + table_disease + '.Sex = ' + typeVal + '.Sex';
+                            query1 += ' AND ' + table_disease + '.Causes = ' + typeVal + '.Causes';
+                            query1 += ' AND ' + table_disease + '.Severity = ' + typeVal + '.Severity';
+                            query1 += ' AND ' + table_disease + '.AgeGroup = ' + typeVal + '.AgeGroup';
+                            query1 += ' INNER JOIN Second ON Second.place = ' + table_country + '.countryName AND Second.Year = ' + typeVal + '.Year'
+                            var hasWhere = false;
+
+                            var whereCount = 0;
+
+                            if (!isRegion)
+                            {
+                                if (countryVal != 'all')
+                                {
+                                    query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ' + table_country + '.CountryName = \'' + countryVal + '\'';
+                                    whereCount++;
+                                } 
+                            } 
+                            else if (regionVal != 'all')
+                            {
+                                query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ' + table_country + '.ParentRegion = \'' + regionVal + '\'';
+                                whereCount++;
+                            }
+                            
+                            if (diseaseVal != 'all')
+                            {
+                                if (whereCount > 0)
+                                {
+                                    query1 += ' AND ';
+                                } else
+                                {
+                                    query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                    whereCount++;
+                                }
+                                query1 += table_disease + '.DiseaseName = \'' + diseaseVal + '\'';
+                            }
+                    
+                            
+                            if (startYearVal != "")
+                            {
+                                if (whereCount > 0)
+                                {
+                                    query1 += ' AND ';
+                                } else
+                                {
+                                    query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                    whereCount++;
+                                }
+                                query1 += typeVal + '.Year >= ' + startYearVal;
+                            }
+
+                            if (endYearVal != "")
+                            {
+                                if (whereCount > 0)
+                                {
+                                    query1 += ' AND ';
+                                } else
+                                {
+                                    query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                    whereCount++;
+                                }
+                                query1 += typeVal + '.Year <= ' + endYearVal;
+                            }
+
+                            if (dataSetVal != 'none')
+                            {
+                                if (whereCount > 0)
+                                {
+                                    query1 += ' AND ';
+                                } else
+                                {
+                                    query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                    whereCount++;
+                                }
+                                query1 += table_disease + '.IndicatorName = ' + '\'' + dataSetVal + '\'';
+                            }
+                            
+                            if (populationGroupVal != 'none')
+                            {
+                                if (whereCount > 0)
+                                {
+                                    query1 += ' AND ';
+                                } else
+                                {
+                                    query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                    whereCount++;
+                                }
+                                query1 += ' ' + table_disease + '.PopulationGroup = ' + populationGroupVal;
+                            }
+
+                            if (Average_.checked)
+                            {
+                                query1 += ' GROUP BY ' + groupBy;
+                            }
+                            if (Average_.checked) {
+                                if (!isRegion) {
+                                    query1 += ' ORDER BY Country.CountryName';
+                                }
+                                else {
+                                    query1 += ' ORDER BY Country.RegionName';
+                                }
+                            }
+                            else 
+                            {
+                                query1 += ' ORDER BY ' + typeVal + '.Year';
+                                if (!isRegion) {
+                                    query1 += ', Country.CountryName';
+                                }
+                                else {
+                                    query1 += ', Country.RegionName';
+                                }
+                            }
+                            query1 += '';
+                        }
+                    }
+                    //Complex Query 1 and simple queries only
+                    else {
+                        if (regionVal == 'none')
+                        {
+                            query1 += ' CountryName';
+                            groupBy += ' CountryName';
+                        }
                         else
                         {
-                            query2 += ' WHERE ' + typeVal2 + '.ParentRegion = \'' + regionVal + '\'';
-                            hasWhere = true;
+                            query1 += ' ParentRegion';
+                            groupBy += ' ParentRegion';
+                            isRegion = true;
                         }
-
-                        if (!hasWhere)
+                        var numericVal = '';
+                        if (typeVal == 'NBONIN.DisabilityAdjustedLifeYears')
                         {
-                            query2 += ' WHERE ';
-                            hasWhere = true;
+                            numericVal = 'LikelyValue';
+                        } else if (typeVal == 'NBONIN.Vaccines')
+                        {
+                            numericVal = 'Rates';
+                        } else
+                        {
+                            numericVal = 'LikelyValue_Numeric';
                         }
-
-                        if (startYearVal2 != "")
+                        var includeYear_ = document.getElementById("yearCheckbox");
+                        if (!Average_.checked)
                         {
-                            query2 += typeVal2 + '.Year > ' + startYearVal;
-                            if (endYearVal2 != null)
+                            if (includeYear_.checked)
                             {
-                                query2 += 'AND ';
+                                query1 += ', ' + typeVal + '.Year';
+                                groupBy += ', ' + typeVal + '.Year';
+                            }
+                            if (perVal == 'none')
+                            {
+                                query1 += ', ' + typeVal + '.' + numericVal ;
+                            }
+                            else if (perVal == 'rawPop')
+                            {
+                                query1 += ', ' + typeVal + '.' + numericVal + '/ Country.TotalPopulation' ;
+                            } else
+                            {
+                                query1 += ', ' + typeVal + '.' + numericVal + '/ (Country.TotalPopulation/1000)';
                             }
                         }
-
-                        if (endYearVal2 != "")
+                        else
                         {
-                            query2 += typeVal2 + '.Year < ' + endYearVal;
-                            if (dataSetVal2 != 'none')
+                            if (perVal == 'none')
                             {
-                                query2 += 'AND ';
+                                query1 += ', AVG(' + typeVal + '.' + numericVal ;
+                            }
+                            else if (perVal == 'rawPop')
+                            {
+                                query1 += ', AVG(' + typeVal + '.' + numericVal + '/ Country.TotalPopulation)' ;
+                            } else
+                            {
+                                query1 += ', AVG(' + typeVal + '.' + numericVal + '/ (Country.TotalPopulation/1000))';
                             }
                         }
+                        query1 += ' FROM (' + typeVal + ' INNER JOIN ' + table_country + ' ON ' + typeVal + '.CountryCode = ' + table_country + '.CountryCode';
+                        query1 += ' AND ' + table_country + '.Year = ' + typeVal + '.Year)';
+                        query1 += ' INNER JOIN ' + table_disease + ' ON ' + table_disease + '.IndicatorCode = ' + typeVal + '.IndicatorCode';
+                        query1 += ' AND ' + table_disease + '.CountryCode = ' + typeVal + '.CountryCode';
+                        query1 += ' AND ' + table_disease + '.Year = ' + typeVal + '.Year';
+                        query1 += ' AND ' + table_disease + '.Sex = ' + typeVal + '.Sex';
+                        query1 += ' AND ' + table_disease + '.Causes = ' + typeVal + '.Causes';
+                        query1 += ' AND ' + table_disease + '.Severity = ' + typeVal + '.Severity';
+                        query1 += ' AND ' + table_disease + '.AgeGroup = ' + typeVal + '.AgeGroup';
+                        var hasWhere = false;
+                        var whereCount = 0;
 
-                        if (!hasWhere)
+                        if (diseaseVal == 'all' && startYearVal == "" && endYearVal == "" && dataSetVal == 'none' && populationGroupVal == 'none')
                         {
-                            query2 += ' WHERE ';
                             hasWhere = true;
                         }
 
-                        if (dataSetVal2 != 'none')
+                        if (!isRegion)
                         {
-                            query2 += typeVal2 + '.IndicatorName = ' + dataSetVal2;
-                            if (populationGroupVal2 != 'none')
+                            if (countryVal != 'all')
                             {
-                                query2 += 'AND ';
-                            }
-                        }
-
-                        if (!hasWhere)
+                                query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ' + table_country + '.CountryName = \'' + countryVal + '\'';
+                                whereCount++;
+                                hasWhere = true;
+                            } 
+                        } 
+                        else if (regionVal != 'all')
                         {
-                            query2 += ' WHERE ';
+                            query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ' + table_country + '.ParentRegion = \'' + regionVal + '\'';
                             hasWhere = true;
+                            whereCount++;
                         }
 
+
+                        if (diseaseVal != 'all')
+                        {
+                            if (whereCount > 0)
+                            {
+                                query1 += ' AND ';
+                            } else
+                            {
+                                query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                whereCount++;
+                            }
+                            query1 += table_disease + '.DiseaseName = \'' + diseaseVal + '\'';
+                            whereCount++;
+                        }
+
+                
+
+                        if (startYearVal != "")
+                        {
+                            if (whereCount > 0)
+                            {
+                                query1 += ' AND ';
+                            } else
+                            {
+                                query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                whereCount++;
+                            }
+                            query1 += typeVal + '.Year >= ' + startYearVal;
+                            whereCount++;
+                        }
+
+                        if (endYearVal != "")
+                        {
+                            if (whereCount > 0)
+                            {
+                                query1 += ' AND ';
+                            } else
+                            {
+                                query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                whereCount++;
+                            }
+                            query1 += typeVal + '.Year <= ' + endYearVal;
+                            whereCount++;
+                        }
+
+                        if (dataSetVal != 'none')
+                        {
+                            if (whereCount > 0)
+                            {
+                                query1 += ' AND ';
+                            } else
+                            {
+                                query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                whereCount++;
+                            }
+                            query1 += table_disease + '.IndicatorName = ' + '\'' + dataSetVal + '\'';
+                            whereCount++;
+                        }
+                        
                         if (populationGroupVal != 'none')
                         {
-                            query2 += typeVal2 + '.PopulationGroup = ' + populationGroupVal2;
+                            if (whereCount > 0)
+                            {
+                                query1 += ' AND ';
+                            } else
+                            {
+                                query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                whereCount++;
+                            }
+                            query1 += ' ' + table_disease + '.PopulationGroup = ' + populationGroupVal;
                         }
-
-                        query2 += ';';
+                        if (Average_.checked)
+                        {
+                            query1 += ' GROUP BY ' + groupBy;
+                        }
+                        if (Average_.checked) {
+                            if (!isRegion) {
+                                query1 += ' ORDER BY Country.CountryName';
+                            }
+                            else {
+                                query1 += ' ORDER BY Country.RegionName';
+                            }
+                        }
+                        else 
+                        {
+                            query1 += ' ORDER BY ' + typeVal + '.Year';
+                            if (!isRegion) {
+                                query1 += ', Country.CountryName';
+                            }
+                            else {
+                                query1 += ', Country.RegionName';
+                            }
+                        }
+                        query1 += '';
                     }
                     console.log(query1);
 
