@@ -893,17 +893,28 @@
                         <select id="interaction" name="interaction">
                             <option value="none">None</option>
                             <option value="divideBy">Divide By</option>
-                            <option value="side-by-side">side-by-side comparison</option>
+                            <option value="side-by-side">Side-by-Side comparison</option>
                             <option value="percentageOf">Percentage of</option>
                             <option value="difference">Difference</option>
                             <option value="yearlyIncrease">Yearly Increase</option>
                         </select>
                         <button type="button" name="submit-button"
                             id="searchBut" class="btn-primary">Submit Query</button>
+
+                        <div id="loading" style="display: none">
+                            <i class="spin"></i> Loading Query...
+                        </div>    
+                        <div id="fetched" style="display: none">
+                            <p>Fetched </p><p id="tuple"></p> <p> out of </p><p id="tupleTot"></p><p> tuples</p>
+                       </div>    
                         <script>
                 var query1 = '';
+                var loader = document.getElementById('loading');
                 const searchButton = document.getElementById('searchBut');
+                var fetched = document.getElementById('fetched');
                 searchButton.addEventListener('click', function() {
+                    loader.style.display = 'block';
+                    fetched.style.display = 'none';
 
                     const disease_ = document.getElementById("disease");
                     const diseaseVal = disease_.value;
@@ -994,7 +1005,6 @@
                     validExpression2 = true;
                     isRegion2 = false;
                     query2 = 'SELECT DISTINCT';
-
                     if (interactionVal != 'none')
                     {
                         // Complex Query 3
@@ -1788,7 +1798,6 @@
                             {
                                 numericVal = 'LikelyValue_Numeric';
                             }
-
                             var includeYear_ = document.getElementById("yearCheckbox");
                             if (!Average_.checked)
                             {
@@ -1823,7 +1832,6 @@
                                     query1 += ', AVG(' + typeVal + '.' + numericVal + '/ (Country.TotalPopulation/1000)), Second.value';
                                 }
                             }
-
                             query1 += ' FROM (' + typeVal + ' INNER JOIN ' + table_country + ' ON ' + typeVal + '.CountryCode = ' + table_country + '.CountryCode';
                             query1 += ' AND ' + table_country + '.Year = ' + typeVal + '.Year)';
                             query1 += ' INNER JOIN ' + table_disease + ' ON ' + table_disease + '.IndicatorCode = ' + typeVal + '.IndicatorCode';
@@ -1841,7 +1849,6 @@
                             {
                                 hasWhere = true;
                             }
-
                             if (!isRegion)
                             {
                                 if (countryVal != 'all')
@@ -2018,7 +2025,6 @@
                                     query2 += ', AVG(' + typeVal2 + '.' + numericVal + '/ (Country.TotalPopulation/1000))';
                                 }
                             }
-
                             query2 += ' FROM (' + typeVal2 + ' INNER JOIN ' + table_country + ' ON ' + typeVal2 + '.CountryCode = ' + table_country + '.CountryCode';
                             query2 += ' AND ' + table_country + '.Year = ' + typeVal2 + '.Year)';
                             query2 += ' INNER JOIN ' + table_disease + ' ON ' + table_disease + '.IndicatorCode = ' + typeVal2 + '.IndicatorCode';
@@ -2174,7 +2180,6 @@
                             {
                                 numericVal = 'LikelyValue_Numeric';
                             }
-
                             var includeYear_ = document.getElementById("yearCheckbox");
                             if (!Average_.checked)
                             {
@@ -2209,7 +2214,6 @@
                                     query1 += ', (AVG(' + typeVal + '.' + numericVal + '/ (Country.TotalPopulation/1000))/ Second.value) * 100';
                                 }
                             }
-
                             query1 += ' FROM (' + typeVal + ' INNER JOIN ' + table_country + ' ON ' + typeVal + '.CountryCode = ' + table_country + '.CountryCode';
                             query1 += ' AND ' + table_country + '.Year = ' + typeVal + '.Year)';
                             query1 += ' INNER JOIN ' + table_disease + ' ON ' + table_disease + '.IndicatorCode = ' + typeVal + '.IndicatorCode';
@@ -2372,7 +2376,6 @@
                         {
                             numericVal = 'LikelyValue_Numeric';
                         }
-
                         var includeYear_ = document.getElementById("yearCheckbox");
                         if (!Average_.checked)
                         {
@@ -2446,8 +2449,19 @@
                                 query1 += ' AND ';
                             }
                         }
+                        query1 += ' FROM (' + typeVal + ' INNER JOIN ' + table_country + ' ON ' + typeVal + '.CountryCode = ' + table_country + '.CountryCode';
+                        query1 += ' AND ' + table_country + '.Year = ' + typeVal + '.Year)';
+                        query1 += ' INNER JOIN ' + table_disease + ' ON ' + table_disease + '.IndicatorCode = ' + typeVal + '.IndicatorCode';
+                        query1 += ' AND ' + table_disease + '.CountryCode = ' + typeVal + '.CountryCode';
+                        query1 += ' AND ' + table_disease + '.Year = ' + typeVal + '.Year';
+                        query1 += ' AND ' + table_disease + '.Sex = ' + typeVal + '.Sex';
+                        query1 += ' AND ' + table_disease + '.Causes = ' + typeVal + '.Causes';
+                        query1 += ' AND ' + table_disease + '.Severity = ' + typeVal + '.Severity';
+                        query1 += ' AND ' + table_disease + '.AgeGroup = ' + typeVal + '.AgeGroup';
+                        var hasWhere = false;
+                        var whereCount = 0;
 
-                        if (!hasWhere)
+                        if (diseaseVal == 'all' && startYearVal == "" && endYearVal == "" && dataSetVal == 'none' && populationGroupVal == 'none')
                         {
                             query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
                             hasWhere = true;
@@ -2507,8 +2521,68 @@
                         {
                             query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
                             hasWhere = true;
+                            whereCount++;
                         }
 
+
+                        if (diseaseVal != 'all')
+                        {
+                            if (whereCount > 0)
+                            {
+                                query1 += ' AND ';
+                            } else
+                            {
+                                query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                whereCount++;
+                            }
+                            query1 += table_disease + '.DiseaseName = \'' + diseaseVal + '\'';
+                            whereCount++;
+                        }
+
+                
+
+                        if (startYearVal != "")
+                        {
+                            if (whereCount > 0)
+                            {
+                                query1 += ' AND ';
+                            } else
+                            {
+                                query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                whereCount++;
+                            }
+                            query1 += typeVal + '.Year >= ' + startYearVal;
+                            whereCount++;
+                        }
+
+                        if (endYearVal != "")
+                        {
+                            if (whereCount > 0)
+                            {
+                                query1 += ' AND ';
+                            } else
+                            {
+                                query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                whereCount++;
+                            }
+                            query1 += typeVal + '.Year <= ' + endYearVal;
+                            whereCount++;
+                        }
+
+                        if (dataSetVal != 'none')
+                        {
+                            if (whereCount > 0)
+                            {
+                                query1 += ' AND ';
+                            } else
+                            {
+                                query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
+                                whereCount++;
+                            }
+                            query1 += table_disease + '.IndicatorName = ' + '\'' + dataSetVal + '\'';
+                            whereCount++;
+                        }
+                        
                         if (populationGroupVal != 'none')
                         {
                             query1 += ' ' + table_disease + '.PopulationGroup = ' + populationGroupVal;
@@ -2543,6 +2617,33 @@
 
                     console.log(query1);
 
+                    
+                    var tupleCount = 0;
+                    var tupleCount_ = document.getElementById('tuple');
+                    var tupleTotal_ = document.getElementById('tupleTot');
+                    
+                    //Total
+                    fetch('/total', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({query: query1})
+                    })
+                    .then(response => {
+                    if (response.ok) {
+                        console.log('Query sent to server');
+                        return response.text();
+                    } else {
+                        console.error('Error sending query to server');
+                    }
+                    })
+                    .then (tupleTotal => {
+                        tupleTotal_.innerHTML = tupleTotal;
+                    })
+                    .catch(error => console.error('Error sending query to server', error));
+
+                    //Query
 
                     fetch('/query1', {
                     method: 'POST',
@@ -2561,6 +2662,11 @@
                     })
                     .then (data => {
                         updateTable(data);
+                        tupleCount = data.length;
+                        tupleCount_.innerHTML = tupleCount;
+                        fetched.style.display = 'block';
+                        console.log(tupleCount);
+                        loader.style.display = 'none';
                     })
                     .catch(error => console.error('Error sending query to server', error));
 
@@ -2568,12 +2674,14 @@
                         const table = document.getElementById('table2');
                         table.innerHTML = data;
                     }
+
                 });
             </script>
                     </div>
                 </form>
 
 
+            </section>
             </section>
 
             <section id="displayTable">
