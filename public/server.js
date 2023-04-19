@@ -43,6 +43,40 @@ app.get('/', (req, res) => {
     res.render('index'); //Renders EJS 
 });
 
+
+app.post('/total', (req, res) => {
+  const query =
+    `SELECT ( SELECT COUNT(*) FROM NBONIN.Country ) 
+    + ( SELECT COUNT(*) FROM NBONIN.Cases ) 
+    + ( SELECT COUNT(*) FROM NBONIN.Deaths )
+    + ( SELECT COUNT(*) FROM NBONIN.DisabilityAdjustedLifeYears ) 
+    + ( SELECT COUNT(*) FROM NBONIN.DiseaseInfo )
+    + ( SELECT COUNT(*) FROM NBONIN.Vaccines ) as TupleCount
+    FROM dual`;
+  console.log('Query received from client:', query);
+  oracledb.getConnection(connectionProperties, function (err, con) {
+      if (err) {
+        console.error(err.message);
+        res.status(500).send("Error connecting to DB");
+        return;
+      }
+      con.execute(query,{},  
+      { outFormat: oracledb.OBJECT },
+      function (err, result) {
+          if (err) {
+              console.error(err.message);
+              res.status(500).send("Error getting data from DB");
+              doRelease(con);
+              return;
+          }
+          const tupleTotal = JSON.stringify(result.rows[0].TUPLECOUNT);
+          console.log("Total: " + tupleTotal);
+          res.send(tupleTotal);
+      });
+    });
+});
+
+
 app.post('/query1', (req, res) => {
     const query = req.body.query;
     console.log('Query received from client:', query);
@@ -61,7 +95,6 @@ app.post('/query1', (req, res) => {
                 doRelease(con);
                 return;
             }
-            console.log("RESULTSET:" + JSON.stringify(result));
             const data = result.rows.map(row => {
                 const obj = {};
                 for (let key in row) {
@@ -70,7 +103,6 @@ app.post('/query1', (req, res) => {
                 return obj;
               });
               
-            console.log("PARSED DATA:" + JSON.stringify(data));
 
             const columns = result.metaData.map(column => column.name);
 
