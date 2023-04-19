@@ -20,7 +20,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import oracledb from 'oracledb';
 import * as data from './variables.js';
-import { username, pw } from './logininfo.js';
+import { username, pw } from '../javascr/logininfo.js';
 
 //JSON.stringify(employees);
 

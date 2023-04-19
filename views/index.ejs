@@ -265,6 +265,7 @@
                             <label for="region">Region:</label>
                             <select id="region" name="region">
                                 <option value="none">none</option>
+                                <option value="all">all</option>
                                 <option value="Americas">Americas</option>
                                 <option value="Africa">Africa</option>
                                 <option value="Eastern Mediterranean">Eastern
@@ -489,6 +490,7 @@
                         <div>
                             <label for="per">Per:</label>
                             <select id="per" name="per">
+                                <option value="none">None</option>
                                 <option value="rawPop">Raw Population</option>
                                 <option value="1000">By 1000 inhabitants</option>
                             </select>
@@ -497,7 +499,6 @@
                             <label for="Average">Average:</label>
                             <input type="checkbox" id="avgCheckbox" name="average" value="true">
                         </div>
-
                     </div>
                     <div class="column">
                         <div class="queryTitle2">
@@ -751,6 +752,7 @@
                             <label for="region2">Region:</label>
                             <select id="region2" name="region2">
                                 <option value="none">none</option>
+                                <option value="all">all</option>
                                 <option value="Americas">Americas</option>
                                 <option value="Africa">Africa</option>
                                 <option value="Eastern Mediterranean">Eastern
@@ -975,6 +977,7 @@
                         <div>
                             <label for="per2">Per:</label>
                             <select id="per2" name="per2">
+                                <option value="none">None</option>
                                 <option value="rawPop">Raw Population</option>
                                 <option value="1000">By 1000 inhabitants</option>
                             </select>
@@ -1120,27 +1123,42 @@
                             query1 += ', ' + typeVal + '.Year';
                             groupBy += ', ' + typeVal + '.Year';
                         }
-                        if (perVal == 'rawPop')
+                        if (perVal == 'none')
                         {
-                            query1 += ', SUM(' + typeVal + '.' + numericVal + ')';
+                            query1 += ', ' + typeVal + '.' + numericVal ;
+                        }
+                        else if (perVal == 'rawPop')
+                        {
+                            query1 += ', ' + typeVal + '.' + numericVal + '/ Country.TotalPopulation' ;
                         } else
                         {
-                            query1 += ', SUM(' + typeVal + '.' + numericVal + '/ 1000)';
+                            query1 += ', ' + typeVal + '.' + numericVal + '/ (Country.TotalPopulation/1000)';
                         }
                     }
                     else
                     {
-                        if (perVal == 'rawPop')
+                        if (perVal == 'none')
                         {
-                            query1 += ', AVG(' + typeVal + '.' + numericVal + ')';
+                            query1 += ', AVG(' + typeVal + '.' + numericVal ;
+                        }
+                        else if (perVal == 'rawPop')
+                        {
+                            query1 += ', AVG(' + typeVal + '.' + numericVal + '/ Country.TotalPopulation' ;
                         } else
                         {
-                            query1 += ', AVG(' + typeVal + '.' + numericVal + '/ 1000)';
+                            query1 += ', AVG(' + typeVal + '.' + numericVal + '/ (Country.TotalPopulation/1000)';
                         }
                     }
 
-                    query1 += ' FROM (' + typeVal + ' INNER JOIN ' + table_country + ' ON ' + typeVal + '.CountryCode = ' + table_country + '.CountryCode)';
+                    query1 += ' FROM (' + typeVal + ' INNER JOIN ' + table_country + ' ON ' + typeVal + '.CountryCode = ' + table_country + '.CountryCode';
+                    query1 += ' AND ' + table_country + '.Year = ' + typeVal + '.Year)';
                     query1 += ' INNER JOIN ' + table_disease + ' ON ' + table_disease + '.IndicatorCode = ' + typeVal + '.IndicatorCode';
+                    query1 += ' AND ' + table_disease + '.CountryCode = ' + typeVal + '.CountryCode';
+                    query1 += ' AND ' + table_disease + '.Year = ' + typeVal + '.Year';
+                    query1 += ' AND ' + table_disease + '.Sex = ' + typeVal + '.Sex';
+                    query1 += ' AND ' + table_disease + '.Causes = ' + typeVal + '.Causes';
+                    query1 += ' AND ' + table_disease + '.Severity = ' + typeVal + '.Severity';
+                    query1 += ' AND ' + table_disease + '.AgeGroup = ' + typeVal + '.AgeGroup';
 
                     var hasWhere = false;
 
@@ -1153,17 +1171,17 @@
                     {
                         if (countryVal != 'all')
                         {
-                            query1 += ' WHERE ' + table_country + '.CountryName = \'' + countryVal + '\'';
+                            query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ' + table_country + '.CountryName = \'' + countryVal + '\'';
                             hasWhere = true;
-                        } 
-                        if (diseaseVal != 'all')
+                            if (diseaseVal != 'all')
                         {
                             query1 += ' AND ';
                         }
+                        } 
                     } 
-                    else
+                    else if (regionVal != 'all')
                     {
-                        query1 += ' WHERE ' + table_country + '.ParentRegion = \'' + regionVal + '\'';
+                        query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ' + table_country + '.ParentRegion = \'' + regionVal + '\'';
                         hasWhere = true;
                         if (diseaseVal != 'all')
                         {
@@ -1173,18 +1191,22 @@
 
                     if (!hasWhere)
                     {
-                        query1 += ' WHERE ';
+                        query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
                         hasWhere = true;
                     }
 
                     if (diseaseVal != 'all')
                     {
                         query1 += table_disease + '.DiseaseName = \'' + diseaseVal + '\'';
+                        if (startYearVal != "")
+                        {
+                            query1 += ' AND ';
+                        }
                     }
             
                     if (!hasWhere)
                     {
-                        query1 += ' WHERE ';
+                        query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
                         hasWhere = true;
                     }
 
@@ -1208,7 +1230,7 @@
 
                     if (!hasWhere)
                     {
-                        query1 += ' WHERE ';
+                        query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
                         hasWhere = true;
                     }
 
@@ -1225,7 +1247,7 @@
 
                     if (!hasWhere)
                     {
-                        query1 += ' WHERE ';
+                        query1 += ' WHERE ' + typeVal + '.' + numericVal + ' IS NOT NULL AND ';
                         hasWhere = true;
                     }
 
@@ -1234,9 +1256,27 @@
                         query1 += ' ' + table_disease + '.PopulationGroup = ' + populationGroupVal;
                     }
 
-                    if (AverageVal != false)
+                    if (Average_.checked)
                     {
-                        query1 += ' GROUP BY' + groupBy;
+                        query1 += ' GROUP BY ' + groupBy;
+                    }
+                    if (Average_.checked) {
+                        if (!isRegion) {
+                            query1 += ' ORDER BY Country.CountryName';
+                        }
+                        else {
+                            query1 += ' ORDER BY Country.RegionName';
+                        }
+                    }
+                    else 
+                    {
+                        query1 += ' ORDER BY ' + typeVal + '.Year';
+                        if (!isRegion) {
+                            query1 += ', Country.CountryName';
+                        }
+                        else {
+                            query1 += ', Country.RegionName';
+                        }
                     }
                     query1 += '';
                     
@@ -1259,15 +1299,15 @@
                             isRegion = true;
                         }
 
-                        if (AverageVal2 == false)
+                        if (!Average2_.checked)
                         {
                             query2 += ', ' + typeVal2 + '.Year';
                             if (perVal2 == 'rawPop')
                             {
-                                query2 += ', SUM(' + typeVal2 + '.LikelyValue_Numeric)';
+                                query2 += ', ' + typeVal2 + '.LikelyValue_Numeric';
                             } else
                             {
-                                query2 += ', SUM(' + typeVal2 + '.LikelyValue_Numeric / 1000)';
+                                query2 += ', ' + typeVal2 + '.LikelyValue_Numeric / 1000';
                             }
                         }
                         else
@@ -1282,7 +1322,14 @@
                         }
 
                         query2 += ' FROM ' + typeVal2 + ' INNER JOIN ' + table_country + ' ON ' + typeVal2 + '.CountryCode = ' + table_country + '.CountryCode';
-                        
+                        query2 += ' AND ' + table_country + '.Year = ' + typeVal + '.Year';
+                        query2 += ' INNER JOIN ' + table_disease + ' ON ' + table_disease + '.IndicatorCode = ' + typeVal + '.IndicatorCode';
+                        query2 += ' AND ' + table_disease + '.CountryCode = ' + typeVal + '.CountryCode';
+                        query2 += ' AND ' + table_disease + '.Year = ' + typeVal + '.Year';
+                        query2 += ' AND ' + table_disease + '.Sex = ' + typeVal + '.Sex';
+                        query2 += ' AND ' + table_disease + '.Causes = ' + typeVal + '.Causes';
+                        query2 += ' AND ' + table_disease + '.Severity = ' + typeVal + '.Severity';
+                        query2 += ' AND ' + table_disease + '.AgeGroup = ' + typeVal + '.AgeGroup';
                         hasWhere = false;
                         if (!isRegion)
                         {
@@ -1346,6 +1393,25 @@
                         if (populationGroupVal != 'none')
                         {
                             query2 += typeVal2 + '.PopulationGroup = ' + populationGroupVal2;
+                        }
+
+                        if (Average2_.checked) {
+                            if (!isRegion) {
+                                query2 += ' ORDER BY Country.CountryName';
+                            }
+                            else {
+                                query2 += ' ORDER BY Country.RegionName';
+                            }
+                        }
+                        else 
+                        {
+                            query2 += ' ORDER BY ' + typeVal2 + '.Year';
+                            if (!isRegion) {
+                                query2 += ', Country.CountryName';
+                            }
+                            else {
+                                query2 += ', Country.RegionName';
+                            }
                         }
 
                         query2 += ';';

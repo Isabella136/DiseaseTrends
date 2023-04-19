@@ -34,14 +34,14 @@ async function run() {
         console.log(tuple_count.rows);
 
         const complex_one = await connection.execute(
-            `SELECT Country.CountryName as Country, Country.year, SUM(Deaths.LikelyValue_numeric / (Country.TotalPopulation / 1000) ) as Deaths_Per_1000_In_Last_Decade
+            `SELECT Country.CountryName as Country, Country.year, Deaths.LikelyValue_numeric / (Country.TotalPopulation / 1000) as Deaths_Per_1000_In_Last_Decade
             FROM NBONIN.DiseaseInfo
                 JOIN NBONIN.Deaths
                     ON DiseaseInfo.CountryCode = Deaths.CountryCode AND Deaths.Year = DiseaseInfo.Year AND Deaths.IndicatorCode = DiseaseInfo.IndicatorCode AND DiseaseInfo.Sex = Deaths.Sex AND DiseaseInfo.Causes = Deaths.Causes AND DiseaseInfo.Severity = Deaths.severity AND DiseaseInfo.AgeGroup = Deaths.AgeGroup
                 JOIN NBONIN.Country
                     ON DiseaseInfo.CountryCode = Country.CountryCode AND DiseaseInfo.Year = Country.Year
             WHERE DiseaseInfo.DiseaseName = 'HIV' AND Deaths.Year >=2012 AND Deaths.LikelyValue_numeric IS NOT NULL
-            GROUP BY Country.CountryName, Country.year
+            
             ORDER BY Country.CountryName, Country.year`,
         );
         console.log(complex_one.rows);
