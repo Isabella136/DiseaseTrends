@@ -93,10 +93,91 @@ async function query()
 
 app.get('/', (req, res) => {
     console.log("REFRESHED!");
-    query();
     res.render('index', { employees: employees });
 });
+
+/*
+app.get('/query', function(req, res) {
+    oracledb.getConnection(connectionProperties, function (err, con) {
+      if (err) {
+        console.error(err.message);
+        res.status(500).send("Error connecting to DB");
+        return;
+      }
+      con.execute("SELECT DISTINCT Country.CountryName FROM NBONIN.Country",{},  
+      { outFormat: oracledb.OBJECT },
+      function (err, result) {
+        if (err) {
+          console.error(err.message);
+          res.status(500).send("Error getting data from DB");
+          doRelease(connection);
+          return;
+        }
+        //console.log("RESULTSET:" + JSON.stringify(result));
+        const data = result.rows.map(function(element) {
+            return { id: element.COUNTRYNAME };
+          });
+        //res.json(data);
+      });
+    });
+});
+*/
+  
+app.post('/query1', (req, res) => {
+    const query = req.body.query;
+    console.log('Query received from client:', query);
+    oracledb.getConnection(connectionProperties, function (err, con) {
+        if (err) {
+          console.error(err.message);
+          res.status(500).send("Error connecting to DB");
+          return;
+        }
+        con.execute(query,{},  
+        { outFormat: oracledb.OBJECT },
+        function (err, result) {
+            if (err) {
+                console.error(err.message);
+                res.status(500).send("Error getting data from DB");
+                doRelease(con);
+                return;
+            }
+            console.log("RESULTSET:" + JSON.stringify(result));
+            const data = result.rows.map(row => {
+                const obj = {};
+                for (let key in row) {
+                  obj[key.toLowerCase()] = row[key];
+                }
+                return obj;
+              });
+              
+            console.log("PARSED DATA:" + JSON.stringify(data));
+
+            const columns = result.metaData.map(column => column.name);
+
+            const data3 = result.rows.map(function(row) {
+                const obj = {};
+                columns.forEach((column, index) => {
+                  const value = JSON.stringify(row[index]);
+                  obj[column] = value;
+                  //console.log(`column: ${column}, value: ${JSON.stringify(value)}`);
+                });
+                return obj;
+              });
+
+            //console.log("dataSET:" + JSON.stringify(data.map(obj => obj)));
+            const tableHeaders = columns.map(column => `<th>${column}</th>`).join('');
+            const tableRows = data.map(row => {
+                const rowCells = Object.values(row).map(value => `<td>${(JSON.stringify(value, (key, val) => (val === null ? 'null' : val)).replace(/^"(.+(?="$))"$/, '$1'))}</td>`).join('');
+                return `<tr>${rowCells}</tr>`;
+            }).join('');
+            const tableHtml = `<table><thead><tr>${tableHeaders}</tr></thead><tbody>${tableRows}</tbody></table>`;
+            res.status(200).send(tableHtml);
+        });
+      });
+  });
 
 app.use(express.static('public'));
 app.use('/', router);
 app.listen(PORT);
+
+export {query};

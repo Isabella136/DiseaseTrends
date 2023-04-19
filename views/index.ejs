@@ -1,14 +1,542 @@
 <!doctype html>
 <html>
 <head>
+    <title>Disease Trends</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script type="text/javascript" src="extra.js"></script>
 </head>
 <body>
-    <p id="table">test</p>
-    <p id="table2"></p>
-    <p>Here is your data:</p>
-    <% for (var i = 0; i < employees.length; i++) { %>
-        <td><%= employees[i] %></td>
-      <% } %>
+    <header>
+		<h1>Disease Trends</h1>
+	</header>
+<section>
+    <h2>Filter Query by:</h2>		  
+    <form>
+        <div class="row">
+          <div class="column" >
+                  <div>
+                    <label for="disease">Disease:</label>
+                    <select id="disease" name="disease">
+                        <option value="none">none</option>
+                        <option value="HIV">HIV</option>
+                        <option value="Malaria">Malaria</option>
+                        <option value="Diphtheria">Diphtheria</option>
+                        <option value="Japanese_Encephalitis">Japanese Encephalitis</option>
+                        <option value="Neonatal_Tetanus">Neonatal Tetanus</option>
+                        <option value="CRS">Congenital Rubella Syndrome</option>
+                        <option value="Anaemia">Anaemia</option>
+                        <option value="Meningitis">Meningitis</option>
+                        <option value="Yellow_Fever">Yellow Fever</option>
+                        <option value="Tuberculosis">Tuberculosis</option>
+                        <option value="Diarrhoea">Diarrhoea</option>
+                        <option value="Indigenous_Malaria">Indigenous Malaria</option>
+                        <option value="Imported_Malaria">Imported Malaria</option>
+                        <option value="Cholera">Cholera</option>
+                        <option value="Pertussis">Pertussis</option>
+                        <option value="HAT">Human African Trypanosomiasis</option>
+                        <option value="Congenital_Syphilis">Congenital Syphilis</option>
+                        <option value="Leprosy">Leprosy</option>
+                        <option value="NCD">Non-Communicable Diseases</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="type">Type:</label>
+                    <select id="type" name="type">
+                        <option value="none">none</option>
+                        <option value="Cases">Cases</option>
+                        <option value="DEATHS">Deaths</option>
+                        <option value="Vaccines">Vaccines</option>
+                        <option value="DiseaseInfo">Disease Info</option>
+                        <option value="DALY">Disability Adjusted Life Years</option>
+                    </select>
+                </div>
+                        <div>
+                    <label for="country">Country:</label>
+                    <select id="country" name="country">
+                        <option value="none">none</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Central African Republic">Central African Republic</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Bahrain">Bahrain</option>
+                        <option value="Egypt, Arab Rep.">Egypt, Arab Rep.</option>
+                        <option value="Congo, Rep.">Congo, Rep.</option>
+                        <option value="Czechia">Czechia</option>
+                        <option value="Djibouti">Djibouti</option>
+                        <option value="Guatemala">Guatemala</option>
+                        <option value="Honduras">Honduras</option>
+                        <option value="Estonia">Estonia</option>
+                        <option value="Finland">Finland</option>
+                        <option value="Fiji">Fiji</option>
+                        <option value="Gabon">Gabon</option>
+                        <option value="St. Kitts and Nevis">St. Kitts and Nevis</option>
+                        <option value="Jordan">Jordan</option>
+                        <option value="Kazakhstan">Kazakhstan</option>
+                        <option value="Maldives">Maldives</option>
+                        <option value="Malta">Malta</option>
+                        <option value="Latvia">Latvia</option>
+                        <option value="Madagascar">Madagascar</option>
+                        <option value="Kuwait">Kuwait</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Russian Federation">Russian Federation</option>
+                        <option value="Palau">Palau</option>
+                        <option value="Suriname">Suriname</option>
+                        <option value="Vietnam">Vietnam</option>
+                        <option value="Zimbabwe">Zimbabwe</option>
+                        <option value="Belgium">Belgium</option>
+                        <option value="United Arab Emirates">United Arab Emirates</option>
+                        <option value="Burkina Faso">Burkina Faso</option>
+                        <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                        <option value="Algeria">Algeria</option>
+                        <option value="Eritrea">Eritrea</option>
+                        <option value="Congo, Dem. Rep.">Congo, Dem. Rep.</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Ghana">Ghana</option>
+                        <option value="Hungary">Hungary</option>
+                        <option value="Kenya">Kenya</option>
+                        <option value="Kiribati">Kiribati</option>
+                        <option value="India">India</option>
+                        <option value="Libya">Libya</option>
+                        <option value="Poland">Poland</option>
+                        <option value="Syrian Arab Republic">Syrian Arab Republic</option>
+                        <option value="Togo">Togo</option>
+                        <option value="Slovenia">Slovenia</option>
+                        <option value="Samoa">Samoa</option>
+                        <option value="Belize">Belize</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Bulgaria">Bulgaria</option>
+                        <option value="Dominican Republic">Dominican Republic</option>
+                        <option value="Comoros">Comoros</option>
+                        <option value="Cuba">Cuba</option>
+                        <option value="Grenada">Grenada</option>
+                        <option value="Gambia, The">Gambia, The</option>
+                        <option value="Iraq">Iraq</option>
+                        <option value="North Macedonia">North Macedonia</option>
+                        <option value="Mali">Mali</option>
+                        <option value="Moldova">Moldova</option>
+                        <option value="Lebanon">Lebanon</option>
+                        <option value="St. Lucia">St. Lucia</option>
+                        <option value="Norway">Norway</option>
+                        <option value="Oman">Oman</option>
+                        <option value="Nigeria">Nigeria</option>
+                        <option value="Paraguay">Paraguay</option>
+                        <option value="Saudi Arabia">Saudi Arabia</option>
+                        <option value="Peru">Peru</option>
+                        <option value="Sierra Leone">Sierra Leone</option>
+                        <option value="Tonga">Tonga</option>
+                        <option value="Zambia">Zambia</option>
+                        <option value="Belarus">Belarus</option>
+                        <option value="China">China</option>
+                        <option value="Barbados">Barbados</option>
+                        <option value="Cameroon">Cameroon</option>
+                        <option value="Costa_Rica">Costa Rica</option>
+                        <option value="United_Kingdom">United Kingdom</option>
+                        <option value="Ethiopia">Ethiopia</option>
+                        <option value="Micronesia, Fed. Sts.">Micronesia, Fed. Sts.</option>
+                        <option value="Marshall Islands">Marshall Islands</option>
+                        <option value="Mongolia">Mongolia</option>
+                        <option value="Mauritius">Mauritius</option>
+                        <option value="Netherlands">Netherlands</option>
+                        <option value="Sudan">Sudan</option>
+                        <option value="Senegal">Senegal</option>
+                        <option value="Philippines">Philippines</option>
+                        <option value="Papua New Guinea">Papua New Guinea</option>
+                        <option value="Chad">Chad</option>
+                        <option value="El Salvador">El Salvador</option>
+                        <option value="Somalia">Somalia</option>
+                        <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                        <option value="Eswatini">Eswatini</option>
+                        <option value="Turkmenistan">Turkmenistan</option>
+                        <option value="Timor-Leste">Timor-Leste</option>
+                        <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                        <option value="Burundi">Burundi</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Bahamas, The">Bahamas, The</option>
+                        <option value="Ecuador">Ecuador</option>
+                        <option value="Dominica">Dominica</option>
+                        <option value="Equatorial Guinea">Equatorial Guinea</option>
+                        <option value="Kyrgyz Republic">Kyrgyz Republic</option>
+                        <option value="Korea, Rep.">Korea, Rep.</option>
+                        <option value="Iceland">Iceland</option>
+                        <option value="Jamaica">Jamaica</option>
+                        <option value="Sri Lanka">Sri Lanka</option>
+                        <option value="Lithuania">Lithuania</option>
+                        <option value="Lao PDR">Lao PDR</option>
+                        <option value="Nepal">Nepal</option>
+                        <option value="Nauru">Nauru</option>
+                        <option value="Malawi">Malawi</option>
+                        <option value="Niger">Niger</option>
+                        <option value="West Bank and Gaza">West Bank and Gaza</option>
+                        <option value="Romania">Romania</option>
+                        <option value="Seychelles">Seychelles</option>
+                        <option value="Thailand">Thailand</option>
+                        <option value="San Marino">San Marino</option>
+                        <option value="South Sudan">South Sudan</option>
+                        <option value="Uganda">Uganda</option>
+                        <option value="Vanuatu">Vanuatu</option>
+                        <option value="Yemen, Rep.">Yemen, Rep.</option>
+                        <option value="South Africa">South Africa</option>
+                        <option value="Uruguay">Uruguay</option>
+                        <option value="United States">United States</option>
+                        <option value="Angola">Angola</option>
+                        <option value="Albania">Albania</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Armenia">Armenia</option>
+                        <option value="Brunei Darussalam">Brunei Darussalam</option>
+                        <option value="Bhutan">Bhutan</option>
+                        <option value="Cabo Verde">Cabo Verde</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="Guinea">Guinea</option>
+                        <option value="Haiti">Haiti</option>
+                        <option value="Israel">Israel</option>
+                        <option value="Italy">Italy</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Monaco">Monaco</option>
+                        <option value="Montenegro">Montenegro</option>
+                        <option value="Mauritania">Mauritania</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="Nicaragua">Nicaragua</option>
+                        <option value="Portugal">Portugal</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Solomon Islands">Solomon Islands</option>
+                        <option value="Sweden">Sweden</option>
+                        <option value="Tuvalu">Tuvalu</option>
+                        <option value="Tanzania">Tanzania</option>
+                        <option value="Ukraine">Ukraine</option>
+                        <option value="Venezuela, RB">Venezuela, RB</option>
+                        <option value="Tunisia">Tunisia</option>
+                        <option value="Afghanistan">Afghanistan</option>
+                        <option value="Andorra">Andorra</option>
+                        <option value="Bolivia">Bolivia</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Cyprus">Cyprus</option>
+                        <option value="Croatia">Croatia</option>
+                        <option value="Guinea-Bissau">Guinea-Bissau</option>
+                        <option value="Greece">Greece</option>
+                        <option value="Cambodia">Cambodia</option>
+                        <option value="Ireland">Ireland</option>
+                        <option value="Luxembourg">Luxembourg</option>
+                        <option value="New Zealand">New Zealand</option>
+                        <option value="Myanmar">Myanmar</option>
+                        <option value="Mozambique">Mozambique</option>
+                        <option value="Namibia">Namibia</option>
+                        <option value="Korea, Dem. People's Rep.">Korea, Dem. People's Rep.</option>
+                        <option value="Qatar">Qatar</option>
+                        <option value="Panama">Panama</option>
+                        <option value="Tajikistan">Tajikistan</option>
+                        <option value="Slovak Republic">Slovak Republic</option>
+                        <option value="St. Vincent and the Grenadines">St. Vincent and the Grenadines</option>
+                        <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Austria">Austria</option>
+                        <option value="Azerbaijan">Azerbaijan</option>
+                        <option value="Benin">Benin</option>
+                        <option value="Switzerland">Switzerland</option>
+                        <option value="Cote d'Ivoire">Cote d'Ivoire</option>
+                        <option value="Botswana">Botswana</option>
+                        <option value="Spain">Spain</option>
+                        <option value="Denmark">Denmark</option>
+                        <option value="Guyana">Guyana</option>
+                        <option value="France">France</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Iran, Islamic Rep.">Iran, Islamic Rep.</option>
+                        <option value="Lesotho">Lesotho</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Morocco">Morocco</option>
+                        <option value="Liberia">Liberia</option>
+                        <option value="Puerto Rico">Puerto Rico</option>
+                        <option value="Rwanda">Rwanda</option>
+                        <option value="Serbia">Serbia</option>
+                        <option value="Uzbekistan">Uzbekistan</option>
+                        <option value="Turkiye">Turkiye</option>
+                    </select>
+                </div>	
+                            <div id="regionDropdown" style="display: inline-block;">
+                        <label for="region">Region:</label>
+                        <select id="region" name="region">
+                            <option value="none">none</option>
+                            <option value="Americas">Americas</option>
+                            <option value="Africa">Africa</option>
+                            <option value="East Mediterranean">East Mediterranean</option>
+                        </select>
+                    </div>
+            <div>
+                <label for="startYear">Start Year:</label>
+                <input type="text" id="startYear" pattern="[0-9]*" minlength="0" maxlength="4" min="1960" max="2021">
+            </div>
+            <div>
+                <label for="endYear">End Year:</label>
+                <input type="text" id="endYear" pattern="[0-9]*" minlength="0" maxlength="4" min="1960" max="2021">
+            </div>
+                                <div>
+                                <label for="populationGroup">Pop Group:</label>
+                                <select id="populationGroup" name="populationGroup">
+                                  <option value="none">none</option>
+                                  <option value="Nationally recommended age (second dose)">Nationally recommended age (2nd dose)</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="dataset">Dataset:</label>
+                                <select id="dataset" name="dataset">
+                                <option value="none">None</option>
+                                </select>
+                            </div>
+                                    <div>
+                                <label for="per">Per:</label>
+                                <select id="per" name="per">
+                                  <option value="none">none</option>
+                                  <option value="rawPop">Raw Population</option>
+                                  <option value="by1000inhabitants">By 1000 inhabitants</option>
+                                </select>
+                            </div>
+                            <div>
+                            <label for="Average">Average:</label>
+                                <select id="Average" name="Average">
+                                  <option value="none">none</option>
+                            </select>
+        </div>
+                    
+            
+          </div>
+
+          <div class="column" >
+                   <div>
+                            <div>
+                    <label for="interaction">Interaction:</label>
+                    <select id="interaction" name="interaction">
+                    <option value="none">None</option>
+                    <option value="divideBy">Divide By</option>
+                    <option value="side-by-side">side-by-side comparison</option>
+                    <option value="percentageOf">Percentage of</option>
+                    <option value="difference">Difference</option>
+                    <option value="yearlyIncrease">Yearly Increase</option>
+                    </select>
+                    
+                </div>
+                            <div>
+                    <label for="disease2">Disease:</label>
+                    <select id="disease2" name="disease2">
+                        <option value="none">none</option>
+                        <option value="HIV">HIV</option>
+                        <option value="Malaria">Malaria</option>
+                        <option value="Tuberculosis">Tuberculosis</option>
+                    </select>
+                </div>
+                        <div>
+                    <label for="type2">Type:</label>
+                    <select id="type2" name="type2">
+                        <option value="none">none</option>
+                        <option value="Cases">Cases</option>
+                        <option value="Deaths">Deaths</option>
+                    </select>
+                </div>
+                            <div>
+                    <div id="country2" style="display: inline-block;">
+                        <label for="country2">Country:</label>
+                        <select id="country2" name="country2">
+                            <option value="none">none</option>
+                            <option value="Cuba">Cuba</option>
+                            <option value="USA">USA</option>
+                            <option value="Canada">Canada</option>
+                        </select>
+                    </div>
+                                <div>
+                    <div id="region2" style="display: inline-block;">
+                        <label for="region2">Region:</label>
+                        <select id="region2" name="region2">
+                            <option value="none">none</option>
+                            <option value="Americas">Americas</option>
+                            <option value="Africa">Africa</option>
+                            <option value="East Mediterranean">East Mediterranean</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="startYear2">Start Year:</label>
+                        <input type="text" id="startYear2" pattern="[0-9]*" minlength="0" maxlength="4" min="1960" max="2021">
+                    </div>
+                    <div>
+                        <label for="endYear2">End Year:</label>
+                        <input type="text" id="endYear2" pattern="[0-9]*" minlength="0" maxlength="4" min="1960" max="2021">
+                    </div>
+                    <div>
+                    <label for="populationGroup2">Pop Group:</label>
+                    <select id="populationGroup2" name="populationGroup2">
+                      <option value="none">none</option>
+                      <option value="Nationally recommended age (second dose)">Nationally recommended age (2nd dose)</option>
+                    </select>
+                </div>
+                        <div>
+                    <label for="dataset2">Dataset:</label>
+                    <select id="dataset2" name="dataset2">
+                    <option value="none">None</option>
+                    </select>
+                </div>
+                    <label for="per2">Per:</label>
+                    <select id="per2" name="per2">
+                      <option value="none">none</option>
+                      <option value="rawPop">Raw Population</option>
+                      <option value="by1000inhabitants">By 1000 inhabitants</option>
+                    </select>
+                </div>
+            </div>
+            <label for="Average2">Average:</label>
+            <select id="Average2" name="Average2">
+              <option value="none">none</option>
+
+            </select>
+        </div>
+                
+                
+          </div>
+        </div>
+
+        <div class = "Submit-Buttons">
+            <input type="submit" value="Total Number of Tuples">
+            <button type="button" name="submit-button" id="searchBut" class="btn-primary">Search</button>
+            <script>
+                var query1 = '';
+                const searchButton = document.getElementById('searchBut');
+                searchButton.addEventListener('click', function() {
+
+                    const disease_ = document.getElementById("disease");
+                    const diseaseVal = disease_.value;
+
+                    const type_ = document.getElementById("type");
+                    var typeVal = type_.value;
+
+                    const country_ = document.getElementById("country");
+                    const countryVal = country_.value;
+
+                    const region_ = document.getElementById("region");
+                    const regionVal = region_.value;
+
+                    const startYear_ = document.getElementById("startYear");
+                    const startYearVal = startYear_.value;
+
+                    const endYear_ = document.getElementById("endYear");
+                    const endYearVal = endYear_.value;
+
+                    const populationGroup_ = document.getElementById("populationGroup");
+                    const populationGroupVal = populationGroup_.value;
+
+                    const dataSet_ = document.getElementById("dataset");
+                    const dataSetVal = dataSet_.value;
+
+                    const per_ = document.getElementById("per");
+                    const perVal = per_.value;
+
+                    const Average_ = document.getElementById("Average");
+                    const AverageVal = Average_.value;
+                    
+                    const disease2_ = document.getElementById("disease2");
+                    const disease2Val = disease2_.value;
+
+                    const type2_ = document.getElementById("type2");
+                    const type2Val = type2_.value;
+
+                    const country2_ = document.getElementById("country2");
+                    const country2Val = country2_.value;
+
+                    const region2_ = document.getElementById("region2");
+                    const region2Val = region2_.value;
+
+                    const startYear2_ = document.getElementById("startYear2");
+                    const startYear2Val = startYear2_.value;
+
+                    const endYear2_ = document.getElementById("endYear");
+                    const endYear2Val = endYear2_.value;
+
+                    const populationGroup2_ = document.getElementById("populationGroup2");
+                    const populationGroup2Val = populationGroup2_.value;
+
+                    const dataSet2_ = document.getElementById("dataset2");
+                    const dataSet2Val = dataSet2_.value;
+
+                    const per2_ = document.getElementById("per2");
+                    const per2Val = per2_.value;
+
+                    const Average2_ = document.getElementById("Average2");
+                    const Average2Val = Average2_.value;
+                    
+                    const key_totalPopulation = 'TotalPopulation';
+                    const key_SUM = 'SUM';
+                    const key_likelyVal = 'LikelyValue_Numeric';
+                    const table_country = 'NBONIN.COUNTRY';
+                    const atr_countryCode = 'CountryCode';
+                    const atr_countryName = 'CountryName';
+                    const atr_parentRegion = 'ParentRegion';
+
+                    typeVal = 'NBONIN.' + typeVal;
+
+                    console.log(typeVal);
+
+                    query1 = '';
+
+
+
+
+                    query1 = 'SELECT DISTINCT CountryName, ' + typeVal + '.Year, ' + key_SUM + '(' + typeVal + '.' + key_likelyVal + ')' + ' FROM ' + typeVal + ' INNER JOIN ';
+                    query1 += table_country + ' ON ' + typeVal + '.' + atr_countryCode + ' = ' + table_country + '.' + atr_countryCode;
+                    if (countryVal != 'none')
+                    {
+                        if (regionVal == 'none')
+                        {
+                            query1 += ' WHERE ' + table_country + '.' + atr_countryName + ' = \'' + countryVal + '\'';
+                        }
+                    }
+                    query1 += ' GROUP BY CountryName, ' + typeVal + '.Year';
+                    query1 += ';';
+
+                    query1 = 'SELECT CountryName, nbonin.Deaths.Year, SUM(NBONIN.Deaths.LikelyValue_Numeric) FROM NBONIN.Deaths INNER JOIN NBONIN.Country ON nbonin.Deaths.countrycode = nbonin.country.countrycode';
+                    query1 += ' WHERE nbonin.country.countryname = \'Chile\' and nbonin.Deaths.Year > 1960 and nbonin.Deaths.Year < 2000'
+                    query1 += ' group by CountryName, nbonin.Deaths.Year';
+
+                    var query2 = 'SELECT DISTINCT';
+                    console.log(query1);
+                    //MYLIBRARY.init(query1);
+                    ///YLIBRARY.helloWorld();
+
+
+                    fetch('/query1', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({query: query1})
+                    })
+                    .then(response => {
+                    if (response.ok) {
+                        console.log('Query sent to server');
+                        return response.text();
+                    } else {
+                        console.error('Error sending query to server');
+                    }
+                    })
+                    .then (data => {
+                        updateTable(data);
+                    })
+                    .catch(error => console.error('Error sending query to server', error));
+
+                    function updateTable(data) {
+                        const table = document.getElementById('table2');
+                        table.innerHTML = data;
+                    }
+                });
+            </script>
+            <script>
+                //const userQuery = document.getElementById('user-query').dataset.userQuery;
+                //console.log(userQuery);
+            </script>
+            </div>
+        </form>
+
+
+</section>
+
+
+<section>
+    <div id="table2"></div>
+</section>
 </body>
 </html>
