@@ -122,6 +122,22 @@ async function run() {
         );
         console.log(complex_four.rows);
 
+        const complex_four_a = await connection.execute(`SELECT DISTINCT CountryName, NBONIN.Cases.Year, NBONIN.Cases.LikelyValue_Numeric/ Country.TotalPopulation FROM (NBONIN.Cases INNER JOIN NBONIN.COUNTRY ON NBONIN.Cases.CountryCode = NBONIN.COUNTRY.CountryCode AND NBONIN.COUNTRY.Year = NBONIN.Cases.Year) INNER JOIN NBONIN.DiseaseInfo ON NBONIN.DiseaseInfo.IndicatorCode = NBONIN.Cases.IndicatorCode AND NBONIN.DiseaseInfo.CountryCode = NBONIN.Cases.CountryCode AND NBONIN.DiseaseInfo.Year = NBONIN.Cases.Year AND NBONIN.DiseaseInfo.Sex = NBONIN.Cases.Sex AND NBONIN.DiseaseInfo.Causes = NBONIN.Cases.Causes AND NBONIN.DiseaseInfo.Severity = NBONIN.Cases.Severity AND NBONIN.DiseaseInfo.AgeGroup = NBONIN.Cases.AgeGroup WHERE NBONIN.Cases.LikelyValue_Numeric IS NOT NULL AND NBONIN.DiseaseInfo.DiseaseName = 'Measles' ORDER BY NBONIN.Cases.Year, Country.CountryName`);
+        console.log(complex_four_a.rows);
+
+        // const complex_four_b = await connection.execute(`WITH Second(place, year, value) AS 
+        // (SELECT DISTINCT CountryName, NBONIN.Cases.Year, NBONIN.Cases.LikelyValue_Numeric 
+        //     FROM (NBONIN.Cases INNER JOIN NBONIN.COUNTRY ON NBONIN.Cases.CountryCode = NBONIN.COUNTRY.CountryCode AND NBONIN.COUNTRY.Year = NBONIN.Cases.Year) 
+        //     INNER JOIN NBONIN.DiseaseInfo ON NBONIN.DiseaseInfo.IndicatorCode = NBONIN.Cases.IndicatorCode AND NBONIN.DiseaseInfo.CountryCode = NBONIN.Cases.CountryCode AND NBONIN.DiseaseInfo.Year = NBONIN.Cases.Year AND NBONIN.DiseaseInfo.Sex = NBONIN.Cases.Sex AND NBONIN.DiseaseInfo.Causes = NBONIN.Cases.Causes AND NBONIN.DiseaseInfo.Severity = NBONIN.Cases.Severity AND NBONIN.DiseaseInfo.AgeGroup = NBONIN.Cases.AgeGroup 
+        //     WHERE NBONIN.Cases.LikelyValue_Numeric IS NOT NULL AND NBONIN.DiseaseInfo.DiseaseName = 'Malaria' AND NBONIN.Cases.Year >= 2000 AND NBONIN.Cases.Year <= 2020 AND NBONIN.DiseaseInfo.IndicatorName = 'Number of confirmed malaria cases' 
+        //     ORDER BY NBONIN.Cases.Year, Country.CountryName) 
+        // SELECT DISTINCT CountryName, NBONIN.Cases.Year, (NBONIN.Cases.LikelyValue_Numeric/ Second.value) * 100 
+        // FROM (NBONIN.Cases INNER JOIN NBONIN.COUNTRY ON NBONIN.Cases.CountryCode = NBONIN.COUNTRY.CountryCode AND NBONIN.COUNTRY.Year = NBONIN.Cases.Year) 
+        // INNER JOIN NBONIN.DiseaseInfo ON NBONIN.DiseaseInfo.IndicatorCode = NBONIN.Cases.IndicatorCode AND NBONIN.DiseaseInfo.CountryCode = NBONIN.Cases.CountryCode AND NBONIN.DiseaseInfo.Year = NBONIN.Cases.Year AND NBONIN.DiseaseInfo.Sex = NBONIN.Cases.Sex AND NBONIN.DiseaseInfo.Causes = NBONIN.Cases.Causes AND NBONIN.DiseaseInfo.Severity = NBONIN.Cases.Severity AND NBONIN.DiseaseInfo.AgeGroup = NBONIN.Cases.AgeGroup 
+        // INNER JOIN Second ON Second.place = NBONIN.COUNTRY.countryName AND Second.Year = NBONIN.Cases.Year 
+        // WHERE NBONIN.Cases.LikelyValue_Numeric IS NOT NULL AND NBONIN.DiseaseInfo.DiseaseName = 'Malaria' AND NBONIN.Cases.Year >= 2000 AND NBONIN.Cases.Year <= 2020 AND NBONIN.DiseaseInfo.IndicatorName = 'Number of confirmed malaria cases' 
+        // ORDER BY NBONIN.Cases.Year, Country.CountryName`);
+        // console.log(complex_four_b.rows);
         const complex_five = await connection.execute(
             `WITH VaccineInfo(countrycode, year, VaccineRates) AS (
                 SELECT Vaccines.CountryCode, Vaccines.Year, Vaccines.rates
