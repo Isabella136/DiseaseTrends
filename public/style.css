@@ -1,17 +1,33 @@
 header {
-	background-color: #202020;
+	background-color: #05405c;
 	color: #FFF;
 	padding: 20px;
 	text-align: center;
   }
   
-  section {
+section {
 	padding: 20px;
+	background-color: #e2dcd1;
+}
+
+#displayTable {
+	padding-top: 20px;
+	padding-left: 1px;
+	padding-right: 1px;
+	background-color: white;
   }
   
   h1 {
 	margin: 0;
+	font-family: Georgia;
   }
+
+  h2 {
+	margin: 0;
+	font-family: Georgia;
+	padding-bottom: 10px;
+  }
+
   
   table {
 	border-collapse: collapse;
@@ -34,6 +50,16 @@ header {
   
   form {
 	margin-bottom: 20px;
+	font-family: Georgia;
+  }
+  
+  #dataset
+  {
+	width: 500px;
+  }
+  #dataset2
+  {
+	width: 500px;
   }
   
   label {
@@ -46,9 +72,11 @@ header {
 	margin-right: 1px;
   }
   
-  input[type="submit"] {
-	font-size: 18px; /* Adjust font size for submit buttons, if needed */
+  
+  button[type="button"] {
+	font-size:20px; /* Adjust font size for submit buttons, if needed */
   }
+
 
 .row {
     display: flex;
@@ -63,6 +91,7 @@ header {
 }
 
 .Submit-Buttons{
+	padding-top: 20px;
 	justify-content: center;
 	align-items: center
 }
