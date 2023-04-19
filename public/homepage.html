@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Disease Trends</title>
+	<link rel="stylesheet" type="text/css" href="public/style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+	<script id= "db" src="public/script.js"></script>
+</head>
+<body>
+	<header>
+		<h1 style="font-family:Helvetica">Disease Trends</h1>
+	</header>
+	<p id="graphtitle">Graph</p>
+	<script>
+		var temp = document.getElementById("graphtitle");
+		console.log(key_select);
+		fun();
+	</script>
+	<section>
+		<h2>Filter Query by:</h2>
+		<form>
+			<label for="disease">Disease:</label>
+			<select id="disease" name="disease">
+                <option value="none">none</option>
+				<option value="HIV">HIV</option>
+				<option value="Malaria">Malaria</option>
+				<option value="Tuberculosis">Tuberculosis</option>
+			</select>
+
+            <label for="type">Type:</label>
+			<select id="type" name="type">
+				<option value="none">none</option>
+				<option value="Cases">Cases</option>
+				<option value="Deaths">Deaths</option>
+			</select>
+
+            <label for="country">Country:</label>
+			<select id="country" name="country">
+                <option value="none">none</option>
+				<option value="Cuba">Cuba</option>
+				<option value="USA">USA</option>
+				<option value="Canada">Canada</option>
+			</select>
+
+			<label for="year">Year:</label>
+			<select id="year" name="year">
+                <option value="none">none</option>
+				<option value="2013">2013</option>
+				<option value="2014">2014</option>
+				<option value="2015">2015</option>
+				<option value="2016">2016</option>
+				<option value="2017">2017</option>
+				<option value="2018">2018</option>
+				<option value="2019">2019</option>
+				<option value="2020">2020</option>
+				<option value="2021">2021</option>
+			</select>
+
+
+            <label for="category">Add Category:</label>
+			<select id="category" name="category">
+                <option value="none">none</option>
+				<option value="population">population</option>
+            </select>
+            /* <input type="submit" value="ADD Category">
+			<input type="submit" value="Search">
+		</form>
+	</section>
+	<section>
+		<table>
+			<thead>
+				<tr>
+					<th>Country</th>
+					<th>Population</th>
+					<th>Number of Deaths per 1000</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>United States</td>
+					<td>330,000,000</td>
+					<td>0.02</td>
+				</tr>
+				<tr>
+					<td>Brazil</td>
+					<td>211,000,000</td>
+					<td>0.05</td>
+				</tr>
+				<tr>
+					<td>Nigeria</td>
+					<td>206,000,000</td>
+					<td>0.25</td>
+				</tr>
+				<tr>
+					<td>India</td>
+					<td>1,366,000,000</td>
+					<td>0.03</td>
+				</tr>
+				<tr>
+					<td>South Africa</td>
+					<td>58,000,000</td>
+					<td>1.37</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+</body>
+</html>

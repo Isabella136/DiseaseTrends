@@ -1,0 +1,97 @@
+header {
+	background-color: #05405c;
+	color: #FFF;
+	padding: 20px;
+	text-align: center;
+  }
+  
+section {
+	padding: 20px;
+	background-color: #e2dcd1;
+}
+
+#displayTable {
+	padding-top: 20px;
+	padding-left: 1px;
+	padding-right: 1px;
+	background-color: white;
+  }
+  
+  h1 {
+	margin: 0;
+	font-family: Georgia;
+  }
+
+  h2 {
+	margin: 0;
+	font-family: Georgia;
+	padding-bottom: 10px;
+  }
+
+  
+  table {
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  th, td {
+	text-align: left;
+	padding: 8px;
+  }
+  
+  th {
+	background-color: #202020;
+	color: #FFF;
+  }
+  
+  tr:nth-child(even) {
+	background-color: #f2f2f2;
+  }
+  
+  form {
+	margin-bottom: 20px;
+	font-family: Georgia;
+  }
+  
+  #dataset
+  {
+	width: 500px;
+  }
+  #dataset2
+  {
+	width: 500px;
+  }
+  
+  label {
+	font-size: 24px; /* Increase label font size */
+	margin-right: 1px;
+  }
+  
+  select {
+	font-size: 16px; /* Decrease option font size */
+	margin-right: 1px;
+  }
+  
+  
+  button[type="button"] {
+	font-size:20px; /* Adjust font size for submit buttons, if needed */
+  }
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    min-width: calc(50% - 10px);
+    max-width: calc(50% - 10px);
+}
+
+.Submit-Buttons{
+	padding-top: 20px;
+	justify-content: center;
+	align-items: center
+}

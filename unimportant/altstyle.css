@@ -1,0 +1,60 @@
+html {
+    background-color: #e8fff6;
+}
+
+header {
+	background-color: #202020;
+	color: #FFF;
+	padding: px;
+    text-align: center;
+
+}
+
+section {
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#Box
+{
+	padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 1200px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+}
+
+th {
+	background-color: #202020;
+	color: #FFF;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+form {
+	margin-bottom: 20px;
+}
+
+label, select {
+	font-size: 16px;
+	margin-right: 10px;
+}

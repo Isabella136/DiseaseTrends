@@ -1,0 +1,1392 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Disease Trends</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script type="text/javascript" src="extra.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Disease Trends</h1>
+        </header>
+        <section name="options">
+            <form>
+                <div class="row">
+                    <div class="column">
+                        <div class="queryTitle1">
+                            <h2 id="queryTitle1">Query 1</h2>
+                        </div>
+                        <div>
+                            <label for="disease">Disease:</label>
+                            <select id="disease" name="disease">
+                                <option value="all">all</option>
+                                <option value="HIV">HIV</option>
+                                <option value="Malaria">Malaria</option>
+                                <option value="Diphtheria">Diphtheria</option>
+                                <option value="Japanese_Encephalitis">Japanese
+                                    Encephalitis</option>
+                                <option value="Neonatal_Tetanus">Neonatal
+                                    Tetanus</option>
+                                <option value="CRS">Congenital Rubella Syndrome</option>
+                                <option value="Anaemia">Anaemia</option>
+                                <option value="Meningitis">Meningitis</option>
+                                <option value="Yellow_Fever">Yellow Fever</option>
+                                <option value="Tuberculosis">Tuberculosis</option>
+                                <option value="Diarrhoea">Diarrhoea</option>
+                                <option value="Indigenous_Malaria">Indigenous
+                                    Malaria</option>
+                                <option value="Imported_Malaria">Imported
+                                    Malaria</option>
+                                <option value="Cholera">Cholera</option>
+                                <option value="Pertussis">Pertussis</option>
+                                <option value="HAT">Human African
+                                    Trypanosomiasis</option>
+                                <option value="Congenital_Syphilis">Congenital
+                                    Syphilis</option>
+                                <option value="Leprosy">Leprosy</option>
+                                <option value="NCD">Non-Communicable Diseases</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="type">Type:</label>
+                            <select id="type" name="type">
+                                <option value="Cases">Cases</option>
+                                <option value="DEATHS">Deaths</option>
+                                <option value="Vaccines">Vaccines</option>
+                                <option value="DisabilityAdjustedLifeYears">Disability Adjusted Life
+                                    Years</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="country">Country:</label>
+                            <select id="country" name="country"
+                                onchange="disableRegion1()">
+                                <option value="all">all</option>
+                                <option value="Afghanistan">Afghanistan</option>
+                                <option value="Albania">Albania</option>
+                                <option value="Algeria">Algeria</option>
+                                <option value="Andorra">Andorra</option>
+                                <option value="Angola">Angola</option>
+                                <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                <option value="Argentina">Argentina</option>
+                                <option value="Armenia">Armenia</option>
+                                <option value="Australia">Australia</option>
+                                <option value="Austria">Austria</option>
+                                <option value="Azerbaijan">Azerbaijan</option>
+                                <option value="Bahamas, The">Bahamas, The</option>
+                                <option value="Bahrain">Bahrain</option>
+                                <option value="Bangladesh">Bangladesh</option>
+                                <option value="Barbados">Barbados</option>
+                                <option value="Belarus">Belarus</option>
+                                <option value="Belgium">Belgium</option>
+                                <option value="Belize">Belize</option>
+                                <option value="Benin">Benin</option>
+                                <option value="Bhutan">Bhutan</option>
+                                <option value="Bolivia">Bolivia</option>
+                                <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                                <option value="Botswana">Botswana</option>
+                                <option value="Brazil">Brazil</option>
+                                <option value="Brunei Darussalam">Brunei Darussalam</option>
+                                <option value="Bulgaria">Bulgaria</option>
+                                <option value="Burkina Faso">Burkina Faso</option>
+                                <option value="Burundi">Burundi</option>
+                                <option value="Cabo Verde">Cabo Verde</option>
+                                <option value="Cambodia">Cambodia</option>
+                                <option value="Cameroon">Cameroon</option>
+                                <option value="Canada">Canada</option>
+                                <option value="Canada">Canada</option>
+                                <option value="Central African Republic">Central African Republic</option>
+                                <option value="Chad">Chad</option>
+                                <option value="Chile">Chile</option>
+                                <option value="China">China</option>
+                                <option value="Colombia">Colombia</option>
+                                <option value="Comoros">Comoros</option>
+                                <option value="Congo, Dem. Rep.">Congo, Dem. Rep.</option>
+                                <option value="Congo, Rep.">Congo, Rep.</option>
+                                <option value="Costa_Rica">Costa Rica</option>
+                                <option value="Cote d'Ivoire">Cote d'Ivoire</option>
+                                <option value="Croatia">Croatia</option>
+                                <option value="Cuba">Cuba</option>
+                                <option value="Cyprus">Cyprus</option>
+                                <option value="Czechia">Czechia</option>
+                                <option value="Denmark">Denmark</option>
+                                <option value="Djibouti">Djibouti</option>
+                                <option value="Dominica">Dominica</option>
+                                <option value="Dominican Republic">Dominican Republic</option>
+                                <option value="Ecuador">Ecuador</option>
+                                <option value="Egypt, Arab Rep.">Egypt, Arab Rep.</option>
+                                <option value="El Salvador">El Salvador</option>
+                                <option value="Equatorial Guinea">Equatorial Guinea</option>
+                                <option value="Eritrea">Eritrea</option>
+                                <option value="Estonia">Estonia</option>
+                                <option value="Eswatini">Eswatini</option>
+                                <option value="Ethiopia">Ethiopia</option>
+                                <option value="Fiji">Fiji</option>
+                                <option value="Finland">Finland</option>
+                                <option value="France">France</option>
+                                <option value="Gabon">Gabon</option>
+                                <option value="Gambia, The">Gambia, The</option>
+                                <option value="Georgia">Georgia</option>
+                                <option value="Germany">Germany</option>
+                                <option value="Ghana">Ghana</option>
+                                <option value="Greece">Greece</option>
+                                <option value="Grenada">Grenada</option>
+                                <option value="Guatemala">Guatemala</option>
+                                <option value="Guinea">Guinea</option>
+                                <option value="Guinea-Bissau">Guinea-Bissau</option>
+                                <option value="Guyana">Guyana</option>
+                                <option value="Haiti">Haiti</option>
+                                <option value="Honduras">Honduras</option>
+                                <option value="Hungary">Hungary</option>
+                                <option value="Iceland">Iceland</option>
+                                <option value="India">India</option>
+                                <option value="Indonesia">Indonesia</option>
+                                <option value="Iran, Islamic Rep.">Iran, Islamic Rep.</option>
+                                <option value="Iraq">Iraq</option>
+                                <option value="Ireland">Ireland</option>
+                                <option value="Israel">Israel</option>
+                                <option value="Italy">Italy</option>
+                                <option value="Jamaica">Jamaica</option>
+                                <option value="Japan">Japan</option>
+                                <option value="Jordan">Jordan</option>
+                                <option value="Kazakhstan">Kazakhstan</option>
+                                <option value="Kenya">Kenya</option>
+                                <option value="Kiribati">Kiribati</option>
+                                <option value="Korea, Dem. People's Rep.">Korea, Dem. People's Rep.</option>
+                                <option value="Korea, Rep.">Korea, Rep.</option>
+                                <option value="Kuwait">Kuwait</option>
+                                <option value="Kyrgyz Republic">Kyrgyz Republic</option>
+                                <option value="Lao PDR">Lao PDR</option>
+                                <option value="Latvia">Latvia</option>
+                                <option value="Lebanon">Lebanon</option>
+                                <option value="Lesotho">Lesotho</option>
+                                <option value="Liberia">Liberia</option>
+                                <option value="Libya">Libya</option>
+                                <option value="Lithuania">Lithuania</option>
+                                <option value="Luxembourg">Luxembourg</option>
+                                <option value="Madagascar">Madagascar</option>
+                                <option value="Malawi">Malawi</option>
+                                <option value="Malaysia">Malaysia</option>
+                                <option value="Maldives">Maldives</option>
+                                <option value="Mali">Mali</option>
+                                <option value="Malta">Malta</option>
+                                <option value="Marshall Islands">Marshall Islands</option>
+                                <option value="Mauritania">Mauritania</option>
+                                <option value="Mauritius">Mauritius</option>
+                                <option value="Mexico">Mexico</option>
+                                <option value="Micronesia, Fed. Sts.">Micronesia, Fed. Sts.</option>
+                                <option value="Moldova">Moldova</option>
+                                <option value="Monaco">Monaco</option>
+                                <option value="Mongolia">Mongolia</option>
+                                <option value="Montenegro">Montenegro</option>
+                                <option value="Morocco">Morocco</option>
+                                <option value="Mozambique">Mozambique</option>
+                                <option value="Myanmar">Myanmar</option>
+                                <option value="Namibia">Namibia</option>
+                                <option value="Nauru">Nauru</option>
+                                <option value="Nepal">Nepal</option>
+                                <option value="Netherlands">Netherlands</option>
+                                <option value="New Zealand">New Zealand</option>
+                                <option value="Nicaragua">Nicaragua</option>
+                                <option value="Niger">Niger</option>
+                                <option value="Nigeria">Nigeria</option>
+                                <option value="North Macedonia">North Macedonia</option>
+                                <option value="Norway">Norway</option>
+                                <option value="Oman">Oman</option>
+                                <option value="Pakistan">Pakistan</option>
+                                <option value="Palau">Palau</option>
+                                <option value="Panama">Panama</option>
+                                <option value="Papua New Guinea">Papua New Guinea</option>
+                                <option value="Paraguay">Paraguay</option>
+                                <option value="Peru">Peru</option>
+                                <option value="Philippines">Philippines</option>
+                                <option value="Poland">Poland</option>
+                                <option value="Portugal">Portugal</option>
+                                <option value="Puerto Rico">Puerto Rico</option>
+                                <option value="Qatar">Qatar</option>
+                                <option value="Romania">Romania</option>
+                                <option value="Russian Federation">Russian Federation</option>
+                                <option value="Rwanda">Rwanda</option>
+                                <option value="Samoa">Samoa</option>
+                                <option value="San Marino">San Marino</option>
+                                <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                                <option value="Saudi Arabia">Saudi Arabia</option>
+                                <option value="Senegal">Senegal</option>
+                                <option value="Serbia">Serbia</option>
+                                <option value="Seychelles">Seychelles</option>
+                                <option value="Sierra Leone">Sierra Leone</option>
+                                <option value="Singapore">Singapore</option>
+                                <option value="Slovak Republic">Slovak Republic</option>
+                                <option value="Slovenia">Slovenia</option>
+                                <option value="Solomon Islands">Solomon Islands</option>
+                                <option value="Somalia">Somalia</option>
+                                <option value="South Africa">South Africa</option>
+                                <option value="South Sudan">South Sudan</option>
+                                <option value="Spain">Spain</option>
+                                <option value="Sri Lanka">Sri Lanka</option>
+                                <option value="St. Kitts and Nevis">St. Kitts and Nevis</option>
+                                <option value="St. Lucia">St. Lucia</option>
+                                <option value="St. Vincent and the Grenadines">St. Vincent and the Grenadines</option>
+                                <option value="Sudan">Sudan</option>
+                                <option value="Suriname">Suriname</option>
+                                <option value="Sweden">Sweden</option>
+                                <option value="Switzerland">Switzerland</option>
+                                <option value="Syrian Arab Republic">Syrian Arab Republic</option>
+                                <option value="Tajikistan">Tajikistan</option>
+                                <option value="Tanzania">Tanzania</option>
+                                <option value="Thailand">Thailand</option>
+                                <option value="Timor-Leste">Timor-Leste</option>
+                                <option value="Togo">Togo</option>
+                                <option value="Tonga">Tonga</option>
+                                <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                                <option value="Tunisia">Tunisia</option>
+                                <option value="Turkiye">Turkiye</option>
+                                <option value="Turkmenistan">Turkmenistan</option>
+                                <option value="Tuvalu">Tuvalu</option>
+                                <option value="Uganda">Uganda</option>
+                                <option value="Ukraine">Ukraine</option>
+                                <option value="United Arab Emirates">United Arab Emirates</option>
+                                <option value="United States">United States</option>
+                                <option value="United_Kingdom">United Kingdom</option>
+                                <option value="Uruguay">Uruguay</option>
+                                <option value="Uzbekistan">Uzbekistan</option>
+                                <option value="Vanuatu">Vanuatu</option>
+                                <option value="Venezuela, RB">Venezuela, RB</option>
+                                <option value="Vietnam">Vietnam</option>
+                                <option value="West Bank and Gaza">West Bank and Gaza</option>
+                                <option value="Yemen, Rep.">Yemen, Rep.</option>
+                                <option value="Zambia">Zambia</option>
+                                <option value="Zimbabwe">Zimbabwe</option>
+                            </select>
+                        </div>
+                        <div id="regionDropdown" style="display: inline-block;"
+                            onchange="disableCountry1()">
+                            <label for="region">Region:</label>
+                            <select id="region" name="region">
+                                <option value="none">none</option>
+                                <option value="Americas">Americas</option>
+                                <option value="Africa">Africa</option>
+                                <option value="Eastern Mediterranean">Eastern
+                                    Mediterranean</option>
+                                <option value="Europe">Europe</option>
+                                <option value="South-East Asia">South-East Asia</option>
+                                <option value="Western Pacific">Western Pacific</option>
+                            </select>
+                        </div>
+                        <div>
+                            <script>
+                            function disableCountry1()
+                            {
+                                var country_ = document.getElementById("country");
+                                country_.disabled = true;
+                            }
+                            function disableRegion1()
+                            {
+                                var region_ = document.getElementById("region");
+                                region_.disabled = true;
+                            }
+                        </script>
+                        </div>
+                        <div>
+                            <label for="includeYear">Include Year:</label>
+                            <input type="checkbox" id="yearCheckbox" name="year" value="true" checked onchange="yearIncluded()">
+                        </div>
+                        <div>
+                            <label for="startYear">Start Year:</label>
+                            <input type="text" id="startYear" pattern="[0-9]*"
+                                minlength="0" maxlength="4" min="1960"
+                                max="2021">
+                        </div>
+                        <div>
+                            <label for="endYear">End Year:</label>
+                            <input type="text" id="endYear" pattern="[0-9]*"
+                                minlength="0" maxlength="4" min="1960"
+                                max="2021">
+                        </div>
+                        <script>
+                            function yearIncluded()
+                            {
+                                var includeYear_ = document.getElementById('yearCheckbox');
+                                var startYear_ = document.getElementById('startYear');
+                                var endYear_ = document.getElementById('endYear');
+                                if (!includeYear_.checked)
+                                {
+                                    startYear_.disabled = true;
+                                    endYear_.disabled = true;
+                                } else
+                                {
+                                    startYear_.disabled = false;
+                                    endYear_.disabled = false;
+                                }
+                            }
+                        </script>
+                        <div>
+                            <label for="populationGroup">Population Group:</label>
+                            <select id="populationGroup" name="populationGroup">
+                                <option value="none">none</option>
+                                <option value="'Nationally recommended age
+                                    (second dose)'">Nationally Recommended Age
+                                    (2nd dose)</option>
+                                <option value="'Children < 15'">Children < 15</option>
+                                <option value="'HIV positive'">HIV Positive</option>
+                                <option value="'Excluding HIV'">Excluding HIV</option>
+                                <option value="'At risk'">At Risk</option>
+                                <option value="'Inadequate water, sanitation and
+                                    hygiene'">Inadequate water, sanitation and
+                                    hygiene</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="dataset">Dataset:</label>
+                            <select id="dataset" name="dataset" size="1">
+                                <option value="none">None</option>
+                                <option value="Congenital syphilis number of
+                                    reported cases">Congenital syphilis number
+                                    of reported cases</option>
+                                <option value="Diphtheria - number of reported
+                                    cases">Diphtheria - number of reported cases</option>
+                                <option value="Number of incident tuberculosis
+                                    cases in children aged 0 - 14">Number of
+                                    incident tuberculosis cases in children aged
+                                    0 - 14 &#10;</option>
+                                <option value="Number of confirmed malaria
+                                    cases">Number of confirmed malaria cases</option>
+                                <option value="Number of imported malaria
+                                    cases">Number of imported malaria cases</option>
+                                <option value="Number of indigenous P. vivax
+                                    malaria cases">Number of indigenous P. vivax
+                                    malaria cases</option>
+                                <option value="Number of reported cases of
+                                    poliomyelitis by wild poliovirus (WPV)">Number
+                                    of reported cases of poliomyelitis by wild
+                                    poliovirus (WPV)</option>
+                                <option value="Number of reported deaths from
+                                    cholera">Number of reported deaths from
+                                    cholera</option>
+                                <option value="Number of suspected meningitis
+                                    cases reported">Number of suspected
+                                    meningitis cases reported</option>
+                                <option value="Pertussis - number of reported
+                                    cases">Pertussis - number of reported cases</option>
+                                <option value="Congenital Rubella Syndrome -
+                                    number of reported cases">Congenital Rubella
+                                    Syndrome - number of reported cases</option>
+                                <option value="Estimated number of malaria
+                                    deaths">Estimated number of malaria deaths</option>
+                                <option value="Estimated malaria incidence (per
+                                    1000 population at risk)">Estimated malaria
+                                    incidence (per 1000 population at risk)</option>
+                                <option value="Mumps - number of reported
+                                    cases">Mumps - number of reported cases</option>
+                                <option value="Number of children aged 6–59
+                                    months with anaemia (thousands)">Number of
+                                    children aged 6–59 months with anaemia
+                                    (thousands)</option>
+                                <option value="Number of deaths attributed to
+                                    non-communicable diseases, by type of
+                                    disease and sex">Number of deaths attributed
+                                    to non-communicable diseases, by type of
+                                    disease and sex</option>
+                                <option value="Number of diarrhoea DALYs from
+                                    inadequate water, sanitation and hygiene">Number
+                                    of diarrhoea DALYs from inadequate water,
+                                    sanitation and hygiene</option>
+                                <option value="Incidence of tuberculosis (per
+                                    100 000 population) (HIV-positive cases)">Incidence
+                                    of tuberculosis (per 100 000 population)
+                                    (HIV-positive cases)</option>
+                                <option value="Estimated number of people (all
+                                    ages) living with HIV">Estimated number of
+                                    people (all ages) living with HIV</option>
+                                <option value="Number of new leprosy cases">Number
+                                    of new leprosy cases</option>
+                                <option value="Total tetanus - number of
+                                    reported cases">Total tetanus - number of
+                                    reported cases</option>
+                                <option value="Estimated number of malaria
+                                    cases">Estimated number of malaria cases</option>
+                                <option value="Measles-containing-vaccine
+                                    first-dose (MCV1) immunization coverage
+                                    among 1-year-olds (%)">Measles-containing-vaccine
+                                    first-dose (MCV1) immunization coverage
+                                    among 1-year-olds (%)</option>
+                                <option value="Leprosy - Number of new leprosy
+                                    cases among children (less than 15 years of
+                                    age)">Leprosy - Number of new leprosy cases
+                                    among children (less than 15 years of age)</option>
+                                <option value="New HIV infections (per 1000
+                                    uninfected population)">New HIV infections
+                                    (per 1000 uninfected population)</option>
+                                <option value="Poliomyelitis - number of
+                                    reported cases">Poliomyelitis - number of
+                                    reported cases</option>
+                                <option value="Number of reported cases of
+                                    cholera">Number of reported cases of cholera</option>
+                                <option value="Number of new reported cases of
+                                    human African trypanosomiasis (T.b.
+                                    gambiense)">Number of new reported cases of
+                                    human African trypanosomiasis (T.b.
+                                    gambiense)</option>
+                                <option value="Rubella - number of reported
+                                    cases">Rubella - number of reported cases</option>
+                                <option value="Tested TB patients HIV-positive
+                                    (%)">Tested TB patients HIV-positive (%)</option>
+                                <option value="Measles - number of reported
+                                    cases">Measles - number of reported cases</option>
+                                <option value="Measles-containing-vaccine
+                                    second-dose (MCV2) immunization coverage by
+                                    the nationally recommended age (%)">Measles-containing-vaccine
+                                    second-dose (MCV2) immunization coverage by
+                                    the nationally recommended age (%)</option>
+                                <option value="Number of indigenous malaria
+                                    cases">Number of indigenous malaria cases</option>
+                                <option value="Number of deaths due to
+                                    tuberculosis, excluding HIV">Number of
+                                    deaths due to tuberculosis, excluding HIV</option>
+                                <option value="Number of diarrhoea deaths from
+                                    inadequate water, sanitation and hygiene">Number
+                                    of diarrhoea deaths from inadequate water,
+                                    sanitation and hygiene</option>
+                                <option value="Number of suspected malaria
+                                    cases">Number of suspected malaria cases</option>
+                                <option value="Number of incident tuberculosis
+                                    cases">Number of incident tuberculosis cases</option>
+                                <option value="Number of incident tuberculosis
+                                    cases, (HIV-positive cases)">Number of
+                                    incident tuberculosis cases, (HIV-positive
+                                    cases)</option>
+                                <option value="Number of new HIV infections">Number
+                                    of new HIV infections</option>
+                                <option value="Number of indigenous P.
+                                    falciparum malaria cases">Number of
+                                    indigenous P. falciparum malaria cases</option>
+                                <option value="Number of people dying from
+                                    HIV-related causes">Number of people dying
+                                    from HIV-related causes</option>
+                                <option value="Incidence of tuberculosis (per
+                                    100 000 population per year)">Incidence of
+                                    tuberculosis (per 100 000 population per
+                                    year)</option>
+                                <option value="Japanese encephalitis - number of
+                                    reported cases">Japanese encephalitis -
+                                    number of reported cases</option>
+                                <option value="Neonatal tetanus - number of
+                                    reported cases">Neonatal tetanus - number of
+                                    reported cases</option>
+                                <option value="Number of non-pregnant women
+                                    (aged 15-49 years) with anaemia
+                                    (thousands)">Number of non-pregnant women
+                                    (aged 15-49 years) with anaemia (thousands)</option>
+                                <option value="Number of pregnant women (aged
+                                    15-49 years) with anaemia (thousands)">Number
+                                    of pregnant women (aged 15-49 years) with
+                                    anaemia (thousands)</option>
+                                <option value="Number of presumed malaria
+                                    cases">Number of presumed malaria cases</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="per">Per:</label>
+                            <select id="per" name="per">
+                                <option value="rawPop">Raw Population</option>
+                                <option value="1000">By 1000 inhabitants</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="Average">Average:</label>
+                            <input type="checkbox" id="avgCheckbox" name="average" value="true">
+                        </div>
+
+                    </div>
+                    <div class="column">
+                        <div class="queryTitle2">
+                            <h2 id="queryTitle2">Query 2</h2>
+                        </div>
+                        <div>
+                            <label for="disease2">Disease:</label>
+                            <select id="disease2" name="disease2">
+                                <option value="all">all</option>
+                                <option value="HIV">HIV</option>
+                                <option value="Malaria">Malaria</option>
+                                <option value="Diphtheria">Diphtheria</option>
+                                <option value="Japanese_Encephalitis">Japanese
+                                    Encephalitis</option>
+                                <option value="Neonatal_Tetanus">Neonatal
+                                    Tetanus</option>
+                                <option value="CRS">Congenital Rubella Syndrome</option>
+                                <option value="Anaemia">Anaemia</option>
+                                <option value="Meningitis">Meningitis</option>
+                                <option value="Yellow_Fever">Yellow Fever</option>
+                                <option value="Tuberculosis">Tuberculosis</option>
+                                <option value="Diarrhoea">Diarrhoea</option>
+                                <option value="Indigenous_Malaria">Indigenous
+                                    Malaria</option>
+                                <option value="Imported_Malaria">Imported
+                                    Malaria</option>
+                                <option value="Cholera">Cholera</option>
+                                <option value="Pertussis">Pertussis</option>
+                                <option value="HAT">Human African
+                                    Trypanosomiasis</option>
+                                <option value="Congenital_Syphilis">Congenital
+                                    Syphilis</option>
+                                <option value="Leprosy">Leprosy</option>
+                                <option value="NCD">Non-Communicable Diseases</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="type2">Type:</label>
+                            <select id="type2" name="type2">
+                                <option value="Cases">Cases</option>
+                                <option value="DEATHS">Deaths</option>
+                                <option value="Vaccines">Vaccines</option>
+                                <option value="DisabilityAdjustedLifeYears">Disability Adjusted Life
+                                    Years</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="country2">Country:</label>
+                            <select id="country2" name="country2"
+                                onchange="disableRegion2()">
+                                <option value="all">all</option>
+                                <option value="Afghanistan">Afghanistan</option>
+                                <option value="Albania">Albania</option>
+                                <option value="Algeria">Algeria</option>
+                                <option value="Andorra">Andorra</option>
+                                <option value="Angola">Angola</option>
+                                <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                <option value="Argentina">Argentina</option>
+                                <option value="Armenia">Armenia</option>
+                                <option value="Australia">Australia</option>
+                                <option value="Austria">Austria</option>
+                                <option value="Azerbaijan">Azerbaijan</option>
+                                <option value="Bahamas, The">Bahamas, The</option>
+                                <option value="Bahrain">Bahrain</option>
+                                <option value="Bangladesh">Bangladesh</option>
+                                <option value="Barbados">Barbados</option>
+                                <option value="Belarus">Belarus</option>
+                                <option value="Belgium">Belgium</option>
+                                <option value="Belize">Belize</option>
+                                <option value="Benin">Benin</option>
+                                <option value="Bhutan">Bhutan</option>
+                                <option value="Bolivia">Bolivia</option>
+                                <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                                <option value="Botswana">Botswana</option>
+                                <option value="Brazil">Brazil</option>
+                                <option value="Brunei Darussalam">Brunei Darussalam</option>
+                                <option value="Bulgaria">Bulgaria</option>
+                                <option value="Burkina Faso">Burkina Faso</option>
+                                <option value="Burundi">Burundi</option>
+                                <option value="Cabo Verde">Cabo Verde</option>
+                                <option value="Cambodia">Cambodia</option>
+                                <option value="Cameroon">Cameroon</option>
+                                <option value="Canada">Canada</option>
+                                <option value="Canada">Canada</option>
+                                <option value="Central African Republic">Central African Republic</option>
+                                <option value="Chad">Chad</option>
+                                <option value="Chile">Chile</option>
+                                <option value="China">China</option>
+                                <option value="Colombia">Colombia</option>
+                                <option value="Comoros">Comoros</option>
+                                <option value="Congo, Dem. Rep.">Congo, Dem. Rep.</option>
+                                <option value="Congo, Rep.">Congo, Rep.</option>
+                                <option value="Costa_Rica">Costa Rica</option>
+                                <option value="Cote d'Ivoire">Cote d'Ivoire</option>
+                                <option value="Croatia">Croatia</option>
+                                <option value="Cuba">Cuba</option>
+                                <option value="Cyprus">Cyprus</option>
+                                <option value="Czechia">Czechia</option>
+                                <option value="Denmark">Denmark</option>
+                                <option value="Djibouti">Djibouti</option>
+                                <option value="Dominica">Dominica</option>
+                                <option value="Dominican Republic">Dominican Republic</option>
+                                <option value="Ecuador">Ecuador</option>
+                                <option value="Egypt, Arab Rep.">Egypt, Arab Rep.</option>
+                                <option value="El Salvador">El Salvador</option>
+                                <option value="Equatorial Guinea">Equatorial Guinea</option>
+                                <option value="Eritrea">Eritrea</option>
+                                <option value="Estonia">Estonia</option>
+                                <option value="Eswatini">Eswatini</option>
+                                <option value="Ethiopia">Ethiopia</option>
+                                <option value="Fiji">Fiji</option>
+                                <option value="Finland">Finland</option>
+                                <option value="France">France</option>
+                                <option value="Gabon">Gabon</option>
+                                <option value="Gambia, The">Gambia, The</option>
+                                <option value="Georgia">Georgia</option>
+                                <option value="Germany">Germany</option>
+                                <option value="Ghana">Ghana</option>
+                                <option value="Greece">Greece</option>
+                                <option value="Grenada">Grenada</option>
+                                <option value="Guatemala">Guatemala</option>
+                                <option value="Guinea">Guinea</option>
+                                <option value="Guinea-Bissau">Guinea-Bissau</option>
+                                <option value="Guyana">Guyana</option>
+                                <option value="Haiti">Haiti</option>
+                                <option value="Honduras">Honduras</option>
+                                <option value="Hungary">Hungary</option>
+                                <option value="Iceland">Iceland</option>
+                                <option value="India">India</option>
+                                <option value="Indonesia">Indonesia</option>
+                                <option value="Iran, Islamic Rep.">Iran, Islamic Rep.</option>
+                                <option value="Iraq">Iraq</option>
+                                <option value="Ireland">Ireland</option>
+                                <option value="Israel">Israel</option>
+                                <option value="Italy">Italy</option>
+                                <option value="Jamaica">Jamaica</option>
+                                <option value="Japan">Japan</option>
+                                <option value="Jordan">Jordan</option>
+                                <option value="Kazakhstan">Kazakhstan</option>
+                                <option value="Kenya">Kenya</option>
+                                <option value="Kiribati">Kiribati</option>
+                                <option value="Korea, Dem. People's Rep.">Korea, Dem. People's Rep.</option>
+                                <option value="Korea, Rep.">Korea, Rep.</option>
+                                <option value="Kuwait">Kuwait</option>
+                                <option value="Kyrgyz Republic">Kyrgyz Republic</option>
+                                <option value="Lao PDR">Lao PDR</option>
+                                <option value="Latvia">Latvia</option>
+                                <option value="Lebanon">Lebanon</option>
+                                <option value="Lesotho">Lesotho</option>
+                                <option value="Liberia">Liberia</option>
+                                <option value="Libya">Libya</option>
+                                <option value="Lithuania">Lithuania</option>
+                                <option value="Luxembourg">Luxembourg</option>
+                                <option value="Madagascar">Madagascar</option>
+                                <option value="Malawi">Malawi</option>
+                                <option value="Malaysia">Malaysia</option>
+                                <option value="Maldives">Maldives</option>
+                                <option value="Mali">Mali</option>
+                                <option value="Malta">Malta</option>
+                                <option value="Marshall Islands">Marshall Islands</option>
+                                <option value="Mauritania">Mauritania</option>
+                                <option value="Mauritius">Mauritius</option>
+                                <option value="Mexico">Mexico</option>
+                                <option value="Micronesia, Fed. Sts.">Micronesia, Fed. Sts.</option>
+                                <option value="Moldova">Moldova</option>
+                                <option value="Monaco">Monaco</option>
+                                <option value="Mongolia">Mongolia</option>
+                                <option value="Montenegro">Montenegro</option>
+                                <option value="Morocco">Morocco</option>
+                                <option value="Mozambique">Mozambique</option>
+                                <option value="Myanmar">Myanmar</option>
+                                <option value="Namibia">Namibia</option>
+                                <option value="Nauru">Nauru</option>
+                                <option value="Nepal">Nepal</option>
+                                <option value="Netherlands">Netherlands</option>
+                                <option value="New Zealand">New Zealand</option>
+                                <option value="Nicaragua">Nicaragua</option>
+                                <option value="Niger">Niger</option>
+                                <option value="Nigeria">Nigeria</option>
+                                <option value="North Macedonia">North Macedonia</option>
+                                <option value="Norway">Norway</option>
+                                <option value="Oman">Oman</option>
+                                <option value="Pakistan">Pakistan</option>
+                                <option value="Palau">Palau</option>
+                                <option value="Panama">Panama</option>
+                                <option value="Papua New Guinea">Papua New Guinea</option>
+                                <option value="Paraguay">Paraguay</option>
+                                <option value="Peru">Peru</option>
+                                <option value="Philippines">Philippines</option>
+                                <option value="Poland">Poland</option>
+                                <option value="Portugal">Portugal</option>
+                                <option value="Puerto Rico">Puerto Rico</option>
+                                <option value="Qatar">Qatar</option>
+                                <option value="Romania">Romania</option>
+                                <option value="Russian Federation">Russian Federation</option>
+                                <option value="Rwanda">Rwanda</option>
+                                <option value="Samoa">Samoa</option>
+                                <option value="San Marino">San Marino</option>
+                                <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                                <option value="Saudi Arabia">Saudi Arabia</option>
+                                <option value="Senegal">Senegal</option>
+                                <option value="Serbia">Serbia</option>
+                                <option value="Seychelles">Seychelles</option>
+                                <option value="Sierra Leone">Sierra Leone</option>
+                                <option value="Singapore">Singapore</option>
+                                <option value="Slovak Republic">Slovak Republic</option>
+                                <option value="Slovenia">Slovenia</option>
+                                <option value="Solomon Islands">Solomon Islands</option>
+                                <option value="Somalia">Somalia</option>
+                                <option value="South Africa">South Africa</option>
+                                <option value="South Sudan">South Sudan</option>
+                                <option value="Spain">Spain</option>
+                                <option value="Sri Lanka">Sri Lanka</option>
+                                <option value="St. Kitts and Nevis">St. Kitts and Nevis</option>
+                                <option value="St. Lucia">St. Lucia</option>
+                                <option value="St. Vincent and the Grenadines">St. Vincent and the Grenadines</option>
+                                <option value="Sudan">Sudan</option>
+                                <option value="Suriname">Suriname</option>
+                                <option value="Sweden">Sweden</option>
+                                <option value="Switzerland">Switzerland</option>
+                                <option value="Syrian Arab Republic">Syrian Arab Republic</option>
+                                <option value="Tajikistan">Tajikistan</option>
+                                <option value="Tanzania">Tanzania</option>
+                                <option value="Thailand">Thailand</option>
+                                <option value="Timor-Leste">Timor-Leste</option>
+                                <option value="Togo">Togo</option>
+                                <option value="Tonga">Tonga</option>
+                                <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                                <option value="Tunisia">Tunisia</option>
+                                <option value="Turkiye">Turkiye</option>
+                                <option value="Turkmenistan">Turkmenistan</option>
+                                <option value="Tuvalu">Tuvalu</option>
+                                <option value="Uganda">Uganda</option>
+                                <option value="Ukraine">Ukraine</option>
+                                <option value="United Arab Emirates">United Arab Emirates</option>
+                                <option value="United States">United States</option>
+                                <option value="United_Kingdom">United Kingdom</option>
+                                <option value="Uruguay">Uruguay</option>
+                                <option value="Uzbekistan">Uzbekistan</option>
+                                <option value="Vanuatu">Vanuatu</option>
+                                <option value="Venezuela, RB">Venezuela, RB</option>
+                                <option value="Vietnam">Vietnam</option>
+                                <option value="West Bank and Gaza">West Bank and Gaza</option>
+                                <option value="Yemen, Rep.">Yemen, Rep.</option>
+                                <option value="Zambia">Zambia</option>
+                                <option value="Zimbabwe">Zimbabwe</option>
+                            </select>
+                        </div>
+                        <div id="regionDropdown" style="display: inline-block;"
+                            onchange="disableCountry2()">
+                            <label for="region2">Region:</label>
+                            <select id="region2" name="region2">
+                                <option value="none">none</option>
+                                <option value="Americas">Americas</option>
+                                <option value="Africa">Africa</option>
+                                <option value="Eastern Mediterranean">Eastern
+                                    Mediterranean</option>
+                                <option value="Europe">Europe</option>
+                                <option value="South-East Asia">South-East Asia</option>
+                                <option value="Western Pacific">Western Pacific</option>
+                            </select>
+                        </div>
+                        <div>
+                            <script>
+                            function disableCountry2()
+                            {
+                                var country_ = document.getElementById("country2");
+                                country_.disabled = true;
+                            }
+                            function disableRegion2()
+                            {
+                                var region_ = document.getElementById("region2");
+                                region_.disabled = true;
+                            }
+                        </script>
+                        </div>
+                        <div>
+                            <label for="includeYear2">Include Year:</label>
+                            <input type="checkbox" id="yearCheckbox2" name="year" value="true" checked onchange="yearIncluded2()">
+                        </div>
+                        <div>
+                            <label for="startYear2">Start Year:</label>
+                            <input type="text" id="startYear2" pattern="[0-9]*"
+                                minlength="0" maxlength="4" min="1960"
+                                max="2021">
+                        </div>
+                        <div>
+                            <label for="endYear2">End Year:</label>
+                            <input type="text" id="endYear2" pattern="[0-9]*"
+                                minlength="0" maxlength="4" min="1960"
+                                max="2021">
+                        </div>
+                        <script>
+                            function yearIncluded2()
+                            {
+                                var includeYear2_ = document.getElementById('yearCheckbox2');
+                                var startYear2_ = document.getElementById('startYear2');
+                                var endYear2_ = document.getElementById('endYear2');
+                                if (!includeYear2_.checked)
+                                {
+                                    startYear2_.disabled = true;
+                                    endYear2_.disabled = true;
+                                } else
+                                {
+                                    startYear2_.disabled = false;
+                                    endYear2_.disabled = false;
+                                }
+                            }
+                        </script>
+                        <div>
+                            <label for="populationGroup2">Population Group:</label>
+                            <select id="populationGroup2" name="populationGroup2">
+                                <option value="none">none</option>
+                                <option value="'Nationally recommended age
+                                    (second dose)'">Nationally Recommended Age
+                                    (2nd dose)</option>
+                                <option value="'Children < 15'">Children < 15</option>
+                                <option value="'HIV positive'">HIV Positive</option>
+                                <option value="'Excluding HIV'">Excluding HIV</option>
+                                <option value="'At risk'">At Risk</option>
+                                <option value="'Inadequate water, sanitation and
+                                    hygiene'">Inadequate water, sanitation and
+                                    hygiene</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="dataset2">Dataset:</label>
+                            <select id="dataset2" name="dataset2" size="1">
+                                <option value="none">None</option>
+                                <option value="Congenital syphilis number of
+                                    reported cases">Congenital syphilis number
+                                    of reported cases</option>
+                                <option value="Diphtheria - number of reported
+                                    cases">Diphtheria - number of reported cases</option>
+                                <option value="Number of incident tuberculosis
+                                    cases in children aged 0 - 14">Number of
+                                    incident tuberculosis cases in children aged
+                                    0 - 14 &#10;</option>
+                                <option value="Number of confirmed malaria
+                                    cases">Number of confirmed malaria cases</option>
+                                <option value="Number of imported malaria
+                                    cases">Number of imported malaria cases</option>
+                                <option value="Number of indigenous P. vivax
+                                    malaria cases">Number of indigenous P. vivax
+                                    malaria cases</option>
+                                <option value="Number of reported cases of
+                                    poliomyelitis by wild poliovirus (WPV)">Number
+                                    of reported cases of poliomyelitis by wild
+                                    poliovirus (WPV)</option>
+                                <option value="Number of reported deaths from
+                                    cholera">Number of reported deaths from
+                                    cholera</option>
+                                <option value="Number of suspected meningitis
+                                    cases reported">Number of suspected
+                                    meningitis cases reported</option>
+                                <option value="Pertussis - number of reported
+                                    cases">Pertussis - number of reported cases</option>
+                                <option value="Congenital Rubella Syndrome -
+                                    number of reported cases">Congenital Rubella
+                                    Syndrome - number of reported cases</option>
+                                <option value="Estimated number of malaria
+                                    deaths">Estimated number of malaria deaths</option>
+                                <option value="Estimated malaria incidence (per
+                                    1000 population at risk)">Estimated malaria
+                                    incidence (per 1000 population at risk)</option>
+                                <option value="Mumps - number of reported
+                                    cases">Mumps - number of reported cases</option>
+                                <option value="Number of children aged 6–59
+                                    months with anaemia (thousands)">Number of
+                                    children aged 6–59 months with anaemia
+                                    (thousands)</option>
+                                <option value="Number of deaths attributed to
+                                    non-communicable diseases, by type of
+                                    disease and sex">Number of deaths attributed
+                                    to non-communicable diseases, by type of
+                                    disease and sex</option>
+                                <option value="Number of diarrhoea DALYs from
+                                    inadequate water, sanitation and hygiene">Number
+                                    of diarrhoea DALYs from inadequate water,
+                                    sanitation and hygiene</option>
+                                <option value="Incidence of tuberculosis (per
+                                    100 000 population) (HIV-positive cases)">Incidence
+                                    of tuberculosis (per 100 000 population)
+                                    (HIV-positive cases)</option>
+                                <option value="Estimated number of people (all
+                                    ages) living with HIV">Estimated number of
+                                    people (all ages) living with HIV</option>
+                                <option value="Number of new leprosy cases">Number
+                                    of new leprosy cases</option>
+                                <option value="Total tetanus - number of
+                                    reported cases">Total tetanus - number of
+                                    reported cases</option>
+                                <option value="Estimated number of malaria
+                                    cases">Estimated number of malaria cases</option>
+                                <option value="Measles-containing-vaccine
+                                    first-dose (MCV1) immunization coverage
+                                    among 1-year-olds (%)">Measles-containing-vaccine
+                                    first-dose (MCV1) immunization coverage
+                                    among 1-year-olds (%)</option>
+                                <option value="Leprosy - Number of new leprosy
+                                    cases among children (less than 15 years of
+                                    age)">Leprosy - Number of new leprosy cases
+                                    among children (less than 15 years of age)</option>
+                                <option value="New HIV infections (per 1000
+                                    uninfected population)">New HIV infections
+                                    (per 1000 uninfected population)</option>
+                                <option value="Poliomyelitis - number of
+                                    reported cases">Poliomyelitis - number of
+                                    reported cases</option>
+                                <option value="Number of reported cases of
+                                    cholera">Number of reported cases of cholera</option>
+                                <option value="Number of new reported cases of
+                                    human African trypanosomiasis (T.b.
+                                    gambiense)">Number of new reported cases of
+                                    human African trypanosomiasis (T.b.
+                                    gambiense)</option>
+                                <option value="Rubella - number of reported
+                                    cases">Rubella - number of reported cases</option>
+                                <option value="Tested TB patients HIV-positive
+                                    (%)">Tested TB patients HIV-positive (%)</option>
+                                <option value="Measles - number of reported
+                                    cases">Measles - number of reported cases</option>
+                                <option value="Measles-containing-vaccine
+                                    second-dose (MCV2) immunization coverage by
+                                    the nationally recommended age (%)">Measles-containing-vaccine
+                                    second-dose (MCV2) immunization coverage by
+                                    the nationally recommended age (%)</option>
+                                <option value="Number of indigenous malaria
+                                    cases">Number of indigenous malaria cases</option>
+                                <option value="Number of deaths due to
+                                    tuberculosis, excluding HIV">Number of
+                                    deaths due to tuberculosis, excluding HIV</option>
+                                <option value="Number of diarrhoea deaths from
+                                    inadequate water, sanitation and hygiene">Number
+                                    of diarrhoea deaths from inadequate water,
+                                    sanitation and hygiene</option>
+                                <option value="Number of suspected malaria
+                                    cases">Number of suspected malaria cases</option>
+                                <option value="Number of incident tuberculosis
+                                    cases">Number of incident tuberculosis cases</option>
+                                <option value="Number of incident tuberculosis
+                                    cases, (HIV-positive cases)">Number of
+                                    incident tuberculosis cases, (HIV-positive
+                                    cases)</option>
+                                <option value="Number of new HIV infections">Number
+                                    of new HIV infections</option>
+                                <option value="Number of indigenous P.
+                                    falciparum malaria cases">Number of
+                                    indigenous P. falciparum malaria cases</option>
+                                <option value="Number of people dying from
+                                    HIV-related causes">Number of people dying
+                                    from HIV-related causes</option>
+                                <option value="Incidence of tuberculosis (per
+                                    100 000 population per year)">Incidence of
+                                    tuberculosis (per 100 000 population per
+                                    year)</option>
+                                <option value="Japanese encephalitis - number of
+                                    reported cases">Japanese encephalitis -
+                                    number of reported cases</option>
+                                <option value="Neonatal tetanus - number of
+                                    reported cases">Neonatal tetanus - number of
+                                    reported cases</option>
+                                <option value="Number of non-pregnant women
+                                    (aged 15-49 years) with anaemia
+                                    (thousands)">Number of non-pregnant women
+                                    (aged 15-49 years) with anaemia (thousands)</option>
+                                <option value="Number of pregnant women (aged
+                                    15-49 years) with anaemia (thousands)">Number
+                                    of pregnant women (aged 15-49 years) with
+                                    anaemia (thousands)</option>
+                                <option value="Number of presumed malaria
+                                    cases">Number of presumed malaria cases</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="per2">Per:</label>
+                            <select id="per2" name="per2">
+                                <option value="rawPop">Raw Population</option>
+                                <option value="1000">By 1000 inhabitants</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="Average2">Average:</label>
+                            <input type="checkbox" id="avgCheckbox2"
+                                name="average2" value="false">
+                        </div>
+                    </div>
+                </div>
+                <div class="Submit-Buttons">
+                    <div>
+                        <label for="interaction">Interaction:</label>
+                        <select id="interaction" name="interaction">
+                            <option value="none">None</option>
+                            <option value="divideBy">Divide By</option>
+                            <option value="side-by-side">side-by-side comparison</option>
+                            <option value="percentageOf">Percentage of</option>
+                            <option value="difference">Difference</option>
+                            <option value="yearlyIncrease">Yearly Increase</option>
+                        </select>
+                        <button type="button" name="submit-button"
+                            id="searchBut" class="btn-primary">Submit Query</button>
+                        <script>
+                var query1 = '';
+                const searchButton = document.getElementById('searchBut');
+                searchButton.addEventListener('click', function() {
+
+                    const disease_ = document.getElementById("disease");
+                    const diseaseVal = disease_.value;
+
+                    const type_ = document.getElementById("type");
+                    var typeVal = type_.value;
+
+                    const country_ = document.getElementById("country");
+                    const countryVal = country_.value;
+
+                    const region_ = document.getElementById("region");
+                    const regionVal = region_.value;
+
+                    const startYear_ = document.getElementById("startYear");
+                    const startYearVal = startYear_.value;
+
+                    const endYear_ = document.getElementById("endYear");
+                    const endYearVal = endYear_.value;
+
+                    const populationGroup_ = document.getElementById("populationGroup");
+                    const populationGroupVal = populationGroup_.value;
+
+                    const dataSet_ = document.getElementById("dataset");
+                    const dataSetVal = dataSet_.value;
+
+                    const per_ = document.getElementById("per");
+                    const perVal = per_.value;
+
+                    const Average_ = document.getElementById("avgCheckbox");
+                    const AverageVal = Average_.value;
+                    
+                    const disease2_ = document.getElementById("disease2");
+                    const disease2Val = disease2_.value;
+
+                    const type2_ = document.getElementById("type2");
+                    var typeVal2 = type2_.value;
+
+                    const country2_ = document.getElementById("country2");
+                    const country2Val = country2_.value;
+
+                    const region2_ = document.getElementById("region2");
+                    const region2Val = region2_.value;
+
+                    const startYear2_ = document.getElementById("startYear2");
+                    const startYear2Val = startYear2_.value;
+
+                    const endYear2_ = document.getElementById("endYear");
+                    const endYear2Val = endYear2_.value;
+
+                    const populationGroup2_ = document.getElementById("populationGroup2");
+                    const populationGroup2Val = populationGroup2_.value;
+
+                    const dataSet2_ = document.getElementById("dataset2");
+                    const dataSet2Val = dataSet2_.value;
+
+                    const per2_ = document.getElementById("per2");
+                    const per2Val = per2_.value;
+
+                    const Average2_ = document.getElementById("avgCheckbox2");
+                    const Average2Val = Average2_.value;
+
+                    const interaction = document.getElementById("interaction");
+                    const interactionVal = interaction.value;
+                    
+                    const key_totalPopulation = 'TotalPopulation';
+                    const key_SUM = 'SUM';
+                    const key_likelyVal = 'LikelyValue_Numeric';
+                    const table_country = 'NBONIN.COUNTRY';
+                    const table_disease = 'NBONIN.DiseaseInfo';
+                    const atr_countryCode = 'CountryCode';
+                    const atr_countryName = 'CountryName';
+                    const atr_parentRegion = 'ParentRegion';
+
+                    typeVal = 'NBONIN.' + typeVal;
+                    typeVal2 = 'NBONIN.' + typeVal2;
+
+                    console.log(typeVal);
+                    
+                    var validExpression = true;
+                    var isRegion = false;
+                    query1 = 'SELECT DISTINCT';
+                    var groupBy = '';
+                    
+                    //Query 1
+
+                    if (regionVal == 'none')
+                    {
+                        query1 += ' CountryName';
+                        groupBy += ' CountryName';
+                    }
+                    else
+                    {
+                        query1 += ' ParentRegion';
+                        groupBy += ' ParentRegion';
+                        isRegion = true;
+                    }
+
+                    var numericVal = '';
+                    if (typeVal == 'NBONIN.DisabilityAdjustedLifeYears')
+                    {
+                        numericVal = 'LikelyValue';
+                    } else if (typeVal == 'NBONIN.Vaccines')
+                    {
+                        numericVal = 'Rates';
+                    } else
+                    {
+                        numericVal = 'LikelyValue_Numeric';
+                    }
+
+                    var includeYear_ = document.getElementById("yearCheckbox");
+                    if (!Average_.checked)
+                    {
+                        if (includeYear_.checked)
+                        {
+                            query1 += ', ' + typeVal + '.Year';
+                            groupBy += ', ' + typeVal + '.Year';
+                        }
+                        if (perVal == 'rawPop')
+                        {
+                            query1 += ', SUM(' + typeVal + '.' + numericVal + ')';
+                        } else
+                        {
+                            query1 += ', SUM(' + typeVal + '.' + numericVal + '/ 1000)';
+                        }
+                    }
+                    else
+                    {
+                        if (perVal == 'rawPop')
+                        {
+                            query1 += ', AVG(' + typeVal + '.' + numericVal + ')';
+                        } else
+                        {
+                            query1 += ', AVG(' + typeVal + '.' + numericVal + '/ 1000)';
+                        }
+                    }
+
+                    query1 += ' FROM (' + typeVal + ' INNER JOIN ' + table_country + ' ON ' + typeVal + '.CountryCode = ' + table_country + '.CountryCode)';
+                    query1 += ' INNER JOIN ' + table_disease + ' ON ' + table_disease + '.IndicatorCode = ' + typeVal + '.IndicatorCode';
+
+                    var hasWhere = false;
+
+                    if (diseaseVal == 'all' && startYearVal == "" && endYearVal == "" && dataSetVal == 'none' && populationGroupVal == 'none')
+                    {
+                        hasWhere = true;
+                    }
+
+                    if (!isRegion)
+                    {
+                        if (countryVal != 'all')
+                        {
+                            query1 += ' WHERE ' + table_country + '.CountryName = \'' + countryVal + '\'';
+                            hasWhere = true;
+                        } 
+                        if (diseaseVal != 'all')
+                        {
+                            query1 += ' AND ';
+                        }
+                    } 
+                    else
+                    {
+                        query1 += ' WHERE ' + table_country + '.ParentRegion = \'' + regionVal + '\'';
+                        hasWhere = true;
+                        if (diseaseVal != 'all')
+                        {
+                            query1 += ' AND ';
+                        }
+                    }
+
+                    if (!hasWhere)
+                    {
+                        query1 += ' WHERE ';
+                        hasWhere = true;
+                    }
+
+                    if (diseaseVal != 'all')
+                    {
+                        query1 += table_disease + '.DiseaseName = \'' + diseaseVal + '\'';
+                    }
+            
+                    if (!hasWhere)
+                    {
+                        query1 += ' WHERE ';
+                        hasWhere = true;
+                    }
+
+                    if (startYearVal != "")
+                    {
+                        query1 += typeVal + '.Year >= ' + startYearVal;
+                        if (endYearVal != "")
+                        {
+                            query1 += ' AND ';
+                        }
+                    }
+
+                    if (endYearVal != "")
+                    {
+                        query1 += typeVal + '.Year <= ' + endYearVal;
+                        if (dataSetVal != 'none')
+                        {
+                            query1 += ' AND ';
+                        }
+                    }
+
+                    if (!hasWhere)
+                    {
+                        query1 += ' WHERE ';
+                        hasWhere = true;
+                    }
+
+                    if (dataSetVal != 'none')
+                    {
+                        query1 += typeVal + '.IndicatorName = ' + dataSetVal;
+                        if (populationGroupVal != 'none')
+                        {
+                            query1 += ' AND ';
+                        }
+                    }
+
+                    
+
+                    if (!hasWhere)
+                    {
+                        query1 += ' WHERE ';
+                        hasWhere = true;
+                    }
+
+                    if (populationGroupVal != 'none')
+                    {
+                        query1 += ' ' + table_disease + '.PopulationGroup = ' + populationGroupVal;
+                    }
+
+                    if (AverageVal != false)
+                    {
+                        query1 += ' GROUP BY' + groupBy;
+                    }
+                    query1 += '';
+                    
+
+                    //Query 2
+
+                    validExpression = true;
+                    isRegion = false;
+                    query2 = 'SELECT DISTINCT';
+
+                    if (interactionVal != 'none')
+                    {
+                        if (regionVal2 == 'none')
+                        {
+                            query2 += ' CountryName';
+                        }
+                        else
+                        {
+                            query2 += ' ParentRegion';
+                            isRegion = true;
+                        }
+
+                        if (AverageVal2 == false)
+                        {
+                            query2 += ', ' + typeVal2 + '.Year';
+                            if (perVal2 == 'rawPop')
+                            {
+                                query2 += ', SUM(' + typeVal2 + '.LikelyValue_Numeric)';
+                            } else
+                            {
+                                query2 += ', SUM(' + typeVal2 + '.LikelyValue_Numeric / 1000)';
+                            }
+                        }
+                        else
+                        {
+                            if (perVal2 == 'rawPop')
+                            {
+                                query2 += ', AVG(' + typeVal2 + '.LikelyValue_Numeric)';
+                            } else
+                            {
+                                query2 += ', AVG(' + typeVal2 + '.LikelyValue_Numeric / 1000)';
+                            }
+                        }
+
+                        query2 += ' FROM ' + typeVal2 + ' INNER JOIN ' + table_country + ' ON ' + typeVal2 + '.CountryCode = ' + table_country + '.CountryCode';
+                        
+                        hasWhere = false;
+                        if (!isRegion)
+                        {
+                            if (countryVal2 != 'all')
+                            {
+                                query2 += ' WHERE ' + typeVal2 + '.CountryName = \'' + countryVal + '\'';
+                                hasWhere = true;
+                            }
+                        } 
+                        else
+                        {
+                            query2 += ' WHERE ' + typeVal2 + '.ParentRegion = \'' + regionVal + '\'';
+                            hasWhere = true;
+                        }
+
+                        if (!hasWhere)
+                        {
+                            query2 += ' WHERE ';
+                            hasWhere = true;
+                        }
+
+                        if (startYearVal2 != "")
+                        {
+                            query2 += typeVal2 + '.Year > ' + startYearVal;
+                            if (endYearVal2 != null)
+                            {
+                                query2 += 'AND ';
+                            }
+                        }
+
+                        if (endYearVal2 != "")
+                        {
+                            query2 += typeVal2 + '.Year < ' + endYearVal;
+                            if (dataSetVal2 != 'none')
+                            {
+                                query2 += 'AND ';
+                            }
+                        }
+
+                        if (!hasWhere)
+                        {
+                            query2 += ' WHERE ';
+                            hasWhere = true;
+                        }
+
+                        if (dataSetVal2 != 'none')
+                        {
+                            query2 += typeVal2 + '.IndicatorName = ' + dataSetVal2;
+                            if (populationGroupVal2 != 'none')
+                            {
+                                query2 += 'AND ';
+                            }
+                        }
+
+                        if (!hasWhere)
+                        {
+                            query2 += ' WHERE ';
+                            hasWhere = true;
+                        }
+
+                        if (populationGroupVal != 'none')
+                        {
+                            query2 += typeVal2 + '.PopulationGroup = ' + populationGroupVal2;
+                        }
+
+                        query2 += ';';
+                    }
+                    console.log(query1);
+
+
+                    fetch('/query1', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({query: query1})
+                    })
+                    .then(response => {
+                    if (response.ok) {
+                        console.log('Query sent to server');
+                        return response.text();
+                    } else {
+                        console.error('Error sending query to server');
+                    }
+                    })
+                    .then (data => {
+                        updateTable(data);
+                    })
+                    .catch(error => console.error('Error sending query to server', error));
+
+                    function updateTable(data) {
+                        const table = document.getElementById('table2');
+                        table.innerHTML = data;
+                    }
+                });
+            </script>
+                    </div>
+                </form>
+
+
+            </section>
+
+            <section id="displayTable">
+                <div id="table2"></div>
+            </section>
+        </body>
+    </html>
